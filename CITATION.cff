@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use or adapt this code, please cite the paper and this repository."
+message: "If you use or adapt this code, please cite this repository."
 type: software
 title: "dihedral-hessenberg: Lean verification of Dot actions and Hessenberg spaces for dihedral groups"
 abstract: >-
@@ -28,24 +28,24 @@ keywords:
   - dot action
   - Coxeter groups
   - representation theory
-preferred-citation:
-  type: article
-  title: "Dot actions and Hessenberg spaces for dihedral groups"
-  authors:
-    - family-names: Boretsky
-      given-names: Jonathan
-    - family-names: Hodges
-      given-names: Reuven
-    - family-names: Lesnevich
-      given-names: Nathan
-    - family-names: McAllister
-      given-names: Tyrrell
-    - family-names: Pappe
-      given-names: Joseph
-  year: 2026
-  # PLACEHOLDER: replace "arXiv:XXXX.XXXXX" with the arXiv identifier once the paper is posted
-  # (and add the matching https://arxiv.org/abs/... URL as a second identifier).
-  identifiers:
-    - type: other
-      value: "arXiv:XXXX.XXXXX"
-      description: "arXiv identifier (placeholder; to appear)"
+references:
+  - type: article
+    title: "Dot actions and Hessenberg spaces for dihedral groups"
+    authors:
+      - family-names: Boretsky
+        given-names: Jonathan
+      - family-names: Hodges
+        given-names: Reuven
+      - family-names: Lesnevich
+        given-names: Nathan
+      - family-names: McAllister
+        given-names: Tyrrell
+      - family-names: Pappe
+        given-names: Joseph
+    year: 2026
+    # PLACEHOLDER: replace "arXiv:XXXX.XXXXX" with the arXiv identifier once the paper is posted
+    # (and add the matching https://arxiv.org/abs/... URL as a second identifier).
+    identifiers:
+      - type: other
+        value: "arXiv:XXXX.XXXXX"
+        description: "arXiv identifier (placeholder; to appear)"

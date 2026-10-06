@@ -431,7 +431,7 @@ updating the hash inventory before that integrity check can pass again.
 
 This repository is licensed under the [Apache License 2.0](LICENSE).
 Redistributions must retain the [NOTICE](NOTICE) file. If you use or adapt
-this code, please cite the paper and this repository; citation metadata is in
+this code, please cite this repository; citation metadata is in
 [CITATION.cff](CITATION.cff). The repository contains no third-party source
 files; Mathlib, Tau Ceti and their dependencies are downloaded by Lake and keep
 their own licenses (see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)).
