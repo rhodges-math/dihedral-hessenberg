@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use or adapt this code, please cite the paper and this repository."
+type: software
+title: "dihedral-hessenberg: Lean verification of Dot actions and Hessenberg spaces for dihedral groups"
+abstract: >-
+  A Lean 4 formalization of J. Boretsky, R. Hodges, N. Lesnevich, T. McAllister,
+  J. Pappe, "Dot actions and Hessenberg spaces for dihedral groups": the
+  freeness of the modules of splines of Hessenberg spaces for the dihedral
+  groups, their rank generating functions and Hilbert series (Theorem 1); an
+  explicit homogeneous flow-up basis (Theorem 2); and the left and right dot
+  action representations in the graded representation ring (Theorem 3),
+  together with every lemma, example and remark of the paper. Accompanying
+  libraries develop generalized splines, the dihedral groups with their roots,
+  invariant theory and representations, and graded characters of finite groups.
+authors:
+  - family-names: Hodges
+    given-names: Reuven
+version: "1.0.0"
+repository-code: "https://github.com/rhodges-math/dihedral-hessenberg"
+license: Apache-2.0
+keywords:
+  - Lean 4
+  - Mathlib
+  - formalization
+  - generalized splines
+  - dihedral groups
+  - Hessenberg spaces
+  - dot action
+  - Coxeter groups
+  - representation theory
+preferred-citation:
+  type: article
+  title: "Dot actions and Hessenberg spaces for dihedral groups"
+  authors:
+    - family-names: Boretsky
+      given-names: Jonathan
+    - family-names: Hodges
+      given-names: Reuven
+    - family-names: Lesnevich
+      given-names: Nathan
+    - family-names: McAllister
+      given-names: Tyrrell
+    - family-names: Pappe
+      given-names: Joseph
+  year: 2026
+  # PLACEHOLDER: replace "arXiv:XXXX.XXXXX" with the arXiv identifier once the paper is posted
+  # (and add the matching https://arxiv.org/abs/... URL as a second identifier).
+  identifiers:
+    - type: other
+      value: "arXiv:XXXX.XXXXX"
+      description: "arXiv identifier (placeholder; to appear)"

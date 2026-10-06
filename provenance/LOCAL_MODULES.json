@@ -1,0 +1,4268 @@
+[
+ {
+  "module": "Schubert.Dihedral.A2Roots",
+  "path": "Schubert/Dihedral/A2Roots.lean",
+  "origin_kind": "unchanged",
+  "sha256": "85969be656158c86b126d9ee200fe1ae60a08ab79cc5a8ac27c4a5c585f95c84"
+ },
+ {
+  "module": "Schubert.Dihedral.AlternatingAppend",
+  "path": "Schubert/Dihedral/AlternatingAppend.lean",
+  "origin_kind": "unchanged",
+  "sha256": "304a222180e887420f972bfd24e84e4bef7a7508c2a3605dd8a2df102a2eb8e7"
+ },
+ {
+  "module": "Schubert.Dihedral.AlternatingDistinct",
+  "path": "Schubert/Dihedral/AlternatingDistinct.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bd056cce0210e76eea03003ff487c7d507fc9f4cbf67c37481cac4c0c48c1384"
+ },
+ {
+  "module": "Schubert.Dihedral.AlternatingPrefixes",
+  "path": "Schubert/Dihedral/AlternatingPrefixes.lean",
+  "origin_kind": "unchanged",
+  "sha256": "fc6a9c8e81e230acbfaaf79303c0d019819ba0c7dab6818e9aff4ef85c813e70"
+ },
+ {
+  "module": "Schubert.Dihedral.AlternatingWords",
+  "path": "Schubert/Dihedral/AlternatingWords.lean",
+  "origin_kind": "unchanged",
+  "sha256": "138c833dd5af61d4f9d5c5d68b949a7199355c20c3fcb6a915ae5cda5265b105"
+ },
+ {
+  "module": "Schubert.Dihedral.AscentNormal",
+  "path": "Schubert/Dihedral/AscentNormal.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5a950ac295dcf7796f1034f6ae001e9676807f95ffe4d0809f4815aaaa96dcd2"
+ },
+ {
+  "module": "Schubert.Dihedral.AscentSupport",
+  "path": "Schubert/Dihedral/AscentSupport.lean",
+  "origin_kind": "unchanged",
+  "sha256": "b6ce593d4a6fbfbdcaa8092a9423a343659a0efa0ae68cf4f588aec146537860"
+ },
+ {
+  "module": "Schubert.Dihedral.AugmentationQuotientBasis",
+  "path": "Schubert/Dihedral/AugmentationQuotientBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bfbed39d28ea96918f5c56b74a6d79c9864f184d634a3a7cb5b2b112f84da15e"
+ },
+ {
+  "module": "Schubert.Dihedral.AuxiliaryAction",
+  "path": "Schubert/Dihedral/AuxiliaryAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "43fd4c76f69e77bfd2a84ca3154457573f0b18608b5eca2d19c44602e61c1c1f"
+ },
+ {
+  "module": "Schubert.Dihedral.AuxiliaryCoordinates",
+  "path": "Schubert/Dihedral/AuxiliaryCoordinates.lean",
+  "origin_kind": "unchanged",
+  "sha256": "3ed5a47dbf71d2d6ad3a482981e30a8b55338ae24995feaa1e51c752d8a2088b"
+ },
+ {
+  "module": "Schubert.Dihedral.AuxiliaryHomogeneous",
+  "path": "Schubert/Dihedral/AuxiliaryHomogeneous.lean",
+  "origin_kind": "unchanged",
+  "sha256": "dd0104b8db6ee646a277217651f6954e5eabd5a2a8cb4905cffabc89779a3864"
+ },
+ {
+  "module": "Schubert.Dihedral.AxialDegreeCard",
+  "path": "Schubert/Dihedral/AxialDegreeCard.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ea64ae97f0a88f0e3c88b65d3d79144d0775f6f99672f0cabad3fcc0df64ba42"
+ },
+ {
+  "module": "Schubert.Dihedral.AxialLength",
+  "path": "Schubert/Dihedral/AxialLength.lean",
+  "origin_kind": "unchanged",
+  "sha256": "365b09c30b008b2fad3f92d2b4cd73d48a742097ee50deaba68a70a11915ecce"
+ },
+ {
+  "module": "Schubert.Dihedral.BasicInvariantIndependence",
+  "path": "Schubert/Dihedral/BasicInvariantIndependence.lean",
+  "origin_kind": "unchanged",
+  "sha256": "628ac6ded5c45cda83406a5f85440e772ea0f6728de61c7e348780c167f155f6"
+ },
+ {
+  "module": "Schubert.Dihedral.BinaryExponent",
+  "path": "Schubert/Dihedral/BinaryExponent.lean",
+  "origin_kind": "unchanged",
+  "sha256": "48ae726ec3999ae40e1204c3176719fef9cadadbfae548dc51b94870470ad5f0"
+ },
+ {
+  "module": "Schubert.Dihedral.BinaryPolynomialBasis",
+  "path": "Schubert/Dihedral/BinaryPolynomialBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1ab1cf16f3fa1a61802dc8a4df095a4c12af071ced083b5797036e07ff88165a"
+ },
+ {
+  "module": "Schubert.Dihedral.BlockCosetOrbit",
+  "path": "Schubert/Dihedral/BlockCosetOrbit.lean",
+  "origin_kind": "unchanged",
+  "sha256": "57e7db5aff62dd5201f4cc99704d6291cc7b5a196a22eb554bc0be01b075de33"
+ },
+ {
+  "module": "Schubert.Dihedral.BlockOrbits",
+  "path": "Schubert/Dihedral/BlockOrbits.lean",
+  "origin_kind": "unchanged",
+  "sha256": "d3f3dd26eb995a6cbb8d16f0814d7f134cc9ed442a2f3526cdded3c0ae96f0bf"
+ },
+ {
+  "module": "Schubert.Dihedral.BlockPermutation",
+  "path": "Schubert/Dihedral/BlockPermutation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ce371ebe306a70bfe70353896bfb19d2d45977aff55b9d28e52186f6f4169044"
+ },
+ {
+  "module": "Schubert.Dihedral.BlockReversal",
+  "path": "Schubert/Dihedral/BlockReversal.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ae0142e3b686ea9dbca88be932bb386c86f3e3ee934353f516026f595b5a758a"
+ },
+ {
+  "module": "Schubert.Dihedral.BlockSubgroup",
+  "path": "Schubert/Dihedral/BlockSubgroup.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4daa2f05cf0b91b9afef7da203d4f369237addf1b8f4cc92b87adff23c07fb3b"
+ },
+ {
+  "module": "Schubert.Dihedral.BlockTranslation",
+  "path": "Schubert/Dihedral/BlockTranslation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "6dcff0ba040c3524475bc2421544764237b4ba1fe2ef05e20a2b2a61f00d2a26"
+ },
+ {
+  "module": "Schubert.Dihedral.BorelLocalization",
+  "path": "Schubert/Dihedral/BorelLocalization.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1ede6023c20ed40c74bf00ee12ac44fd7885f0c9cc7aa4ce4c893901c811aeb7"
+ },
+ {
+  "module": "Schubert.Dihedral.BruhatOrder",
+  "path": "Schubert/Dihedral/BruhatOrder.lean",
+  "origin_kind": "unchanged",
+  "sha256": "09873064cc3414e2e1712861c0bf467b80ae4125c757176c090afe98584f6a7a"
+ },
+ {
+  "module": "Schubert.Dihedral.C2Roots",
+  "path": "Schubert/Dihedral/C2Roots.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bf3f31d5b1f654ed5abb5d852b48440f91e59a97af02df46cc99d6d8cf786947"
+ },
+ {
+  "module": "Schubert.Dihedral.ClosestRoots",
+  "path": "Schubert/Dihedral/ClosestRoots.lean",
+  "origin_kind": "unchanged",
+  "sha256": "d6897291cf13402d0a5907d99de2c9f046048507942edf715eea02c51b8c5425"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantAction",
+  "path": "Schubert/Dihedral/CoinvariantAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "97f427f73b8472a9469ac79f2a1f7af8e169ef316f8c1f19e4d537dc3133edae"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantAxialAction",
+  "path": "Schubert/Dihedral/CoinvariantAxialAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "824632640757c68a7f5920015390e8a4ba84a0b53584a5ab2104390b642b465d"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantAxialNonzero",
+  "path": "Schubert/Dihedral/CoinvariantAxialNonzero.lean",
+  "origin_kind": "unchanged",
+  "sha256": "aa8aaf5dee34cd720df7c3add93201de5622f18b5325cc2c53ae7073ddbc1af0"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantAxialRepresentation",
+  "path": "Schubert/Dihedral/CoinvariantAxialRepresentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "41089f9ee6e502b892019ad8650ff1c91b6f48c37e6136f2b06d4cc07e7b77e1"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantBasis",
+  "path": "Schubert/Dihedral/CoinvariantBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7d6e435f673aa54741bfdfc9058ec65bbb58d93b9d7f14ce61f763d1a54eee33"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantBoundary",
+  "path": "Schubert/Dihedral/CoinvariantBoundary.lean",
+  "origin_kind": "unchanged",
+  "sha256": "6a7e7a62e2bf6bf9d84eee7abb3e4bb9beb600a3669c459f580bd6edf9848e11"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantDegreeSpans",
+  "path": "Schubert/Dihedral/CoinvariantDegreeSpans.lean",
+  "origin_kind": "unchanged",
+  "sha256": "86e9ca62df55edc984d1791b54c57aa3d79880965d31bf3ab5dda91511f40840"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantDuality",
+  "path": "Schubert/Dihedral/CoinvariantDuality.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a7d929bace25c82175dc6f46c2be7732271a88a9b82dea056221c6c42862e279"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantFinite",
+  "path": "Schubert/Dihedral/CoinvariantFinite.lean",
+  "origin_kind": "unchanged",
+  "sha256": "cfe8417bab5d74f5ef99ebab1058d50ba7474303c2f1230f78491f6797359949"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantFrequency",
+  "path": "Schubert/Dihedral/CoinvariantFrequency.lean",
+  "origin_kind": "unchanged",
+  "sha256": "e0299205d6f11dc9776d5e92aa1eda89798045bb8b50d2b6915196dd922722d8"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantGradedClass",
+  "path": "Schubert/Dihedral/CoinvariantGradedClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "3581fde17f9ff426b3926e3a0ad451b678c4b0c2b1e925aaf3ef79c718ccbea7"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantGradedRepresentation",
+  "path": "Schubert/Dihedral/CoinvariantGradedRepresentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1d5a981eaeaeffbd6b7b90ccb5571d45b564c65677098c749f85061920aa4918"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantHilbertFunction",
+  "path": "Schubert/Dihedral/CoinvariantHilbertFunction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "60c4a541cec44b0edaab57737969c2427cbe5bc217098aaf522eaace3bde4f8b"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantHomogeneous",
+  "path": "Schubert/Dihedral/CoinvariantHomogeneous.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f4c56894d48d9140a8f321955dd1e619333226d6253738a8254159415336cb50"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantHomogeneousBasis",
+  "path": "Schubert/Dihedral/CoinvariantHomogeneousBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5386ab63e66c5137618ea3686a074710d726a4a191309950621fb9dbf633f16e"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantIdeal",
+  "path": "Schubert/Dihedral/CoinvariantIdeal.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c50a5be0746b696c9630f32c270cda85e1fac6c6ff803e09510ef807f084ecd0"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantMiddleCharacters",
+  "path": "Schubert/Dihedral/CoinvariantMiddleCharacters.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8b56adb640c4af1ed68521fe3dc0a0ff75f26154fbeba81ed0d464dddf262f16"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantPieceBasis",
+  "path": "Schubert/Dihedral/CoinvariantPieceBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "78ad8031f82ed97619ae3fca90039a8698f164925c6338eb08c44cda4135fa29"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantPowerRelations",
+  "path": "Schubert/Dihedral/CoinvariantPowerRelations.lean",
+  "origin_kind": "unchanged",
+  "sha256": "e0364f5671905d7d441821faab218b92fe9eee36187ef9f2daa113eb8d0fe992"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantRegular",
+  "path": "Schubert/Dihedral/CoinvariantRegular.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f420d5fdfe9c8010dde3f4eec5651de681520df599d5157e2dd2dd9b287cf541"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantRegularTrace",
+  "path": "Schubert/Dihedral/CoinvariantRegularTrace.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7fff646c2e1d39d8d3be3359473ab842805109395cc236f920bdd49e44ddd920"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantRelations",
+  "path": "Schubert/Dihedral/CoinvariantRelations.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c4ffca37208be84ac0ac4ffcd40c57ff774737cb3b3e2d50a05bcf8635d9050d"
+ },
+ {
+  "module": "Schubert.Dihedral.CoinvariantSpanning",
+  "path": "Schubert/Dihedral/CoinvariantSpanning.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9010d2047450ae7e3217b3a0c9f75748cf5d085b3c84b0e7d3b38e3880a78f9d"
+ },
+ {
+  "module": "Schubert.Dihedral.CommutingCoordinates",
+  "path": "Schubert/Dihedral/CommutingCoordinates.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9305505fce362cfc5e07f8e262ab10b19d591590c89f6312dec2c593015452ae"
+ },
+ {
+  "module": "Schubert.Dihedral.ConeCoordinates",
+  "path": "Schubert/Dihedral/ConeCoordinates.lean",
+  "origin_kind": "unchanged",
+  "sha256": "402c6dfd802c667a922e37987c34a8fa94e34fed8293ad2a04d2035fbcdc63b4"
+ },
+ {
+  "module": "Schubert.Dihedral.ConeInterior",
+  "path": "Schubert/Dihedral/ConeInterior.lean",
+  "origin_kind": "unchanged",
+  "sha256": "534fc3c0304ca420021beaf23540ea2e85a34d58f2da26a944c3d8c97b119734"
+ },
+ {
+  "module": "Schubert.Dihedral.Conjugacy",
+  "path": "Schubert/Dihedral/Conjugacy.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a16b50f9f446d93f08d053b82ed2469dfb8c58b07c9cf8c4b4d4af9d00d351a9"
+ },
+ {
+  "module": "Schubert.Dihedral.ConjugacyCount",
+  "path": "Schubert/Dihedral/ConjugacyCount.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7553a2106e5991b5277b1601cb76604adc0579d762fe45dc9bcd508600f9e478"
+ },
+ {
+  "module": "Schubert.Dihedral.ConjugatedLength",
+  "path": "Schubert/Dihedral/ConjugatedLength.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bdb8feafdec58ad29cfbad14f105127b2e78dd7cffe956d01f0cd565c2f495df"
+ },
+ {
+  "module": "Schubert.Dihedral.CosetDecomposition",
+  "path": "Schubert/Dihedral/CosetDecomposition.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f6293a23875a8fad85a8a6deb9a8a432736329ca771f793378db8337d913a426"
+ },
+ {
+  "module": "Schubert.Dihedral.CosetFDRep",
+  "path": "Schubert/Dihedral/CosetFDRep.lean",
+  "origin_kind": "unchanged",
+  "sha256": "73b01a488851e1d0381a7fbe7399d4c752a1e7e2cb9620c2954b8e4bf16a6fb4"
+ },
+ {
+  "module": "Schubert.Dihedral.CosetPairs",
+  "path": "Schubert/Dihedral/CosetPairs.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8724b50964bcf59f2ed3693dc686d2060eb6021dde7e5baace03182419e44f7b"
+ },
+ {
+  "module": "Schubert.Dihedral.Coxeter",
+  "path": "Schubert/Dihedral/Coxeter.lean",
+  "origin_kind": "unchanged",
+  "sha256": "3fc504fc2528894c993bf375b5cb9fa53eb8d773637c834faf1e2656fc5e3c55"
+ },
+ {
+  "module": "Schubert.Dihedral.CoxeterSystem",
+  "path": "Schubert/Dihedral/CoxeterSystem.lean",
+  "origin_kind": "unchanged",
+  "sha256": "41ec60fac914b371f31fe12b3eae5c2d8bef5ac007290e632ed629a2aea7e0b2"
+ },
+ {
+  "module": "Schubert.Dihedral.Crystallographic",
+  "path": "Schubert/Dihedral/Crystallographic.lean",
+  "origin_kind": "unchanged",
+  "sha256": "77b943166d66a56bb25cf84657ca689f05b3baa66837061baa3f5a03c97bcffe"
+ },
+ {
+  "module": "Schubert.Dihedral.CrystallographicCoordinates",
+  "path": "Schubert/Dihedral/CrystallographicCoordinates.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9873bde84c28cd5bae4c0e859a1d169316ccad6c0d9344895832b32717b61cba"
+ },
+ {
+  "module": "Schubert.Dihedral.CrystallographicNumbering",
+  "path": "Schubert/Dihedral/CrystallographicNumbering.lean",
+  "origin_kind": "unchanged",
+  "sha256": "76525f5c452871b29bd790c4cf32356d392a76fa68a5f7fbf0e31fef64689adf"
+ },
+ {
+  "module": "Schubert.Dihedral.CyclicBlockCount",
+  "path": "Schubert/Dihedral/CyclicBlockCount.lean",
+  "origin_kind": "unchanged",
+  "sha256": "88cfc8751321ba0984b0249540f4917eae91aea1cdeadc6f775d0d867b8fec4b"
+ },
+ {
+  "module": "Schubert.Dihedral.CyclicBlockForms",
+  "path": "Schubert/Dihedral/CyclicBlockForms.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2c1859dd0393c04bc19fe82dfa6a5c5554b353ebcd3c6eaa6f7d59640d8905ae"
+ },
+ {
+  "module": "Schubert.Dihedral.CyclicIntervals",
+  "path": "Schubert/Dihedral/CyclicIntervals.lean",
+  "origin_kind": "unchanged",
+  "sha256": "84046306ed349867ae4fee4f6a3b91036493c51a987f3491fb59d58a9605be1f"
+ },
+ {
+  "module": "Schubert.Dihedral.CyclicParity",
+  "path": "Schubert/Dihedral/CyclicParity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "36b4334e8cef5ab23ab89d186c71f05bc82eb97940b97a374723591856f9bd65"
+ },
+ {
+  "module": "Schubert.Dihedral.CyclicPeriod",
+  "path": "Schubert/Dihedral/CyclicPeriod.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7b735572ad0bcf0e9e6bf35964fa33ae107981441b56d9e45bcb61c9b5257723"
+ },
+ {
+  "module": "Schubert.Dihedral.CyclicProperIntervals",
+  "path": "Schubert/Dihedral/CyclicProperIntervals.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1c3f9b1a5c488372d870ae8d5394f41065257f46185306592ad0fc2e6b5999d5"
+ },
+ {
+  "module": "Schubert.Dihedral.CyclicSourceWindow",
+  "path": "Schubert/Dihedral/CyclicSourceWindow.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ae0eb6fad58f8735b4bcdc37898af11db6a1ef9f27a5412635a3e972a6928bd5"
+ },
+ {
+  "module": "Schubert.Dihedral.CyclicTranslation",
+  "path": "Schubert/Dihedral/CyclicTranslation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4e1a040748c2ceb62ab7f873c6dbd17c16b1c3c09a0077725f595fc9496437f1"
+ },
+ {
+  "module": "Schubert.Dihedral.CyclicVertices",
+  "path": "Schubert/Dihedral/CyclicVertices.lean",
+  "origin_kind": "unchanged",
+  "sha256": "05983ce2022010b51e6090614947efe3b9bde24bb867651fc8b6a9adc63b57fd"
+ },
+ {
+  "module": "Schubert.Dihedral.CyclicWindow",
+  "path": "Schubert/Dihedral/CyclicWindow.lean",
+  "origin_kind": "unchanged",
+  "sha256": "01ae85789272ee99e2c3e13d077fae7de6b9b877c91fefdcdcbea6f3726ff740"
+ },
+ {
+  "module": "Schubert.Dihedral.CyclicWindowSources",
+  "path": "Schubert/Dihedral/CyclicWindowSources.lean",
+  "origin_kind": "unchanged",
+  "sha256": "808d832bb90145970c19cb5ce62f736c3536cd8b8248b2946cc47c0f2306d229"
+ },
+ {
+  "module": "Schubert.Dihedral.DiagonalCoefficients",
+  "path": "Schubert/Dihedral/DiagonalCoefficients.lean",
+  "origin_kind": "unchanged",
+  "sha256": "94cf3fa152d6a4d8c2bf59ef25fda93ea8a5af7ee2476686a699c9f58e92f3a7"
+ },
+ {
+  "module": "Schubert.Dihedral.DistinctLeadingDegrees",
+  "path": "Schubert/Dihedral/DistinctLeadingDegrees.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2ccbd3a6d8299e337b9a538fa393d26386a785078c679e795ea39b5fb4f855a2"
+ },
+ {
+  "module": "Schubert.Dihedral.DoubleCoinvariant",
+  "path": "Schubert/Dihedral/DoubleCoinvariant.lean",
+  "origin_kind": "unchanged",
+  "sha256": "6a0025eec85b2c94914df0d54e226085160d6de6d1cc4bacaf116655ec845781"
+ },
+ {
+  "module": "Schubert.Dihedral.DoublingFibers",
+  "path": "Schubert/Dihedral/DoublingFibers.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7c18da086540062a96a8cbe21e3feca6e298511a5930827cbcb27445f51208d4"
+ },
+ {
+  "module": "Schubert.Dihedral.FaithfulRealization",
+  "path": "Schubert/Dihedral/FaithfulRealization.lean",
+  "origin_kind": "unchanged",
+  "sha256": "b9bc7e047fcc10a9ec148fc87ce80b4dc18d2d1d8593e4c1f2493a45341dde64"
+ },
+ {
+  "module": "Schubert.Dihedral.FirstBlockProper",
+  "path": "Schubert/Dihedral/FirstBlockProper.lean",
+  "origin_kind": "unchanged",
+  "sha256": "0ade9d59a21bcfa22d105e2d9f5625a4dd0cbe8577c9182a79adef71d2a44425"
+ },
+ {
+  "module": "Schubert.Dihedral.FirstBlockStabilizer",
+  "path": "Schubert/Dihedral/FirstBlockStabilizer.lean",
+  "origin_kind": "unchanged",
+  "sha256": "e7e3438e053f03fdc53a43678a7b80ce0eba434ac1d5ab921f80e18d1948536c"
+ },
+ {
+  "module": "Schubert.Dihedral.FirstLocalization",
+  "path": "Schubert/Dihedral/FirstLocalization.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5d00838a6a90e9f18a45c5c2aa7670cf2824a75ce1a78c6219934789b9fbcff7"
+ },
+ {
+  "module": "Schubert.Dihedral.FixedFractionTensor",
+  "path": "Schubert/Dihedral/FixedFractionTensor.lean",
+  "origin_kind": "unchanged",
+  "sha256": "098b0dd9141a174104252b0e966095372b99854d9607e57a8b2ad0543866699c"
+ },
+ {
+  "module": "Schubert.Dihedral.FractionGalois",
+  "path": "Schubert/Dihedral/FractionGalois.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ae8c21744e8991f637b41f5619bdf904a8299d911ab773e27347603f8d317259"
+ },
+ {
+  "module": "Schubert.Dihedral.FractionLocalization",
+  "path": "Schubert/Dihedral/FractionLocalization.lean",
+  "origin_kind": "unchanged",
+  "sha256": "111863c9cd89c4dfe2b55408ec25e63c841035c37cb76e0209999c7a7417a7ea"
+ },
+ {
+  "module": "Schubert.Dihedral.FractionTensor",
+  "path": "Schubert/Dihedral/FractionTensor.lean",
+  "origin_kind": "unchanged",
+  "sha256": "e4052e5a2649001f94ae97f8b9e37eee8579f80743690909c037e3c10f6341b0"
+ },
+ {
+  "module": "Schubert.Dihedral.FrequencyClass",
+  "path": "Schubert/Dihedral/FrequencyClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ee3c1a815b5fffa921fa494f9cb4842b5e613fc47ac3f4bc8b17b475b5cc0013"
+ },
+ {
+  "module": "Schubert.Dihedral.FrequencyDistinction",
+  "path": "Schubert/Dihedral/FrequencyDistinction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "295ce6d16f511bbb4504ec304a3e251283c6ac0dbaed815cadd3907822838446"
+ },
+ {
+  "module": "Schubert.Dihedral.FrequencyEigenbasis",
+  "path": "Schubert/Dihedral/FrequencyEigenbasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9cd405f42a5768b235e05c3db23cbca0ea722e2b40239e312ea059624c5827c3"
+ },
+ {
+  "module": "Schubert.Dihedral.FrequencyFourier",
+  "path": "Schubert/Dihedral/FrequencyFourier.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a5d293310505e760873ffa07b639caadce72660154835123b3456a9e8e210915"
+ },
+ {
+  "module": "Schubert.Dihedral.FrequencyMultiplicity",
+  "path": "Schubert/Dihedral/FrequencyMultiplicity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "17a6f54413dd092ae62c0afb58811fd898a61f4c3870bfef9f04eb22ff1bb9db"
+ },
+ {
+  "module": "Schubert.Dihedral.FrequencyPower",
+  "path": "Schubert/Dihedral/FrequencyPower.lean",
+  "origin_kind": "unchanged",
+  "sha256": "0060878539f4a63a1debf1f826af8d786af2e0d0b496a6158f45fe5228d84696"
+ },
+ {
+  "module": "Schubert.Dihedral.FrequencyPowerCharacter",
+  "path": "Schubert/Dihedral/FrequencyPowerCharacter.lean",
+  "origin_kind": "unchanged",
+  "sha256": "aad7f4a16be18375c9a3cfe570b2e71018be9cdb26e513de07cca2ad7a4fed4f"
+ },
+ {
+  "module": "Schubert.Dihedral.FrequencyRepresentation",
+  "path": "Schubert/Dihedral/FrequencyRepresentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "0ffa908cba597f71483c90b10865e7e3c65c5eb63053737c0a20396033efe6b8"
+ },
+ {
+  "module": "Schubert.Dihedral.FrequencySum",
+  "path": "Schubert/Dihedral/FrequencySum.lean",
+  "origin_kind": "unchanged",
+  "sha256": "faa41b772bb4168de5da145894aa59b8f8454957ef072eec10a659d3239663ed"
+ },
+ {
+  "module": "Schubert.Dihedral.FrequencyTail",
+  "path": "Schubert/Dihedral/FrequencyTail.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7918f1dbb486e8816fa3d674f17fe78f4a9d53ced0a0fdb5b5fa65311f5a0b57"
+ },
+ {
+  "module": "Schubert.Dihedral.FundamentalEigenvalues",
+  "path": "Schubert/Dihedral/FundamentalEigenvalues.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8d41ff8298c3d26a42d807b483f65950f27f2fa11bfa9abc57946bb00a3014ec"
+ },
+ {
+  "module": "Schubert.Dihedral.G2Integral",
+  "path": "Schubert/Dihedral/G2Integral.lean",
+  "origin_kind": "unchanged",
+  "sha256": "cb123a03cd06ef72eda654f5c26c55ace352d69e24479da1f25bc3fe2a0e991d"
+ },
+ {
+  "module": "Schubert.Dihedral.GeometricAscent",
+  "path": "Schubert/Dihedral/GeometricAscent.lean",
+  "origin_kind": "unchanged",
+  "sha256": "b10419498604839acc50bdf761e917f45ace8995ffca676991e1f8b87fd31e26"
+ },
+ {
+  "module": "Schubert.Dihedral.Group",
+  "path": "Schubert/Dihedral/Group.lean",
+  "origin_kind": "unchanged",
+  "sha256": "709af6db16f22ce2ca3014d3da32a4f79a722c6f228aaaa9d938fa7ae09cbea8"
+ },
+ {
+  "module": "Schubert.Dihedral.HexagonDepth",
+  "path": "Schubert/Dihedral/HexagonDepth.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8dfc04a0a2a58031e85664b99d5afddbf62ad7d559ce92c454fba0059ef73a15"
+ },
+ {
+  "module": "Schubert.Dihedral.HexagonDepthIdeal",
+  "path": "Schubert/Dihedral/HexagonDepthIdeal.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5f29a5c1d0d107188ccc07aed709a48b4571c2b45260a8849b967dc54e7062f0"
+ },
+ {
+  "module": "Schubert.Dihedral.HexagonReflectionSubset",
+  "path": "Schubert/Dihedral/HexagonReflectionSubset.lean",
+  "origin_kind": "unchanged",
+  "sha256": "484b444d5b7fd0b6cfe49a45fcf77212f09aa9fdf575e10079c1b2f270295b63"
+ },
+ {
+  "module": "Schubert.Dihedral.HyperplaneDistance",
+  "path": "Schubert/Dihedral/HyperplaneDistance.lean",
+  "origin_kind": "unchanged",
+  "sha256": "0e65d41696fbd3d19dd842080df19ccec535ce753e9ba566b7e94683d08cf622"
+ },
+ {
+  "module": "Schubert.Dihedral.HyperplanePullback",
+  "path": "Schubert/Dihedral/HyperplanePullback.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f77f1d751f03c9e4294c99c8a0dcaccc2cfbb1f0af92ffd19d2fede550acb13d"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantAction",
+  "path": "Schubert/Dihedral/InvariantAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "107e0510b1755adc7bcc1a6460880cc0f0f0e778467e612a870a07957248286f"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantAxialIndependence",
+  "path": "Schubert/Dihedral/InvariantAxialIndependence.lean",
+  "origin_kind": "unchanged",
+  "sha256": "17fe5c5567dfe8cf3233e6d37e14db297c1c08ba5278b7150220d396dd61fa05"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantCoefficients",
+  "path": "Schubert/Dihedral/InvariantCoefficients.lean",
+  "origin_kind": "unchanged",
+  "sha256": "cb02f98a4341256983d8fa0fa946106ef6f4c6ba58c03e393bd9dbb8dbeead26"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantDegrees",
+  "path": "Schubert/Dihedral/InvariantDegrees.lean",
+  "origin_kind": "unchanged",
+  "sha256": "d82a45473fde4c8e261bdf9ec4c62ff398ff1d6aa0b80878591c8a15e5908253"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantFreeness",
+  "path": "Schubert/Dihedral/InvariantFreeness.lean",
+  "origin_kind": "unchanged",
+  "sha256": "6cdb2dd6787c019d2bd32b569304ef48db0ce604091a291c3c44417276587730"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantGeneration",
+  "path": "Schubert/Dihedral/InvariantGeneration.lean",
+  "origin_kind": "unchanged",
+  "sha256": "d4ca5b2fce2bf77b9624a100f5f2edd0953a8366c8d1dedf5bbbff9ea8c65f83"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantGradedBasis",
+  "path": "Schubert/Dihedral/InvariantGradedBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "45bd8dccd50f1e88dbb529b1a068a98c8345661d42b147e1378b3f7eb2dab39f"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantIndependence",
+  "path": "Schubert/Dihedral/InvariantIndependence.lean",
+  "origin_kind": "unchanged",
+  "sha256": "732e1dd8d9639e348222d413209a4aa9ccb49efc71fba3afaa9d60bb8ea4fc77"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantIntegral",
+  "path": "Schubert/Dihedral/InvariantIntegral.lean",
+  "origin_kind": "unchanged",
+  "sha256": "52b191285bd4fc214647b6d4148f3c563b396e7e058fd8c4716182b404968a49"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantMonomialBasis",
+  "path": "Schubert/Dihedral/InvariantMonomialBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "834a142ddfe43579bd044660adf73aa765e48262fb24cd9c3ed4a4b328de6b24"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantOrbitBasis",
+  "path": "Schubert/Dihedral/InvariantOrbitBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "70d0709cb593dad1242ea7dc75fe5eae6c9268829439eff63409900e9be1b6c5"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantOrbitPairs",
+  "path": "Schubert/Dihedral/InvariantOrbitPairs.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1141cf9f5774b14a992d6b37e8cd2593e71f5e694db31a5549df4c0f7bae8f96"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantPolynomialRing",
+  "path": "Schubert/Dihedral/InvariantPolynomialRing.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ff2fae7ce0609403a55ebffaf2ee14801a22d8417dba1e10b121b2f09adfcbbf"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantPowerSums",
+  "path": "Schubert/Dihedral/InvariantPowerSums.lean",
+  "origin_kind": "unchanged",
+  "sha256": "344f936a022c997c9a48f140840bd0b07e35ec20043b4fcf243af2dc92fc9fb2"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantRegularity",
+  "path": "Schubert/Dihedral/InvariantRegularity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7d9c8e70bd01c5997a0b62b5cba274038d50614eb57a768bcd10a212cab20cb2"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantRelPrime",
+  "path": "Schubert/Dihedral/InvariantRelPrime.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ae988425104b029df13b36ef2d9c4f9ba526321563f1a9fedc5e47691812390e"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantRotationBlocks",
+  "path": "Schubert/Dihedral/InvariantRotationBlocks.lean",
+  "origin_kind": "unchanged",
+  "sha256": "20227090288690d38d771a346fb1f3253832bf7f970746dc2f54a5f50231194e"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantRotationSeparation",
+  "path": "Schubert/Dihedral/InvariantRotationSeparation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "efc6ef4727391722078238b68bdb1f5e89ffbf15b1b32dc43264159764313ffe"
+ },
+ {
+  "module": "Schubert.Dihedral.Invariants",
+  "path": "Schubert/Dihedral/Invariants.lean",
+  "origin_kind": "unchanged",
+  "sha256": "6d358988a9c3b7fe2b3d348fb0369a1a0f8a611d8d2c5ec4697d091b768f38e9"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantsBasic",
+  "path": "Schubert/Dihedral/InvariantsBasic.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9640a5c520c0182f105a6bc6d551da8cb3cba982689291071b66de65c7af9619"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantSpanning",
+  "path": "Schubert/Dihedral/InvariantSpanning.lean",
+  "origin_kind": "unchanged",
+  "sha256": "e24c4ac2fec7ccb85c5337b8aba2c16b2571819e500d37f895f52e6009ff26a1"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantTensorEvaluation",
+  "path": "Schubert/Dihedral/InvariantTensorEvaluation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "238101bafce260d67531cb38bbe793dd8c6af3fe16d5e87f608f6d0e5d7b722e"
+ },
+ {
+  "module": "Schubert.Dihedral.InvariantTowerBasis",
+  "path": "Schubert/Dihedral/InvariantTowerBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2ff8fc5b6457d6c7fb856c77b67fc60381083973e10138f2d22db9ffec6f55d5"
+ },
+ {
+  "module": "Schubert.Dihedral.InversionArithmetic",
+  "path": "Schubert/Dihedral/InversionArithmetic.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9a6aaf9450e14852c191c2a09a0ba9b5e66129d5723cca552227553641d95ea2"
+ },
+ {
+  "module": "Schubert.Dihedral.InversionAscent",
+  "path": "Schubert/Dihedral/InversionAscent.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7c29f503c8ead0c6e9f64fab36c2d7a3b1c35c8e009dd2f3c701a6e5cc042d38"
+ },
+ {
+  "module": "Schubert.Dihedral.InversionBounds",
+  "path": "Schubert/Dihedral/InversionBounds.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f50d384281c9e0b57cc43f5d626958e521a0f78e483b11c12dc8641149228e5e"
+ },
+ {
+  "module": "Schubert.Dihedral.Inversions",
+  "path": "Schubert/Dihedral/Inversions.lean",
+  "origin_kind": "unchanged",
+  "sha256": "d25b4cc8b7a227bfebcb2906064d318203fa866089009ace8e32ff8e7afb72ef"
+ },
+ {
+  "module": "Schubert.Dihedral.IrreducibleClassification",
+  "path": "Schubert/Dihedral/IrreducibleClassification.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a547e8e9a1fca2742e6fc542e1ee79574b078bbf213fe681c49f57bbdb9e15c4"
+ },
+ {
+  "module": "Schubert.Dihedral.IrreducibleFamily",
+  "path": "Schubert/Dihedral/IrreducibleFamily.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2110563eddd6c2fb09ac565c08af6889851c8e100060bc96e82caf666e346e86"
+ },
+ {
+  "module": "Schubert.Dihedral.IrrepDimensionCounts",
+  "path": "Schubert/Dihedral/IrrepDimensionCounts.lean",
+  "origin_kind": "unchanged",
+  "sha256": "665d9973831381b4ad016f06ac921cd911a4f3aca684cc6ea934504a3952e80b"
+ },
+ {
+  "module": "Schubert.Dihedral.IrrepMultiplicity",
+  "path": "Schubert/Dihedral/IrrepMultiplicity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8d94a87ce3c8ea4896ad5b7ff3d2e51238276c5bfc9244f54f43799108e9ad77"
+ },
+ {
+  "module": "Schubert.Dihedral.LeftAscentBijection",
+  "path": "Schubert/Dihedral/LeftAscentBijection.lean",
+  "origin_kind": "unchanged",
+  "sha256": "6f1253d6364504f2b68cba2f03d92bc1d0f48cc04153655904048b6c810a4a23"
+ },
+ {
+  "module": "Schubert.Dihedral.LengthCount",
+  "path": "Schubert/Dihedral/LengthCount.lean",
+  "origin_kind": "unchanged",
+  "sha256": "fa7a46e5e04a9347d63e2806f4dfbaee00399b215af0d4782f1ecc7e158107ac"
+ },
+ {
+  "module": "Schubert.Dihedral.LengthParity",
+  "path": "Schubert/Dihedral/LengthParity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bfda7e48baa050a7ffc5a1799bafd1c149cf965aa594fed2a26d87a68cea661e"
+ },
+ {
+  "module": "Schubert.Dihedral.LongestElement",
+  "path": "Schubert/Dihedral/LongestElement.lean",
+  "origin_kind": "unchanged",
+  "sha256": "54879661d3735f7cbf4cf62edf60c60cae310dbf116e088dc37525b22c054522"
+ },
+ {
+  "module": "Schubert.Dihedral.LongestLength",
+  "path": "Schubert/Dihedral/LongestLength.lean",
+  "origin_kind": "unchanged",
+  "sha256": "08c0fee86cce13808ac411a190b2a0a84f8cc734a43c2f8b08cd24951e796c29"
+ },
+ {
+  "module": "Schubert.Dihedral.LongestReversal",
+  "path": "Schubert/Dihedral/LongestReversal.lean",
+  "origin_kind": "unchanged",
+  "sha256": "d9831f20eab60609287b5097b9d9179a5707c9ad64a751fe5b46c34551bd4404"
+ },
+ {
+  "module": "Schubert.Dihedral.Main",
+  "path": "Schubert/Dihedral/Main.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7a3450828cc345ae6e7d15a6f7577935ca494b38f4ac9946b3ed692378bd46a0"
+ },
+ {
+  "module": "Schubert.Dihedral.NormalForms",
+  "path": "Schubert/Dihedral/NormalForms.lean",
+  "origin_kind": "unchanged",
+  "sha256": "84f4f046593f47103fb4b46bb5389114ed3a07c87385e3f31c72d5a80880f953"
+ },
+ {
+  "module": "Schubert.Dihedral.PlaneCharacter",
+  "path": "Schubert/Dihedral/PlaneCharacter.lean",
+  "origin_kind": "unchanged",
+  "sha256": "b0190e51f07043a6834311d17ee52d94ec65aafc4e69a96a6f9e8a3cf4f6cad4"
+ },
+ {
+  "module": "Schubert.Dihedral.PlaneDeterminant",
+  "path": "Schubert/Dihedral/PlaneDeterminant.lean",
+  "origin_kind": "unchanged",
+  "sha256": "0265c2433725f19c37cd4fdf12d3c4aa5eca787e11fb54167f956afbdfc9fa9b"
+ },
+ {
+  "module": "Schubert.Dihedral.PlaneEigenbasis",
+  "path": "Schubert/Dihedral/PlaneEigenbasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "979d3b79b8a95872717891602ca68f0860d9a182c16b621f0ddc465d8c5826fd"
+ },
+ {
+  "module": "Schubert.Dihedral.PolygonAxes",
+  "path": "Schubert/Dihedral/PolygonAxes.lean",
+  "origin_kind": "unchanged",
+  "sha256": "aafe5f56098aac40a6ab1545db72df96d8ab6542838cfc9ca548de91d5d7a80f"
+ },
+ {
+  "module": "Schubert.Dihedral.PolygonVertices",
+  "path": "Schubert/Dihedral/PolygonVertices.lean",
+  "origin_kind": "unchanged",
+  "sha256": "0af744f2f975adbd4121d23b1c4a18f105a476509e2b38216688b37277d6cde2"
+ },
+ {
+  "module": "Schubert.Dihedral.PolynomialAction",
+  "path": "Schubert/Dihedral/PolynomialAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "81e964ce173716b2823b4456bc08a3d2618417c659e7b8456504677950647b77"
+ },
+ {
+  "module": "Schubert.Dihedral.PolynomialBasisAction",
+  "path": "Schubert/Dihedral/PolynomialBasisAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4da1d1239bed7a1508eebe58303759d62ad9558c85afe332b882a85790d5f49e"
+ },
+ {
+  "module": "Schubert.Dihedral.PolynomialClass",
+  "path": "Schubert/Dihedral/PolynomialClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "12ef940eea257a722f1446028dba59349f54cd77486b7bdefec7f806902a45f8"
+ },
+ {
+  "module": "Schubert.Dihedral.PolynomialDecomposition",
+  "path": "Schubert/Dihedral/PolynomialDecomposition.lean",
+  "origin_kind": "unchanged",
+  "sha256": "69fde9329960662e9f6d0408ddcdc3e8a99743db821b34cf57ae855a42a3e4ae"
+ },
+ {
+  "module": "Schubert.Dihedral.PolynomialGalois",
+  "path": "Schubert/Dihedral/PolynomialGalois.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f85188ce78af5f25b2b18da9bf392792c4bb2e9548e7474dba48ee2939966c9b"
+ },
+ {
+  "module": "Schubert.Dihedral.PolynomialGrading",
+  "path": "Schubert/Dihedral/PolynomialGrading.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9da420369c7a4e27e68bbdde2e472eeef331164f9ee6a8f6cf165f0f3d77894a"
+ },
+ {
+  "module": "Schubert.Dihedral.PolynomialMultiplicity",
+  "path": "Schubert/Dihedral/PolynomialMultiplicity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "e8e86cf65ae68f59f2a387ba7540418ea75e6f0a983ea296bd02f63e1a125405"
+ },
+ {
+  "module": "Schubert.Dihedral.PolynomialPieceRepresentation",
+  "path": "Schubert/Dihedral/PolynomialPieceRepresentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f78817cd1c219ff95c22af310f8cf329a74be7001de1e5936a23e4fcc23c8358"
+ },
+ {
+  "module": "Schubert.Dihedral.PolynomialPullback",
+  "path": "Schubert/Dihedral/PolynomialPullback.lean",
+  "origin_kind": "unchanged",
+  "sha256": "345ac6e2959db1b706c038c8f876478c49dd06173645663671113480417a0004"
+ },
+ {
+  "module": "Schubert.Dihedral.PolynomialReflection",
+  "path": "Schubert/Dihedral/PolynomialReflection.lean",
+  "origin_kind": "unchanged",
+  "sha256": "94231180dc9484a4d617074b5f4587b984b3efe01239aefa4a48ef5ea70b2266"
+ },
+ {
+  "module": "Schubert.Dihedral.PolynomialRepresentation",
+  "path": "Schubert/Dihedral/PolynomialRepresentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f932d8e67c77403be99e83954e479e7c18e60db9963bd0aec4bad5b33d981813"
+ },
+ {
+  "module": "Schubert.Dihedral.PolynomialWeights",
+  "path": "Schubert/Dihedral/PolynomialWeights.lean",
+  "origin_kind": "unchanged",
+  "sha256": "67120b45d9360d1bef204a0acd18c5ece2a457590d5fac83e54537befa2bc3e3"
+ },
+ {
+  "module": "Schubert.Dihedral.RadialReflectionGroup",
+  "path": "Schubert/Dihedral/RadialReflectionGroup.lean",
+  "origin_kind": "unchanged",
+  "sha256": "de62af866136df55476360c341cca16709ac3379992a5b12ff52c9a013a786d8"
+ },
+ {
+  "module": "Schubert.Dihedral.RankTwoBruhat",
+  "path": "Schubert/Dihedral/RankTwoBruhat.lean",
+  "origin_kind": "unchanged",
+  "sha256": "921c77ab54928d6d9325bb25e2332d51085c5f85940d17c7ff84da0681c7d816"
+ },
+ {
+  "module": "Schubert.Dihedral.RankTwoEndpoints",
+  "path": "Schubert/Dihedral/RankTwoEndpoints.lean",
+  "origin_kind": "unchanged",
+  "sha256": "074f0eefaa5fd5543edbdd75d8b29c091839e0c0e1c9e90c0bac07aa817f9891"
+ },
+ {
+  "module": "Schubert.Dihedral.RankTwoRootVectors",
+  "path": "Schubert/Dihedral/RankTwoRootVectors.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f8eb60a5da079c3cd297f9cd8d8b8030d6b4558a1794dbbfc510b87938b1beb4"
+ },
+ {
+  "module": "Schubert.Dihedral.Realization",
+  "path": "Schubert/Dihedral/Realization.lean",
+  "origin_kind": "unchanged",
+  "sha256": "12f430150bc86c3b0b67152803417c3edae9022e44f10cf45da2b2769fed9cf5"
+ },
+ {
+  "module": "Schubert.Dihedral.RealizationBasic",
+  "path": "Schubert/Dihedral/RealizationBasic.lean",
+  "origin_kind": "unchanged",
+  "sha256": "098409a4454cc4a9c8e047f83f8a6b9fc87ecd1a9ac8013303e64882a402e1b9"
+ },
+ {
+  "module": "Schubert.Dihedral.RealLinearAction",
+  "path": "Schubert/Dihedral/RealLinearAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "75ac67ea73fb8fd9bddc4e81813036a0692e4f9b1a4fcc373d34508c781c26af"
+ },
+ {
+  "module": "Schubert.Dihedral.ReducedUnique",
+  "path": "Schubert/Dihedral/ReducedUnique.lean",
+  "origin_kind": "unchanged",
+  "sha256": "000386c17d78284344e22b1c1fd48f2dcabd0da5e2f8fce6568c9bdfe2793fa4"
+ },
+ {
+  "module": "Schubert.Dihedral.ReducedWords",
+  "path": "Schubert/Dihedral/ReducedWords.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4da7ca15f811680e94b0c7b885eb16cac69a30e269821a32d2d083a2ccaba689"
+ },
+ {
+  "module": "Schubert.Dihedral.ReflectionCosetBasic",
+  "path": "Schubert/Dihedral/ReflectionCosetBasic.lean",
+  "origin_kind": "unchanged",
+  "sha256": "788651b24f2b1ad2f98a11da41072556fd36bf84e7afb2bcdedd32745134310e"
+ },
+ {
+  "module": "Schubert.Dihedral.ReflectionCosetCharacters",
+  "path": "Schubert/Dihedral/ReflectionCosetCharacters.lean",
+  "origin_kind": "unchanged",
+  "sha256": "748e82554a3d00204d7049bfe523e322a802455d58ce6afee5e1e4fff5845225"
+ },
+ {
+  "module": "Schubert.Dihedral.ReflectionCosetCoordinates",
+  "path": "Schubert/Dihedral/ReflectionCosetCoordinates.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bd814187e620927e1c4a7e97e7cd95a4e6a9f2ed97042c5a6a79ba82344d157a"
+ },
+ {
+  "module": "Schubert.Dihedral.ReflectionCosetFixedPoints",
+  "path": "Schubert/Dihedral/ReflectionCosetFixedPoints.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5c9e403fcbd2eb7c7f50e190abd1ec31e8a982e464e046239d3429696eb53b16"
+ },
+ {
+  "module": "Schubert.Dihedral.ReflectionCosetRepresentation",
+  "path": "Schubert/Dihedral/ReflectionCosetRepresentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4f2e48443ce0de3bacf67e736d1ee802d12cbfcc65a88abc47bd7e9bb057f159"
+ },
+ {
+  "module": "Schubert.Dihedral.ReflectionIndex",
+  "path": "Schubert/Dihedral/ReflectionIndex.lean",
+  "origin_kind": "unchanged",
+  "sha256": "991cd2f7b2b639edf68cdc6179d2700b9e83ea6c68a630a1bbd42e41dd6fb0e2"
+ },
+ {
+  "module": "Schubert.Dihedral.RepresentationClassification",
+  "path": "Schubert/Dihedral/RepresentationClassification.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f16019155a358cdf0879ff8437b24f72833198ffcf058397b16e405f27f753db"
+ },
+ {
+  "module": "Schubert.Dihedral.ReverseAlternatingConjugation",
+  "path": "Schubert/Dihedral/ReverseAlternatingConjugation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "82799b8373ee4db69e754b8b21b293e819398d4b4e378602cffd33e1aafaa910"
+ },
+ {
+  "module": "Schubert.Dihedral.ReverseAlternatingWords",
+  "path": "Schubert/Dihedral/ReverseAlternatingWords.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a4e53263298bdd372307e272fa744f08cb8aa5cc5fd7797ba4cde046032d6fdf"
+ },
+ {
+  "module": "Schubert.Dihedral.RightWeak",
+  "path": "Schubert/Dihedral/RightWeak.lean",
+  "origin_kind": "unchanged",
+  "sha256": "88fed5f36a07c2ea49d72dc67b3337e5b62e8ce0054e6ac785464ef8996ef780"
+ },
+ {
+  "module": "Schubert.Dihedral.RootAlternatingLength",
+  "path": "Schubert/Dihedral/RootAlternatingLength.lean",
+  "origin_kind": "unchanged",
+  "sha256": "6113d7ed28dbae552bd497f8eceb306e1d89ab73f42e62f9f0c2ae4cc882e722"
+ },
+ {
+  "module": "Schubert.Dihedral.RootAlternatingProduct",
+  "path": "Schubert/Dihedral/RootAlternatingProduct.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f4f74eb9906e35c8137a8dcac47bd10621e0d8d9083e8d97ea4d2241fd45bf3a"
+ },
+ {
+  "module": "Schubert.Dihedral.RootAlternatingWords",
+  "path": "Schubert/Dihedral/RootAlternatingWords.lean",
+  "origin_kind": "unchanged",
+  "sha256": "91bcf632dc9ab8b4b05b5904976df8c5e79bc84971a4e4f0552d43cad4e7a17c"
+ },
+ {
+  "module": "Schubert.Dihedral.RootAngularEquality",
+  "path": "Schubert/Dihedral/RootAngularEquality.lean",
+  "origin_kind": "unchanged",
+  "sha256": "0a11437689032192118a9104ffa53ce426a16542391799f30a80a0e03bee040a"
+ },
+ {
+  "module": "Schubert.Dihedral.RootAxioms",
+  "path": "Schubert/Dihedral/RootAxioms.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1bd92449d54bdef2b9234607fc62b306c9c8d00bdbb8c81f770b336078a15a22"
+ },
+ {
+  "module": "Schubert.Dihedral.RootBlock",
+  "path": "Schubert/Dihedral/RootBlock.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c0149417410264f26b01dcf17055c9c71a9d7dcac89174de67d3162cf5160893"
+ },
+ {
+  "module": "Schubert.Dihedral.RootCard",
+  "path": "Schubert/Dihedral/RootCard.lean",
+  "origin_kind": "unchanged",
+  "sha256": "12786998be6cc556b9ed2d365a57a58d3b07e69aff7d81606fa076dde166a2de"
+ },
+ {
+  "module": "Schubert.Dihedral.RootChambers",
+  "path": "Schubert/Dihedral/RootChambers.lean",
+  "origin_kind": "unchanged",
+  "sha256": "54748702165436100ac69d823b41c706ca77dfa9e539603be1ec8962686ddf5a"
+ },
+ {
+  "module": "Schubert.Dihedral.RootClassRadius",
+  "path": "Schubert/Dihedral/RootClassRadius.lean",
+  "origin_kind": "unchanged",
+  "sha256": "08dd39bcd5ad80a0c43aee7bddabb21ecf5fbfc3e1d641cc1f4ffff096a0e169"
+ },
+ {
+  "module": "Schubert.Dihedral.RootComplexification",
+  "path": "Schubert/Dihedral/RootComplexification.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8f1bda1158846f81783f454b4f12e23e1294317e4cde3631e6c51fc557e138fb"
+ },
+ {
+  "module": "Schubert.Dihedral.RootCosetCoordinates",
+  "path": "Schubert/Dihedral/RootCosetCoordinates.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f44e65bfc61a7c841afa393d2e82c7cf2c33ef308505a807ec7281fc2f96e6a5"
+ },
+ {
+  "module": "Schubert.Dihedral.RootCosetObjects",
+  "path": "Schubert/Dihedral/RootCosetObjects.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2117d4f66675e09c6639f0302adada8052f4788b5a37dce80776aa7b63e26c37"
+ },
+ {
+  "module": "Schubert.Dihedral.RootDepth",
+  "path": "Schubert/Dihedral/RootDepth.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1b6b60a329ae4f3e5246e68fa6ce3dd9519811cc87b5ce94e0eed57cc75f1e33"
+ },
+ {
+  "module": "Schubert.Dihedral.RootDepthChains",
+  "path": "Schubert/Dihedral/RootDepthChains.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f7332c3d38fb0ba71637287e7b81fc962fb67c7da8757b60aac93c220a33f58a"
+ },
+ {
+  "module": "Schubert.Dihedral.RootDepthLayers",
+  "path": "Schubert/Dihedral/RootDepthLayers.lean",
+  "origin_kind": "unchanged",
+  "sha256": "62f1c7b0953642beeb8767c4bf2f177fedf2f393f1464a67ab0e1f0a64734c7e"
+ },
+ {
+  "module": "Schubert.Dihedral.RootDepthOrder",
+  "path": "Schubert/Dihedral/RootDepthOrder.lean",
+  "origin_kind": "unchanged",
+  "sha256": "36da6fa2f852d145d9a64b626e8771793c3448acf40b508352c88cc68a40df41"
+ },
+ {
+  "module": "Schubert.Dihedral.RootFixedHyperplane",
+  "path": "Schubert/Dihedral/RootFixedHyperplane.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2a475d633fa30f8a38e2c4c072ee27bee6aaf6fa30a4c328f942817e23fe3794"
+ },
+ {
+  "module": "Schubert.Dihedral.RootFormProperties",
+  "path": "Schubert/Dihedral/RootFormProperties.lean",
+  "origin_kind": "unchanged",
+  "sha256": "0c058a0946f047a25a7193c214b4d7c22ec72fbf51c15fcfba2aa47fa2e40d46"
+ },
+ {
+  "module": "Schubert.Dihedral.RootFrame",
+  "path": "Schubert/Dihedral/RootFrame.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5d2a8e7cab6eabd7574e3bf0c0b10cf95b329620dccb7fcd4d0a23f38a7076f8"
+ },
+ {
+  "module": "Schubert.Dihedral.RootGenerators",
+  "path": "Schubert/Dihedral/RootGenerators.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ce9e785f85def2bd6925124440144ee3f6ef9f36ef7846c0f4175fd2b5192eb7"
+ },
+ {
+  "module": "Schubert.Dihedral.RootGeometry",
+  "path": "Schubert/Dihedral/RootGeometry.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1a97622538e112e5299acc436508663a436bffdc69e6adb2ec62fb78369d3351"
+ },
+ {
+  "module": "Schubert.Dihedral.RootHalfspace",
+  "path": "Schubert/Dihedral/RootHalfspace.lean",
+  "origin_kind": "unchanged",
+  "sha256": "01bf46c75358c8486f6bc93773b710fff1b34a8021dbb0e63835381992d16e18"
+ },
+ {
+  "module": "Schubert.Dihedral.RootInversionDescent",
+  "path": "Schubert/Dihedral/RootInversionDescent.lean",
+  "origin_kind": "unchanged",
+  "sha256": "320156b8b44eb11b4d65cb9f459b4f890321b0279865e824b4c51e1ca681840c"
+ },
+ {
+  "module": "Schubert.Dihedral.RootInversionSets",
+  "path": "Schubert/Dihedral/RootInversionSets.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1da133deb379e7c99a4ae977e8cc247aae1f53d2cd2354a3b0734e56f6585068"
+ },
+ {
+  "module": "Schubert.Dihedral.RootInversionSigns",
+  "path": "Schubert/Dihedral/RootInversionSigns.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f6887fe7856baaa5a420bee0f82910d00a667468eee5c67b589fff0c39c8dd2d"
+ },
+ {
+  "module": "Schubert.Dihedral.RootLattice",
+  "path": "Schubert/Dihedral/RootLattice.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f357a3520d9bded24124f714bb14882e0d8a55c1181bc80f047dbb809ba95628"
+ },
+ {
+  "module": "Schubert.Dihedral.RootLatticeAxioms",
+  "path": "Schubert/Dihedral/RootLatticeAxioms.lean",
+  "origin_kind": "unchanged",
+  "sha256": "fb7a8e1e9839f8778ee31b080f6372fce6c72cfcb6d37df4fc6e7c1fe52e9d57"
+ },
+ {
+  "module": "Schubert.Dihedral.RootLatticeRescaling",
+  "path": "Schubert/Dihedral/RootLatticeRescaling.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8ad6999ff06ca1486caec7007fca78ac6a19efa2fab1fc60b7af4e681305d180"
+ },
+ {
+  "module": "Schubert.Dihedral.RootNoLoops",
+  "path": "Schubert/Dihedral/RootNoLoops.lean",
+  "origin_kind": "unchanged",
+  "sha256": "d532f23b3d204031418cab6a1fd5d0961005d3da8a9c6487406a9f2365e104b7"
+ },
+ {
+  "module": "Schubert.Dihedral.RootNormal",
+  "path": "Schubert/Dihedral/RootNormal.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ff3ed109ce6063353c0500b3735e2f62d865ea9a910c470f4214385740da9712"
+ },
+ {
+  "module": "Schubert.Dihedral.RootNumbering",
+  "path": "Schubert/Dihedral/RootNumbering.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f9d2058f1f391e2eb10e8fd5d462d23f504ca350551df5606cafcbe6ef38a0e6"
+ },
+ {
+  "module": "Schubert.Dihedral.RootObjectAction",
+  "path": "Schubert/Dihedral/RootObjectAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1486e193d27f8d5add254bddcfcfd4024ee4a7600744d496f974d923236aa03c"
+ },
+ {
+  "module": "Schubert.Dihedral.RootObjects",
+  "path": "Schubert/Dihedral/RootObjects.lean",
+  "origin_kind": "unchanged",
+  "sha256": "166de3318c6001976f00e46ad8395e3c31a35f3deced14988de25b4846d8aa4b"
+ },
+ {
+  "module": "Schubert.Dihedral.RootPolynomial",
+  "path": "Schubert/Dihedral/RootPolynomial.lean",
+  "origin_kind": "unchanged",
+  "sha256": "024a938e6b2457c084e08510fcd47ff8105c311a12d042edeb42ca9803bad467"
+ },
+ {
+  "module": "Schubert.Dihedral.RootPolynomialAction",
+  "path": "Schubert/Dihedral/RootPolynomialAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ece35bc86c2eaf08dae648a843a1395e9410632f0220ab80a1fcafe48bd8709d"
+ },
+ {
+  "module": "Schubert.Dihedral.RootPreservation",
+  "path": "Schubert/Dihedral/RootPreservation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bd8f06350e37afb73527983df31cb342a8352e830a2f46010776dff433632047"
+ },
+ {
+  "module": "Schubert.Dihedral.RootReflectionAction",
+  "path": "Schubert/Dihedral/RootReflectionAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ef8c6f25de5d32805cdcb9138239bdcdf22ee150146f7b08006deced22174a67"
+ },
+ {
+  "module": "Schubert.Dihedral.RootReflectionAngles",
+  "path": "Schubert/Dihedral/RootReflectionAngles.lean",
+  "origin_kind": "unchanged",
+  "sha256": "83525c9f823d7a9d08486fd1e9a565a6db5fff6c3afd9bf6beb925c9fbc59d9c"
+ },
+ {
+  "module": "Schubert.Dihedral.RootReflectionLengthVectors",
+  "path": "Schubert/Dihedral/RootReflectionLengthVectors.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7420d809cffa24308ddbc69f21a73fa387afa623c7181f309ef00acc90277607"
+ },
+ {
+  "module": "Schubert.Dihedral.RootReflections",
+  "path": "Schubert/Dihedral/RootReflections.lean",
+  "origin_kind": "unchanged",
+  "sha256": "d6e5e27a859ccaa8369dff31536fcdefce4cfd35d0634e0833ff9fb406d0bafd"
+ },
+ {
+  "module": "Schubert.Dihedral.RootReflectionVectors",
+  "path": "Schubert/Dihedral/RootReflectionVectors.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9aec0afd6a52508ab29c9cb95b2eb66b8be45beed551dd8a75dfd92ae7536acf"
+ },
+ {
+  "module": "Schubert.Dihedral.RootRescaling",
+  "path": "Schubert/Dihedral/RootRescaling.lean",
+  "origin_kind": "unchanged",
+  "sha256": "3e9aab5fb7b6584d3d4d7f7a0e98814fddb035ae95ed6325270a56da8c59e22e"
+ },
+ {
+  "module": "Schubert.Dihedral.RootScalarCharacter",
+  "path": "Schubert/Dihedral/RootScalarCharacter.lean",
+  "origin_kind": "unchanged",
+  "sha256": "577dfdaccf46a9616a5d0d44590be0c1aba554433580bfb8632b969c12841d7f"
+ },
+ {
+  "module": "Schubert.Dihedral.RootScalarCosetBound",
+  "path": "Schubert/Dihedral/RootScalarCosetBound.lean",
+  "origin_kind": "unchanged",
+  "sha256": "e6e66effc20a44d4126a1a568cf988de513383d3eec439756816200d96687cee"
+ },
+ {
+  "module": "Schubert.Dihedral.RootSeparator",
+  "path": "Schubert/Dihedral/RootSeparator.lean",
+  "origin_kind": "unchanged",
+  "sha256": "dd5ba72d54713418d8bc15527bebb1fda3ff5d6799e5e0a88acdba808e6acc30"
+ },
+ {
+  "module": "Schubert.Dihedral.RootSignedConjugation",
+  "path": "Schubert/Dihedral/RootSignedConjugation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a038baeb559b7a8c941074ec75a63fc001367f33ec2e8769d741079178074596"
+ },
+ {
+  "module": "Schubert.Dihedral.RootSigns",
+  "path": "Schubert/Dihedral/RootSigns.lean",
+  "origin_kind": "unchanged",
+  "sha256": "b8c3d462693d8cafeb632256d06b6d6231fb100a338e122a0c30e45e177e5cb9"
+ },
+ {
+  "module": "Schubert.Dihedral.RootSubset",
+  "path": "Schubert/Dihedral/RootSubset.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5756f5cf1823f70614e94df718080fca521c706f5b9e8eb0d8e1585eaae32c79"
+ },
+ {
+  "module": "Schubert.Dihedral.RootSubsetCard",
+  "path": "Schubert/Dihedral/RootSubsetCard.lean",
+  "origin_kind": "unchanged",
+  "sha256": "31edc1cf8f0a54074b074ef57974a4eb55480ec5584a9b8e58b2f7a75e7a05ab"
+ },
+ {
+  "module": "Schubert.Dihedral.RootSubsetImages",
+  "path": "Schubert/Dihedral/RootSubsetImages.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bcca2a87bc8ee6b43b5cde3011f79cc4e9911384ba88eace2682d8681b880954"
+ },
+ {
+  "module": "Schubert.Dihedral.RootSum",
+  "path": "Schubert/Dihedral/RootSum.lean",
+  "origin_kind": "unchanged",
+  "sha256": "87c095a37ecf9e477e3cafb1785f8b20bcdf5cc517830f8854bd8287655e8b49"
+ },
+ {
+  "module": "Schubert.Dihedral.RootVectorAscent",
+  "path": "Schubert/Dihedral/RootVectorAscent.lean",
+  "origin_kind": "unchanged",
+  "sha256": "cbbcfedf2867eef1fee2da348af40b4faff339ef26b068ede1ae1e8b2802ec7e"
+ },
+ {
+  "module": "Schubert.Dihedral.RotationAction",
+  "path": "Schubert/Dihedral/RotationAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "74e182fff8cd69462dad685d542b92a7686190b1ad4a6aaffe0157996f363595"
+ },
+ {
+  "module": "Schubert.Dihedral.RotationEigenvalueSeparation",
+  "path": "Schubert/Dihedral/RotationEigenvalueSeparation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "dd87d77567a007ab1d1c424da27d0968258b8d74295fecd0a7e3bffd3abf3230"
+ },
+ {
+  "module": "Schubert.Dihedral.RotationFourierSums",
+  "path": "Schubert/Dihedral/RotationFourierSums.lean",
+  "origin_kind": "unchanged",
+  "sha256": "0a033a3321201daf420a01e49f11055c54577af9ed3005b7c5a3d9b2d731be8d"
+ },
+ {
+  "module": "Schubert.Dihedral.RotationTraceSeparation",
+  "path": "Schubert/Dihedral/RotationTraceSeparation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "19813771f68ddcdbe0be815b6e9caf1cd3b88fb7335c4af8960d4e66a8c9cece"
+ },
+ {
+  "module": "Schubert.Dihedral.ScalarCharacterFacts",
+  "path": "Schubert/Dihedral/ScalarCharacterFacts.lean",
+  "origin_kind": "unchanged",
+  "sha256": "6f742f87a61cbe7c1c6ab977d757cfdd404a493780ee1c43df51f43032ff1515"
+ },
+ {
+  "module": "Schubert.Dihedral.ScalarCharacters",
+  "path": "Schubert/Dihedral/ScalarCharacters.lean",
+  "origin_kind": "unchanged",
+  "sha256": "e768064918fef91bbd8a31644d16e787c345445ee9ce5261749b67d1a19d47f7"
+ },
+ {
+  "module": "Schubert.Dihedral.ScalarCosetBound",
+  "path": "Schubert/Dihedral/ScalarCosetBound.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7475fd869bf09da9cc67ba80b3d5e711548edd32c6a04e9f9f97d84e3286ef05"
+ },
+ {
+  "module": "Schubert.Dihedral.ScalarFamily",
+  "path": "Schubert/Dihedral/ScalarFamily.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a93ce024cff10635ba22a6dd47af55caba52f933240f664b3b8ff302e0b14dc6"
+ },
+ {
+  "module": "Schubert.Dihedral.ScalarMultiplicity",
+  "path": "Schubert/Dihedral/ScalarMultiplicity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "18129dc5ac380d35abaa847b6e3bff77c472ba857ab88cb5f0a0a3ae9db380e1"
+ },
+ {
+  "module": "Schubert.Dihedral.ScalarParity",
+  "path": "Schubert/Dihedral/ScalarParity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "26a008e16aa2c552a498113f86d27d7c2761bda015254830d4677889d6f728af"
+ },
+ {
+  "module": "Schubert.Dihedral.ScalarSlotMultiplicity",
+  "path": "Schubert/Dihedral/ScalarSlotMultiplicity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f3aa4e5a3a3f8bb340d235e2e85772b29e7f47b5220569bef64b577c8519edc7"
+ },
+ {
+  "module": "Schubert.Dihedral.SecondBlockStabilizer",
+  "path": "Schubert/Dihedral/SecondBlockStabilizer.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c75530740381f3363c223e2993a4c9bfc108689b6e67691d6f6cd32a7bd0a195"
+ },
+ {
+  "module": "Schubert.Dihedral.SelfDual",
+  "path": "Schubert/Dihedral/SelfDual.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9ea74b0a21f7fa22774ec87b268841582691210c4fbccaaade12563703573ec1"
+ },
+ {
+  "module": "Schubert.Dihedral.SelfDualScope",
+  "path": "Schubert/Dihedral/SelfDualScope.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1a0a2f465dd8d03d7f32fa468a3e432713178cd68c36fdc3a36c81fb79a30c42"
+ },
+ {
+  "module": "Schubert.Dihedral.SignCoset",
+  "path": "Schubert/Dihedral/SignCoset.lean",
+  "origin_kind": "unchanged",
+  "sha256": "33b529d1e5ba49d855e2c6777ecd97863dc652f35a0764a1540718cc484b9a78"
+ },
+ {
+  "module": "Schubert.Dihedral.SignScalarProducts",
+  "path": "Schubert/Dihedral/SignScalarProducts.lean",
+  "origin_kind": "unchanged",
+  "sha256": "27e17be76c37d7a3ed509b35808c7bc57cae671fe2f75d2092c73f86ece99e31"
+ },
+ {
+  "module": "Schubert.Dihedral.SignTwist",
+  "path": "Schubert/Dihedral/SignTwist.lean",
+  "origin_kind": "unchanged",
+  "sha256": "41408836cc9a62047d251e990b7054eb8da4af103e37f1bee21468838cc6bd04"
+ },
+ {
+  "module": "Schubert.Dihedral.SimpleAscentRecognition",
+  "path": "Schubert/Dihedral/SimpleAscentRecognition.lean",
+  "origin_kind": "unchanged",
+  "sha256": "67b271cb659e57c754543e3a6f706daed24e9c1dc93ef7f18c569e571a700907"
+ },
+ {
+  "module": "Schubert.Dihedral.SimpleDescents",
+  "path": "Schubert/Dihedral/SimpleDescents.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2d2aff2e343d523a70306b9d7961c5a461a2d173d2ee36f7065ce24aa554fa69"
+ },
+ {
+  "module": "Schubert.Dihedral.SimpleEigenvector",
+  "path": "Schubert/Dihedral/SimpleEigenvector.lean",
+  "origin_kind": "unchanged",
+  "sha256": "180c3ffade6990c4a5f85c3a7312d5e5da00e8bfc77469c6a90f6bf9a853bd7f"
+ },
+ {
+  "module": "Schubert.Dihedral.SimpleExtremal",
+  "path": "Schubert/Dihedral/SimpleExtremal.lean",
+  "origin_kind": "unchanged",
+  "sha256": "b58c6a7c88272a585549c8dbbc47232fcda1750da111dbbb1e44441a94118eb9"
+ },
+ {
+  "module": "Schubert.Dihedral.SimpleRootObjects",
+  "path": "Schubert/Dihedral/SimpleRootObjects.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bd8c72627ca7d7628c1e7c7e11e2315414f0a04646d225c32f3c5d2b3702cca2"
+ },
+ {
+  "module": "Schubert.Dihedral.SimpleRootPermutation",
+  "path": "Schubert/Dihedral/SimpleRootPermutation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "763e64214ecb2222c42aafc14e65ffe75de5512943038db00b571afc1be648ea"
+ },
+ {
+  "module": "Schubert.Dihedral.SimpleRootSigns",
+  "path": "Schubert/Dihedral/SimpleRootSigns.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7c20237e32cb44b670bd2c0aaf60ac60e9e1251a412a1f981609257faf40a68c"
+ },
+ {
+  "module": "Schubert.Dihedral.SimpleScalar",
+  "path": "Schubert/Dihedral/SimpleScalar.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f8ecb3e6d7d55caedbc36549b50e05fe484f9b6cfe68751559efc6c10d70158e"
+ },
+ {
+  "module": "Schubert.Dihedral.TensorCoinvariantAugmentation",
+  "path": "Schubert/Dihedral/TensorCoinvariantAugmentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "407b9681eac6be3263192d232e605d4edae35a1481db90a2fede463bf2c33b31"
+ },
+ {
+  "module": "Schubert.Dihedral.TerminalConjugacy",
+  "path": "Schubert/Dihedral/TerminalConjugacy.lean",
+  "origin_kind": "unchanged",
+  "sha256": "72dc30cbcb998708eec172e0b749b5a98205987de1ceb60c0459bb2336b32954"
+ },
+ {
+  "module": "Schubert.Dihedral.TerminalConjugate",
+  "path": "Schubert/Dihedral/TerminalConjugate.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4057314753e341fffa782a421bef92a299a62e5e8990757f5f522a856d12ce71"
+ },
+ {
+  "module": "Schubert.Dihedral.TerminalCosetPairs",
+  "path": "Schubert/Dihedral/TerminalCosetPairs.lean",
+  "origin_kind": "unchanged",
+  "sha256": "473d964a5d7a87e7e38cc8c0d3bf33e5e7ee2e51333c3304d4212db468ae823c"
+ },
+ {
+  "module": "Schubert.Dihedral.TriangularSubstitution",
+  "path": "Schubert/Dihedral/TriangularSubstitution.lean",
+  "origin_kind": "unchanged",
+  "sha256": "d030131acc00af039b7aa59e71e561c4801f579facd7cca68541640af3fcb034"
+ },
+ {
+  "module": "Schubert.Dihedral.UnitDirections",
+  "path": "Schubert/Dihedral/UnitDirections.lean",
+  "origin_kind": "unchanged",
+  "sha256": "b19e57ae683159b4cbce3b98ff85ad30e402d15c897d7a12b8b8fc6e502ed3ff"
+ },
+ {
+  "module": "Schubert.Dihedral.UpperBlock",
+  "path": "Schubert/Dihedral/UpperBlock.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7362573e2ef36b7841b7559af4a835eba030cdbf7e402284986da4c0beafbd5a"
+ },
+ {
+  "module": "Schubert.Dihedral.VectorDenominator",
+  "path": "Schubert/Dihedral/VectorDenominator.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c443fc2088939f3c8818aea685d35877b1e07400818bc980f745efeda9df5b37"
+ },
+ {
+  "module": "Schubert.DihedralSplines.AdmissibleIndependence",
+  "path": "Schubert/DihedralSplines/AdmissibleIndependence.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c440da2f81621efc6bfc42f7ae3bc34fe36dd0b6a1176eed49c8285168660ffc"
+ },
+ {
+  "module": "Schubert.DihedralSplines.AlternatingBlockEdges",
+  "path": "Schubert/DihedralSplines/AlternatingBlockEdges.lean",
+  "origin_kind": "unchanged",
+  "sha256": "19c724117000700b539035ea61034233534f1fc246fd84ac028e9bfd6a317029"
+ },
+ {
+  "module": "Schubert.DihedralSplines.AlternatingBlockRegular",
+  "path": "Schubert/DihedralSplines/AlternatingBlockRegular.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c078c5cda3ea276f35489c58da01f169e24b2442d7fb536aec4da3d99409df7c"
+ },
+ {
+  "module": "Schubert.DihedralSplines.AscendingNeighbors",
+  "path": "Schubert/DihedralSplines/AscendingNeighbors.lean",
+  "origin_kind": "unchanged",
+  "sha256": "583bd87506a213bab005b0451a95831ebcf3dba34e263d00a818d9ef248e3b91"
+ },
+ {
+  "module": "Schubert.DihedralSplines.Audit",
+  "path": "Schubert/DihedralSplines/Audit.lean",
+  "origin_kind": "generated",
+  "sha256": "010670261df029c202555b22c76a39354d998c5c9664d6b705f512c1b4d243a4"
+ },
+ {
+  "module": "Schubert.DihedralSplines.BlockExcludedRoot",
+  "path": "Schubert/DihedralSplines/BlockExcludedRoot.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2137a7789ee61f862003c0a3014ade9eaf4c614c5e2515b57a8e4dd3195c43e5"
+ },
+ {
+  "module": "Schubert.DihedralSplines.BlockIndependence",
+  "path": "Schubert/DihedralSplines/BlockIndependence.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ebc05bf1a2696b0c78c6bf016c5d79daefacdc251d0e9b12f67bb9227970c36d"
+ },
+ {
+  "module": "Schubert.DihedralSplines.BlockLocalization",
+  "path": "Schubert/DihedralSplines/BlockLocalization.lean",
+  "origin_kind": "unchanged",
+  "sha256": "18ec18dcf033569cc6b11b7f727916c3974b5384083fafcb2dfb0a68dd66004a"
+ },
+ {
+  "module": "Schubert.DihedralSplines.BlockSeparation",
+  "path": "Schubert/DihedralSplines/BlockSeparation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9fc5dff6cdc1fec530b659cb1952d11b6f6d5abdee207bc7c0a2728ecdf0ffef"
+ },
+ {
+  "module": "Schubert.DihedralSplines.BlockSplineIndependence",
+  "path": "Schubert/DihedralSplines/BlockSplineIndependence.lean",
+  "origin_kind": "unchanged",
+  "sha256": "daa266b628b14b8daa0571258f0a427d73c6db1ffaef9f66fb0ecbada250c198"
+ },
+ {
+  "module": "Schubert.DihedralSplines.BlockStabilizer",
+  "path": "Schubert/DihedralSplines/BlockStabilizer.lean",
+  "origin_kind": "unchanged",
+  "sha256": "6079111821e6e94722ae45fd0ae826f54e7e909d446ce283464dc38f5d5218b6"
+ },
+ {
+  "module": "Schubert.DihedralSplines.BlockTransport",
+  "path": "Schubert/DihedralSplines/BlockTransport.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2fded5531ff2149185be03de9dac3a1ea0cb5d7eba63937b13f2dd84d8ea44bd"
+ },
+ {
+  "module": "Schubert.DihedralSplines.BorelAction",
+  "path": "Schubert/DihedralSplines/BorelAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "37fe7f241e5d01877eb1b4634391734c88c7ef57f1c3635e75f0340d98b90935"
+ },
+ {
+  "module": "Schubert.DihedralSplines.BorelCoordinates",
+  "path": "Schubert/DihedralSplines/BorelCoordinates.lean",
+  "origin_kind": "unchanged",
+  "sha256": "6631b8c0cdcd4e4113011fd29407cbf965a73059108adc18887bb93e6f2a548c"
+ },
+ {
+  "module": "Schubert.DihedralSplines.BorelEquivalence",
+  "path": "Schubert/DihedralSplines/BorelEquivalence.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4d4d60a78879253a38e420f4ca80ccb77d4d57953d07bf0294bc089f7aed7f3e"
+ },
+ {
+  "module": "Schubert.DihedralSplines.BorelHomogeneousBasis",
+  "path": "Schubert/DihedralSplines/BorelHomogeneousBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2c88bbff62e5ba1b3e18a9aa0fad7e0b229122b762e6a4667e441c786145d10a"
+ },
+ {
+  "module": "Schubert.DihedralSplines.BorelSplineMap",
+  "path": "Schubert/DihedralSplines/BorelSplineMap.lean",
+  "origin_kind": "unchanged",
+  "sha256": "eaf227ef5e0edbda8f473d5d89cb2b87241532f30a2523abd5795930f3592048"
+ },
+ {
+  "module": "Schubert.DihedralSplines.BorelTensorGrading",
+  "path": "Schubert/DihedralSplines/BorelTensorGrading.lean",
+  "origin_kind": "unchanged",
+  "sha256": "b530af50812ba00ef42a8c7961c05f1450726056daaadea9e207ce5a2e9fb531"
+ },
+ {
+  "module": "Schubert.DihedralSplines.BoundaryAugmentation",
+  "path": "Schubert/DihedralSplines/BoundaryAugmentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "db4f6f864039dad0d7751e93f34c1fe563bf6e792978906625b88e20faf17e4c"
+ },
+ {
+  "module": "Schubert.DihedralSplines.BoundaryForm",
+  "path": "Schubert/DihedralSplines/BoundaryForm.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bfb2bae002ab6eb00aadc40b605895390e43b8b58e23611c7d6edc85a89844ae"
+ },
+ {
+  "module": "Schubert.DihedralSplines.BoundaryFormDot",
+  "path": "Schubert/DihedralSplines/BoundaryFormDot.lean",
+  "origin_kind": "unchanged",
+  "sha256": "dee5cf8574ffaea7c6618ae8f60a7b7a322283c733576aa7e4992ec371802bd1"
+ },
+ {
+  "module": "Schubert.DihedralSplines.BoundaryPropagation",
+  "path": "Schubert/DihedralSplines/BoundaryPropagation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "26f98775742b71f7076b694ff30c99e18ba0953410e75086889305191ec3a010"
+ },
+ {
+  "module": "Schubert.DihedralSplines.BoundaryRelations",
+  "path": "Schubert/DihedralSplines/BoundaryRelations.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2de4e988506d82268c11c3accfbf1cb85ac06b78e6ccf95098d52b5b0d7c9d90"
+ },
+ {
+  "module": "Schubert.DihedralSplines.BoundaryTranslation",
+  "path": "Schubert/DihedralSplines/BoundaryTranslation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7eb6edc01d79e6dcad9e9aa4b57c66bf214d86aca143506b1c2ffc8c22b00eb0"
+ },
+ {
+  "module": "Schubert.DihedralSplines.ChamberIdeal",
+  "path": "Schubert/DihedralSplines/ChamberIdeal.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1405f94f80c02b22910d75eb76f36a731f93f74cb4c850986ab422ae03d2bc8b"
+ },
+ {
+  "module": "Schubert.DihedralSplines.ChamberReflections",
+  "path": "Schubert/DihedralSplines/ChamberReflections.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5d6db30d98f32c3375aa20c2435c8056666f0ecf658e4d82983831225d9ef00e"
+ },
+ {
+  "module": "Schubert.DihedralSplines.ChamberRootOrder",
+  "path": "Schubert/DihedralSplines/ChamberRootOrder.lean",
+  "origin_kind": "unchanged",
+  "sha256": "e53c55720e831eae8f63f62c12cbe30e88286356930e1d43969c6e83171a8fb0"
+ },
+ {
+  "module": "Schubert.DihedralSplines.ChamberSplines",
+  "path": "Schubert/DihedralSplines/ChamberSplines.lean",
+  "origin_kind": "unchanged",
+  "sha256": "673c8589a66a5ee4811e0c20c2c26ee9d0ad7bc1bc3e3834286d55d93dbf18c5"
+ },
+ {
+  "module": "Schubert.DihedralSplines.CoGradedSubrepresentation",
+  "path": "Schubert/DihedralSplines/CoGradedSubrepresentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "0963552cafdaca6980a25ac0a434461bfeca1121102a79a7114ec92a9a5629fc"
+ },
+ {
+  "module": "Schubert.DihedralSplines.CoinvariantFrequencyEmbedding",
+  "path": "Schubert/DihedralSplines/CoinvariantFrequencyEmbedding.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9edd3b5e918b3b1ee6d41068c9cedf424edc0237a51bae13827d53ef3a896104"
+ },
+ {
+  "module": "Schubert.DihedralSplines.CoinvariantPattern",
+  "path": "Schubert/DihedralSplines/CoinvariantPattern.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8aae1ba8a185f1de1f7c6740a36ff221d8220c655c0984b12dfdf9a93dd3618e"
+ },
+ {
+  "module": "Schubert.DihedralSplines.CoinvariantPieceMap",
+  "path": "Schubert/DihedralSplines/CoinvariantPieceMap.lean",
+  "origin_kind": "unchanged",
+  "sha256": "3c7ba86a1492353bc3af44cfc4dfb2a14d52c346f4a1b84a7c95fb9f84fa4fc1"
+ },
+ {
+  "module": "Schubert.DihedralSplines.CoinvariantSplineMap",
+  "path": "Schubert/DihedralSplines/CoinvariantSplineMap.lean",
+  "origin_kind": "unchanged",
+  "sha256": "485e7aae534952fc06e0b5c084175f2a4b817db881b096963271dcfeba1e0d4e"
+ },
+ {
+  "module": "Schubert.DihedralSplines.CoSourceEmbedding",
+  "path": "Schubert/DihedralSplines/CoSourceEmbedding.lean",
+  "origin_kind": "unchanged",
+  "sha256": "edbc4d5df4397390a8c8d9acf6490fc8ffd144801d5fef7734fb50b5a4e0a679"
+ },
+ {
+  "module": "Schubert.DihedralSplines.CoSubrepresentation",
+  "path": "Schubert/DihedralSplines/CoSubrepresentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ac22cd1f8df21402794eadeeca81ab56098f1ac865c47522df9e978e029dd86b"
+ },
+ {
+  "module": "Schubert.DihedralSplines.CrystallographicComparison",
+  "path": "Schubert/DihedralSplines/CrystallographicComparison.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4584f13655ea6e9cdf0e4f7169539a0fb02fd2dee8e68e066562c0d98569d07b"
+ },
+ {
+  "module": "Schubert.DihedralSplines.CyclicSeparation",
+  "path": "Schubert/DihedralSplines/CyclicSeparation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a4540ed602e02b8421a4e3ee197befbdd33305df9d2eb83e20b609c77698ce2d"
+ },
+ {
+  "module": "Schubert.DihedralSplines.CyclicWindowEdges",
+  "path": "Schubert/DihedralSplines/CyclicWindowEdges.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ac92b3afb6ac1bc5e3c64ecddc69054b9d22d19c009c6c7015e9d5e10b08952d"
+ },
+ {
+  "module": "Schubert.DihedralSplines.DegreeZero",
+  "path": "Schubert/DihedralSplines/DegreeZero.lean",
+  "origin_kind": "unchanged",
+  "sha256": "fe934317465964cf42968eab43f202bef05bb061aaf343cd508e0a8056e397de"
+ },
+ {
+  "module": "Schubert.DihedralSplines.DiagramTable",
+  "path": "Schubert/DihedralSplines/DiagramTable.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4ba9c093f30e80f5d5ed1309332c769e3c499b8dc0bae2562c99ede26d182400"
+ },
+ {
+  "module": "Schubert.DihedralSplines.DividedDifference",
+  "path": "Schubert/DihedralSplines/DividedDifference.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1f837f0662a71afb99ece4f60a9d8522e75bcc04df8f4eb52361794889c65bec"
+ },
+ {
+  "module": "Schubert.DihedralSplines.DividedDifferenceDegree",
+  "path": "Schubert/DihedralSplines/DividedDifferenceDegree.lean",
+  "origin_kind": "unchanged",
+  "sha256": "0df57a76a3c799b531d0c6d05e3b7d26ae9fdaf9144ffbe0e2ecd1ae0b7338a5"
+ },
+ {
+  "module": "Schubert.DihedralSplines.DividedDifferenceFixed",
+  "path": "Schubert/DihedralSplines/DividedDifferenceFixed.lean",
+  "origin_kind": "unchanged",
+  "sha256": "31592cfe3dc5bd64464853225e24848cd4d68bf811fa8c3c60bc7d285efb3ac2"
+ },
+ {
+  "module": "Schubert.DihedralSplines.DividedDifferenceLabels",
+  "path": "Schubert/DihedralSplines/DividedDifferenceLabels.lean",
+  "origin_kind": "unchanged",
+  "sha256": "72422c40da1a8ba71a98227a1f6a2c0898aaa50c622699ad87eecf1833d3c4ed"
+ },
+ {
+  "module": "Schubert.DihedralSplines.DominanceEven",
+  "path": "Schubert/DihedralSplines/DominanceEven.lean",
+  "origin_kind": "unchanged",
+  "sha256": "32ac7315d883fbc7a4e3d37e2baec8f929db5ea65ac1ccbd71201d44d8e7477e"
+ },
+ {
+  "module": "Schubert.DihedralSplines.DominanceMiddle",
+  "path": "Schubert/DihedralSplines/DominanceMiddle.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bf84ce27460766cdd83844320cdac08983302319d909356872f573fdcedb41ee"
+ },
+ {
+  "module": "Schubert.DihedralSplines.DominanceOdd",
+  "path": "Schubert/DihedralSplines/DominanceOdd.lean",
+  "origin_kind": "unchanged",
+  "sha256": "dae33912c2ccc7d27d20445f714cdd3e36836065338497aa9cf4317856797839"
+ },
+ {
+  "module": "Schubert.DihedralSplines.DominanceOddWitness",
+  "path": "Schubert/DihedralSplines/DominanceOddWitness.lean",
+  "origin_kind": "unchanged",
+  "sha256": "566806e5785054d76a84e78b437084e6354b218dd902ec5de8281efb3d7a31ca"
+ },
+ {
+  "module": "Schubert.DihedralSplines.DominanceUpper",
+  "path": "Schubert/DihedralSplines/DominanceUpper.lean",
+  "origin_kind": "unchanged",
+  "sha256": "b8d4512f1a00b86b2d1e66600b090199fa577af7395cad0a365cf0902230645d"
+ },
+ {
+  "module": "Schubert.DihedralSplines.DoubleLocalization",
+  "path": "Schubert/DihedralSplines/DoubleLocalization.lean",
+  "origin_kind": "unchanged",
+  "sha256": "cf5cb6f9c4294193d97e7268ff52b56943c264c8141603c57459704eb3a85d91"
+ },
+ {
+  "module": "Schubert.DihedralSplines.EdgeLabelReflection",
+  "path": "Schubert/DihedralSplines/EdgeLabelReflection.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ae8d135aa5073c32c5420ab38a619dc69aae7a6814341d0447d4e9896cf18f4b"
+ },
+ {
+  "module": "Schubert.DihedralSplines.EdgeTranslation",
+  "path": "Schubert/DihedralSplines/EdgeTranslation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "83f36e6b3a4b396550afd903c83db55d9bc40f8a011527bc9d7bb2aa32c748fa"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FamilyBasis",
+  "path": "Schubert/DihedralSplines/FamilyBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1bd3c8cea964989e39d673a260eed0cc77f5a8d8bea2654acaf8cbc61ba5db8c"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FamilyProjection",
+  "path": "Schubert/DihedralSplines/FamilyProjection.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8b2d70b4467b89c58384b403e223f525d609fa586b3d7b04a578729662c50cdf"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FamilyRank",
+  "path": "Schubert/DihedralSplines/FamilyRank.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bbaf1cfed7d830ac56b58ee897c61312c618ea36103c48d17223a9164ec92d61"
+ },
+ {
+  "module": "Schubert.DihedralSplines.Finite",
+  "path": "Schubert/DihedralSplines/Finite.lean",
+  "origin_kind": "unchanged",
+  "sha256": "699220f1a4f5bdbfb43ada1b91e437bf92094d6a658c9f27d4e0ad6b2702d195"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FlowupBasis",
+  "path": "Schubert/DihedralSplines/FlowupBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "88a4b2b673e3fbd9593fd55f3a9421c6e08f7980452ec38c2303678854a06a06"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FlowupBasisPredicate",
+  "path": "Schubert/DihedralSplines/FlowupBasisPredicate.lean",
+  "origin_kind": "unchanged",
+  "sha256": "b995bb467db42e2c007733101d74b114c46d49d40591b8c93003f2dc6289f9c0"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FlowupBlock",
+  "path": "Schubert/DihedralSplines/FlowupBlock.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2037033adeef420eb78e9e0d615f1859bd96cd71470862b8971ac8f5d114b7d3"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FlowupBoundary",
+  "path": "Schubert/DihedralSplines/FlowupBoundary.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5143ec19f5ccf27919f2e6fc1180524ac423ab16f7628c711299a57ad0563a3e"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FlowupCosetSpan",
+  "path": "Schubert/DihedralSplines/FlowupCosetSpan.lean",
+  "origin_kind": "unchanged",
+  "sha256": "fe20dddf625a3c53ac8232862ccb2f61c2c21c5e82be6aee0ad20cad9050b5ba"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FlowupEquations",
+  "path": "Schubert/DihedralSplines/FlowupEquations.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f0a1e5df2f172ecee23a87aed4ffb9744870cdbc79085ce01f29f964abd75aea"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FlowupExplicitBasis",
+  "path": "Schubert/DihedralSplines/FlowupExplicitBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "95a23f543013f6850856f7d167b0c1b8d3a317b50b8e66475e32f51e37e58dc1"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FlowupHilbert",
+  "path": "Schubert/DihedralSplines/FlowupHilbert.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1f93348ed8ce44bd3869ee38e5d5b2ca1bc413b1dc63dd8b3b144180968a6598"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FlowupMiddleIndependence",
+  "path": "Schubert/DihedralSplines/FlowupMiddleIndependence.lean",
+  "origin_kind": "unchanged",
+  "sha256": "db52f706c389bd2a2327e99be012af96e4bbb40637ff1e8b6cd12a4153d23fb3"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FlowupOrbitDegree",
+  "path": "Schubert/DihedralSplines/FlowupOrbitDegree.lean",
+  "origin_kind": "unchanged",
+  "sha256": "99a53e4e77f92dde9552e8fc0a7c0e9e56d3d85ef4e40a2528e20142c25d7396"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FlowupOrbitIndependence",
+  "path": "Schubert/DihedralSplines/FlowupOrbitIndependence.lean",
+  "origin_kind": "unchanged",
+  "sha256": "52b1e390f6e6e2fcfb5a809d699871c2a42a0baab13052b6a2bc997b73c668fc"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FlowupOrbitLinear",
+  "path": "Schubert/DihedralSplines/FlowupOrbitLinear.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7d9a5b67f493f5afba1d2c08ed6c4386f2d52182fcd601fd24954e2a8753f143"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FlowupOrbitRepresentation",
+  "path": "Schubert/DihedralSplines/FlowupOrbitRepresentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "78dc6b1ffabdc91901c6f05e31ed6367e16da39c2be0d4f02c338e72f3fa07d1"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FlowupOrbitStabilizer",
+  "path": "Schubert/DihedralSplines/FlowupOrbitStabilizer.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5890b21c6ae4abcbcd676732a69c357a69de16a9aca69be198ba233e90910b9d"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FlowupOrbitSupport",
+  "path": "Schubert/DihedralSplines/FlowupOrbitSupport.lean",
+  "origin_kind": "unchanged",
+  "sha256": "25afcb558b5d5ce233e9b911a74a2666008ff55191c3a4a275adba3f668b290e"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FlowupPieceBases",
+  "path": "Schubert/DihedralSplines/FlowupPieceBases.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ed5015f3dd24310d3fd263dee9427791a95fdae432158c1ed6f6988e07007977"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FlowupRecursion",
+  "path": "Schubert/DihedralSplines/FlowupRecursion.lean",
+  "origin_kind": "unchanged",
+  "sha256": "b969f93a7b2ad8e60d398a588c8b61330f81f27c600350514e0fa1427df5a5e1"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FlowupSteps",
+  "path": "Schubert/DihedralSplines/FlowupSteps.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c37999d0d94f3cf680b3297345751776cad6768cb446f1cff5aebb00a1cff3c2"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FullCoinvariantEquivalence",
+  "path": "Schubert/DihedralSplines/FullCoinvariantEquivalence.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ebe2c10594ddfb68365d3789055328f84eb9763f880bf385ef9ff88c18fb2b53"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FullCoinvariantProjection",
+  "path": "Schubert/DihedralSplines/FullCoinvariantProjection.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a8a50cbb2c4bfc9a42aceb2ee74d6448ed49c73f17f01a22850c7507b193c895"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FullLeftAction",
+  "path": "Schubert/DihedralSplines/FullLeftAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f5555567dd032943aae6e33862234778524225ecafbc3607d24de6960e55ba77"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FullLeftClass",
+  "path": "Schubert/DihedralSplines/FullLeftClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "3f40aad6b8a19d9bc865e9e9da75bd6e17df07ddd2377e5a68e4d2f4376479cd"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FullLeftEdges",
+  "path": "Schubert/DihedralSplines/FullLeftEdges.lean",
+  "origin_kind": "unchanged",
+  "sha256": "74360d69d0932580ee9fa800751853dcf58780fbe254536858704b60d2215488"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FullLeftExtension",
+  "path": "Schubert/DihedralSplines/FullLeftExtension.lean",
+  "origin_kind": "unchanged",
+  "sha256": "0afa8629aad9046e7cf3f8fa359b8c80cefe7bc99224f0e20c2bad4b2b8863c0"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FullOrientedGraph",
+  "path": "Schubert/DihedralSplines/FullOrientedGraph.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8fc2de77f53ccb7bbe2ed4ef983d58c52dd1facd6ee6e6011b63b0b64a679ae1"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FullQuotientComparison",
+  "path": "Schubert/DihedralSplines/FullQuotientComparison.lean",
+  "origin_kind": "unchanged",
+  "sha256": "b854b3e00f35dabea204510f98cc43d3876b1896f52eace5fbf2ffe33b0d4e61"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FullRightClass",
+  "path": "Schubert/DihedralSplines/FullRightClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "33282f387fadad07f092fd45705b8ab23c71eafa68b8174e45eb7d009d45490e"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FullRightDeterminant",
+  "path": "Schubert/DihedralSplines/FullRightDeterminant.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5a0af58b0693eb5ec08423489eabcb57312fb9be73126496c9a2fd43a1481a38"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FullRightTrace",
+  "path": "Schubert/DihedralSplines/FullRightTrace.lean",
+  "origin_kind": "unchanged",
+  "sha256": "420010b2bf0cc63628d286a8aafa0e58d680a331d09399a8f832c9e94b169d8f"
+ },
+ {
+  "module": "Schubert.DihedralSplines.FullUpperBoundary",
+  "path": "Schubert/DihedralSplines/FullUpperBoundary.lean",
+  "origin_kind": "unchanged",
+  "sha256": "3528ff18827afc0fc71a0bfe00e3fff67b4a2d8061b5202b90d321765e683d1f"
+ },
+ {
+  "module": "Schubert.DihedralSplines.GeometricCoeff",
+  "path": "Schubert/DihedralSplines/GeometricCoeff.lean",
+  "origin_kind": "unchanged",
+  "sha256": "cf4ea5f4c94d5d077d2f8549f0fd863050d76fb631dfbb79324ee2436b713b1e"
+ },
+ {
+  "module": "Schubert.DihedralSplines.GeometricQuotientBasis",
+  "path": "Schubert/DihedralSplines/GeometricQuotientBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "910212811426178b794a2be21dd3709f481396f2b87342ce24d89111af376258"
+ },
+ {
+  "module": "Schubert.DihedralSplines.GradedQuotient",
+  "path": "Schubert/DihedralSplines/GradedQuotient.lean",
+  "origin_kind": "unchanged",
+  "sha256": "555b8c1892745254cccf55573540494626fed633ee31148ea897d121117c85ab"
+ },
+ {
+  "module": "Schubert.DihedralSplines.Grading",
+  "path": "Schubert/DihedralSplines/Grading.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ed7431cfa61d40c854619409ebb75710bb4c6de3dbbbcc82984fd0d6c7fabda1"
+ },
+ {
+  "module": "Schubert.DihedralSplines.GraphEdges",
+  "path": "Schubert/DihedralSplines/GraphEdges.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a3ad32c931d0bd089a53aee8ed950a9cae400fe6993e58e1f960aa4f6e72a2b3"
+ },
+ {
+  "module": "Schubert.DihedralSplines.Hessenberg",
+  "path": "Schubert/DihedralSplines/Hessenberg.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a86b711352bd9a7ed3cda3fc573e1669ce9dc237069eba624b26a3aec8ec077d"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergBasic",
+  "path": "Schubert/DihedralSplines/HessenbergBasic.lean",
+  "origin_kind": "unchanged",
+  "sha256": "fb27a4d07004b08a6889f855a63c974a9d19f5a3be11e62cd806516dead2c349"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergBlock",
+  "path": "Schubert/DihedralSplines/HessenbergBlock.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2e2bf0c551a19df45835f640ea0454c661b4b59d4666d30a83d4e2dd37e5acf2"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergClass",
+  "path": "Schubert/DihedralSplines/HessenbergClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "801720ba6119407b0e2c16d67ad1c7efa3b127e1480a21b550fdab5048975202"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergClassification",
+  "path": "Schubert/DihedralSplines/HessenbergClassification.lean",
+  "origin_kind": "unchanged",
+  "sha256": "cd6f101f38c2128e45a6ad3e07b1c4ef885103aae3d5b25d092c5ca2a4f45b59"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergConnectivity",
+  "path": "Schubert/DihedralSplines/HessenbergConnectivity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bccc46b646f0f95ba1ade0e7448f6163a1798d14d7c6637b7ce137297b04aa35"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergConvolution",
+  "path": "Schubert/DihedralSplines/HessenbergConvolution.lean",
+  "origin_kind": "unchanged",
+  "sha256": "e709b2e9a890e017054319fe4d0f775da5bb7545cb4d3ce9857c245014dafb24"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergCount",
+  "path": "Schubert/DihedralSplines/HessenbergCount.lean",
+  "origin_kind": "unchanged",
+  "sha256": "be62ce84bae138d7e5a2dfecaf8c40959c9e403747d486f07b9fed55d48b7fdb"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergDegree",
+  "path": "Schubert/DihedralSplines/HessenbergDegree.lean",
+  "origin_kind": "unchanged",
+  "sha256": "3ca6d0cfdb7b05cd44a10020deecd38a67a231f0eab09e9d15353c3fbacf2cce"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergDegreeCount",
+  "path": "Schubert/DihedralSplines/HessenbergDegreeCount.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bbb4074cbce13cdee3e4dcab403a8ca3929ea7d62df7bb6f9c24eb995dafae28"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergDegreeThreshold",
+  "path": "Schubert/DihedralSplines/HessenbergDegreeThreshold.lean",
+  "origin_kind": "unchanged",
+  "sha256": "66aee0605cc45482fbf709fc8cac0c9a89f7dde6c44633ccfcc66a996952238b"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergDominant",
+  "path": "Schubert/DihedralSplines/HessenbergDominant.lean",
+  "origin_kind": "unchanged",
+  "sha256": "568047c49fc4688167f9e05d16ee125fd09bd8989ed7f7e952e163f861bdba64"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergEvenEdges",
+  "path": "Schubert/DihedralSplines/HessenbergEvenEdges.lean",
+  "origin_kind": "unchanged",
+  "sha256": "dd626ab8c4f38558c4e436969ea0b5b38349348ef470b3349f10a8b6b67d1882"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergExtremes",
+  "path": "Schubert/DihedralSplines/HessenbergExtremes.lean",
+  "origin_kind": "unchanged",
+  "sha256": "db3e96a75d441d1c8e0795d23f46e1f0fa9376880cab439ca3219b5bb3c6fd8f"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergFamilies",
+  "path": "Schubert/DihedralSplines/HessenbergFamilies.lean",
+  "origin_kind": "unchanged",
+  "sha256": "22277ce79cfed008a2fd9fbdea695d15652d8d21b6e7179b950eb33a6bcdaa70"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergGeometricInversions",
+  "path": "Schubert/DihedralSplines/HessenbergGeometricInversions.lean",
+  "origin_kind": "unchanged",
+  "sha256": "461baf9dd5d66e794c0dc0b0404458cb32046bc3c46c5c8cd91266fc003283a7"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergIdealConvolution",
+  "path": "Schubert/DihedralSplines/HessenbergIdealConvolution.lean",
+  "origin_kind": "unchanged",
+  "sha256": "42a111af6d713b5e3fd381dd4f4b8a48b48fa5c8a2e88045fbbf9997f8cb6c3f"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergIdealDecomposition",
+  "path": "Schubert/DihedralSplines/HessenbergIdealDecomposition.lean",
+  "origin_kind": "unchanged",
+  "sha256": "cfa8b334fdc93211fbaa0a9ffcceb588352f9a2e53b3ffe2c74fe03810b5c481"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergInversions",
+  "path": "Schubert/DihedralSplines/HessenbergInversions.lean",
+  "origin_kind": "unchanged",
+  "sha256": "359126e6153787d3c9610534552006f8891135c73d90338d65c3d0b46961b170"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergLengthFibers",
+  "path": "Schubert/DihedralSplines/HessenbergLengthFibers.lean",
+  "origin_kind": "unchanged",
+  "sha256": "062c2ce4441eb34575d145ba3df8bccacf9374d535ed8f234c06db524004b301"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergLengthPolynomialClosed",
+  "path": "Schubert/DihedralSplines/HessenbergLengthPolynomialClosed.lean",
+  "origin_kind": "unchanged",
+  "sha256": "d3eb38f181821dc984261b123c9f6c619f9039b8f91887dcefc81c4ef758b2ee"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergLengthRanges",
+  "path": "Schubert/DihedralSplines/HessenbergLengthRanges.lean",
+  "origin_kind": "unchanged",
+  "sha256": "fd20fa16288ff63d8e35e366749756c6e163fda6d48445312aa3b0ad2e27bc5c"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergLocalization",
+  "path": "Schubert/DihedralSplines/HessenbergLocalization.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5decb9974242783b7ea46f0ac866fd7a96fbbcbb1e0939815a3e4d05e1035514"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergLongest",
+  "path": "Schubert/DihedralSplines/HessenbergLongest.lean",
+  "origin_kind": "unchanged",
+  "sha256": "82890e01a057eac76130e6beb2f21185a05c9dbc2c3bad4b6a93309c53c4372d"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergLowDegree",
+  "path": "Schubert/DihedralSplines/HessenbergLowDegree.lean",
+  "origin_kind": "unchanged",
+  "sha256": "77b25a801e71f051d75141bab3273cb8062be22a4eea4f8c4c59dd163389ffe1"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergMiddle",
+  "path": "Schubert/DihedralSplines/HessenbergMiddle.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a4de3c4d360cb4914aa24f9d9d4375a782bdbe9f657f0ece2c040e182f252133"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergMultiplicity",
+  "path": "Schubert/DihedralSplines/HessenbergMultiplicity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5313027513de3031deef74365f5f2bec6137b882c723e59d667e7d755ec5c4d7"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergObjectBridge",
+  "path": "Schubert/DihedralSplines/HessenbergObjectBridge.lean",
+  "origin_kind": "unchanged",
+  "sha256": "3d5d67b9699390e02ebcd436df93df564cf8cc32e3ac5433f2696db3c660d6d2"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergObjects",
+  "path": "Schubert/DihedralSplines/HessenbergObjects.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ae0d4f49c793646b3c57d14e13e1e23e37c44051f337a3d22a47d1354a42d94f"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergOrder",
+  "path": "Schubert/DihedralSplines/HessenbergOrder.lean",
+  "origin_kind": "unchanged",
+  "sha256": "e29fd4b8a740110e4f813e0583584a24cd5cfa8353f3cdff1b967e3896fefd05"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergPolynomial",
+  "path": "Schubert/DihedralSplines/HessenbergPolynomial.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7c33b7b2f4ae2d25d639cf1f4b34c9c85cf269e9e6954e9626e59929733331bc"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergReflectionBoundary",
+  "path": "Schubert/DihedralSplines/HessenbergReflectionBoundary.lean",
+  "origin_kind": "unchanged",
+  "sha256": "31cdae4e81c1a2602a7ea98d1074d2f578be1b429f8877ab31db166355e5e2fe"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergReflectionLength",
+  "path": "Schubert/DihedralSplines/HessenbergReflectionLength.lean",
+  "origin_kind": "unchanged",
+  "sha256": "e491561ff4762d60224d9ceaa6bd1382d233b84694bd90d3ef302fe90a92a252"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergRemovedClass",
+  "path": "Schubert/DihedralSplines/HessenbergRemovedClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "99f1c5dd726fbd2b91e355d45549e3a41766935c88a12e7cfad98188ddd01bf9"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergSimpleDegree",
+  "path": "Schubert/DihedralSplines/HessenbergSimpleDegree.lean",
+  "origin_kind": "unchanged",
+  "sha256": "55b31a0271ef4bbf248a7147a83e311ac2c98e6b7c7e7225dbc53b44f702f122"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergSimpleEdgeRanges",
+  "path": "Schubert/DihedralSplines/HessenbergSimpleEdgeRanges.lean",
+  "origin_kind": "unchanged",
+  "sha256": "d69889d63edb553565fcbf36eb47ebc9672019aac35b2627da34f7f09fa45a84"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergSupport",
+  "path": "Schubert/DihedralSplines/HessenbergSupport.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8c9a3515b421aa4875695a6ab5e6dc662d1175689ef590e3e2ac535ca20e37ea"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergSymmetry",
+  "path": "Schubert/DihedralSplines/HessenbergSymmetry.lean",
+  "origin_kind": "unchanged",
+  "sha256": "98470504f01aca88d8198e8649eb242ee7686e6992afca6c4d96844e6dd14d6f"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergTensorFree",
+  "path": "Schubert/DihedralSplines/HessenbergTensorFree.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ea8480b32920c1b061136e34afd4802346bc06721705842146b14fe7180d610e"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergTensorKernel",
+  "path": "Schubert/DihedralSplines/HessenbergTensorKernel.lean",
+  "origin_kind": "unchanged",
+  "sha256": "02c96299221b3ed241e8340749fa7f1689ec209d79de3686dc77f43f93bfb077"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergTensorPiece",
+  "path": "Schubert/DihedralSplines/HessenbergTensorPiece.lean",
+  "origin_kind": "unchanged",
+  "sha256": "13044841fad049cd2e210fb57bb45327f64fd1294cb48c6dbdf155b42118b451"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergTopEdge",
+  "path": "Schubert/DihedralSplines/HessenbergTopEdge.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5c652e58ff11135f925de8404e5d58e05476f3bf2bd8266ac7d833386247b06e"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergUpper",
+  "path": "Schubert/DihedralSplines/HessenbergUpper.lean",
+  "origin_kind": "unchanged",
+  "sha256": "78f056d13ceff2abef4c919a590b5562c033f46ec774d6c581e6c2b66a4e313f"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergVectorClassification",
+  "path": "Schubert/DihedralSplines/HessenbergVectorClassification.lean",
+  "origin_kind": "unchanged",
+  "sha256": "34e2f590769be1caf8ebb10015e0c546c1e7fa4b4d9af5e67f462af13585ad9a"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergVectorDegree",
+  "path": "Schubert/DihedralSplines/HessenbergVectorDegree.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ca7cbf9a7f21a11dbd9cb34c6423eec371511e00680e9b4392b1ee367fbf85f5"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergVectorDominant",
+  "path": "Schubert/DihedralSplines/HessenbergVectorDominant.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1e848ed6ca2fa60abe765368b179a8b26dbabf2d2354155804889b30096041e4"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HessenbergVectorPolynomial",
+  "path": "Schubert/DihedralSplines/HessenbergVectorPolynomial.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a559a07c297975a4c70aad4f7cfb04c9dbcd8611d3bdd12e4bda3d86aeee879e"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HexagonChamberObstruction",
+  "path": "Schubert/DihedralSplines/HexagonChamberObstruction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "908b23d516652e19f0e63d73f30228b230fc4b04d51d4c724a3b8fa9ad6e9286"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HexagonDepthCounterexample",
+  "path": "Schubert/DihedralSplines/HexagonDepthCounterexample.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8e8de690c707a08c0fa9e6520570b0368734b8e18bef9ef0a995650f1b81ba18"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HexagonSignChambers",
+  "path": "Schubert/DihedralSplines/HexagonSignChambers.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1ff65733b219585819c177fb950488e15f8b183806df394c30d9865ea7fd5a36"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HomogeneousFamily",
+  "path": "Schubert/DihedralSplines/HomogeneousFamily.lean",
+  "origin_kind": "unchanged",
+  "sha256": "15f0e645d6d7c34fae6a895dbeea46025269b5c5cd7a415a781b3754daba95d0"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HomogeneousFinite",
+  "path": "Schubert/DihedralSplines/HomogeneousFinite.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bb8d72f5b10c980ac0ec20e0bd3322a36b6a018ed44850e29a0745efe355c611"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HomogeneousTriangularFamily",
+  "path": "Schubert/DihedralSplines/HomogeneousTriangularFamily.lean",
+  "origin_kind": "unchanged",
+  "sha256": "aa09e29e1e2a17a05034f2cc7cb5acb2867c9ac532a152523d446bfbee7b89ff"
+ },
+ {
+  "module": "Schubert.DihedralSplines.HomogeneousWholeDegree",
+  "path": "Schubert/DihedralSplines/HomogeneousWholeDegree.lean",
+  "origin_kind": "unchanged",
+  "sha256": "fd059a460c1b8c0fa94a6982d368849fc61c9bfd64d4113203a291783fe9f9c4"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LeftClassPalindrome",
+  "path": "Schubert/DihedralSplines/LeftClassPalindrome.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a7c626fdd2c14bbeba6acb1fb4a113a1e3a842187d3dea11d810324f2e6a0f05"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LeftDimensions",
+  "path": "Schubert/DihedralSplines/LeftDimensions.lean",
+  "origin_kind": "unchanged",
+  "sha256": "d20257ad78fd58c9c67bb7500ec63587d470baf24ef7959be24a830ae77325c4"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LeftEvenClass",
+  "path": "Schubert/DihedralSplines/LeftEvenClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "220fbee03c759a71303835f1948713bebc1e68a9ed94563a66385203028ec9d1"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LeftEvenDegreeClass",
+  "path": "Schubert/DihedralSplines/LeftEvenDegreeClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "39856fd9f47518027476d82f50e48f46745b14266c6da5858f379e343a173ed1"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LeftEvenMiddleClass",
+  "path": "Schubert/DihedralSplines/LeftEvenMiddleClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bc4335934cc7482603d325bb7f14ff944b573141efeb070e1879696753627c33"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LeftEvenMiddleExhaustion",
+  "path": "Schubert/DihedralSplines/LeftEvenMiddleExhaustion.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7bd980c14e7b3004738ce9beac940d3ac46052ab6dfe2b52747de2520cf93deb"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LeftFixedRepresentation",
+  "path": "Schubert/DihedralSplines/LeftFixedRepresentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "aa371e78b2d5906d0af9f970be9cb29ffb6d5094a2d612171fc0ff1b04493278"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LeftLowClass",
+  "path": "Schubert/DihedralSplines/LeftLowClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "87608d718539541319c3a95cee27c4ab8739e3cfe3a32d6d32efed251b6c6ed9"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LeftMiddleMultiplicity",
+  "path": "Schubert/DihedralSplines/LeftMiddleMultiplicity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9aabf8726e7d19277eddabc691fdcd7b3a0bb1bc8b54f99fbc3042e4af27f0c1"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LeftMiddleSubtraction",
+  "path": "Schubert/DihedralSplines/LeftMiddleSubtraction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a5846429e56eec61bdc51f6fccd6bf9460e11a82d6a0a71343a0adf22b29f985"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LeftOddClass",
+  "path": "Schubert/DihedralSplines/LeftOddClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8fd4dbee1c8ed14fe596d2d921028aa46e3bf3e01688ae735e95934dd787fd4d"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LeftOddDegreeClass",
+  "path": "Schubert/DihedralSplines/LeftOddDegreeClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bed7e1215544584b73c79708f044602ef7f5a6a13181ac105f1d90449439902e"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LeftOddMiddleClass",
+  "path": "Schubert/DihedralSplines/LeftOddMiddleClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "3c85b2d921e157fbfddeaa8de697a2ee448ee5454992ffb617fd45c5095ffb68"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LeftOddMiddleExhaustion",
+  "path": "Schubert/DihedralSplines/LeftOddMiddleExhaustion.lean",
+  "origin_kind": "unchanged",
+  "sha256": "07011af4500ea0970a75b96bcdf7c00f6b75b402559fd649c026ab63239c1dca"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LeftRemovedMultiplicity",
+  "path": "Schubert/DihedralSplines/LeftRemovedMultiplicity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "57d692f127da54874ff1048571f688ee4902f3e980ef88a836355349da26df11"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LeftUpperBoundary",
+  "path": "Schubert/DihedralSplines/LeftUpperBoundary.lean",
+  "origin_kind": "unchanged",
+  "sha256": "603ecec58d38d5162665f78161c4b912fa4eb3643e0ffaf778c755b8fc996d7e"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LengthPolynomialSymmetry",
+  "path": "Schubert/DihedralSplines/LengthPolynomialSymmetry.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a2c9669652661680d48cab166b8ebfc05f940169ce700f584a38ce168b1d8373"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LowDegreeCoinvariantInjection",
+  "path": "Schubert/DihedralSplines/LowDegreeCoinvariantInjection.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a1f66800f9e5771d92bf9963d91aead95f635d90f7f33a2447a98a1a501f7176"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LowDegreeIdealRestriction",
+  "path": "Schubert/DihedralSplines/LowDegreeIdealRestriction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "618e7b12de6c2008b462de270ac04f1b371302385a5394ba4c667fa8e79cfa82"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LowDegreeQuotientRestriction",
+  "path": "Schubert/DihedralSplines/LowDegreeQuotientRestriction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c216a61d4128b67a44e1b7dcf9f89857ee5e5347278e1a477b054da537a05830"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LowDegreeSplineRestriction",
+  "path": "Schubert/DihedralSplines/LowDegreeSplineRestriction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9edffb8d5839d382a54d9ef339040e8d64f064873b318251baadc88d16e61c08"
+ },
+ {
+  "module": "Schubert.DihedralSplines.LowLeftAction",
+  "path": "Schubert/DihedralSplines/LowLeftAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1f11766b5cf74ccfab9881a6d9916f6c3ee50245e6287f7de92474e24b74dff0"
+ },
+ {
+  "module": "Schubert.DihedralSplines.Main",
+  "path": "Schubert/DihedralSplines/Main.lean",
+  "origin_kind": "unchanged",
+  "sha256": "b6fc9d1a44ba64446fa7039389d90521e2d179cab97612ce3662f3a5e7bea6ff"
+ },
+ {
+  "module": "Schubert.DihedralSplines.MiddleDimension",
+  "path": "Schubert/DihedralSplines/MiddleDimension.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7665c40e0a1325d83eaa69949bace5182ba702f90bac9410166f526ac32f27bc"
+ },
+ {
+  "module": "Schubert.DihedralSplines.MiddleDominantClass",
+  "path": "Schubert/DihedralSplines/MiddleDominantClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "02dcb180eb14e8f2b93d402ae4ccf7edd225eee6ad7d73c0c1e6a20a6a2d019c"
+ },
+ {
+  "module": "Schubert.DihedralSplines.MiddleOrbitRepresentation",
+  "path": "Schubert/DihedralSplines/MiddleOrbitRepresentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "48c12af53456cf74f504801dd4b53215ffb6b52f748f3e7b4dc6ed197ff553fa"
+ },
+ {
+  "module": "Schubert.DihedralSplines.MiddleScalarSurvival",
+  "path": "Schubert/DihedralSplines/MiddleScalarSurvival.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7a6a36b235b3f08d7c2c21d9824ea6bc288a03abd431fb0e50bd4a70003b36d2"
+ },
+ {
+  "module": "Schubert.DihedralSplines.MinimalGeneratorDegrees",
+  "path": "Schubert/DihedralSplines/MinimalGeneratorDegrees.lean",
+  "origin_kind": "unchanged",
+  "sha256": "126910e2e52f7288e83ce1c9c8868c695af44dc726520fd6ef4bfe01b5ee6163"
+ },
+ {
+  "module": "Schubert.DihedralSplines.MinimalGeneratorFinite",
+  "path": "Schubert/DihedralSplines/MinimalGeneratorFinite.lean",
+  "origin_kind": "unchanged",
+  "sha256": "40efb003fe7b3dec9694a53d9e2c285d8b342b08f6012156063d028a5c531e50"
+ },
+ {
+  "module": "Schubert.DihedralSplines.MinimalHomogeneousDegrees",
+  "path": "Schubert/DihedralSplines/MinimalHomogeneousDegrees.lean",
+  "origin_kind": "unchanged",
+  "sha256": "481d8915dad495babd7d3ba46358f5f8fdfe60e06d4819e2d68f12d762dd1a33"
+ },
+ {
+  "module": "Schubert.DihedralSplines.MissingTopClass",
+  "path": "Schubert/DihedralSplines/MissingTopClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "84881525de1fc3aa56f62762ea33c7067e1504e8ffb1579031bdedceec8c3a97"
+ },
+ {
+  "module": "Schubert.DihedralSplines.MissingTopIdeal",
+  "path": "Schubert/DihedralSplines/MissingTopIdeal.lean",
+  "origin_kind": "unchanged",
+  "sha256": "d78fa61f5f95dd3d7f539cc04632ab4f9eee2346012ba89c57520b77caeb3781"
+ },
+ {
+  "module": "Schubert.DihedralSplines.OddCosetSurvival",
+  "path": "Schubert/DihedralSplines/OddCosetSurvival.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2c4d517813025afea0fe3869e3b7fc45d9e212c95dab37b401c6b78dd5de7be5"
+ },
+ {
+  "module": "Schubert.DihedralSplines.OddFrequencySurvival",
+  "path": "Schubert/DihedralSplines/OddFrequencySurvival.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5b5b256e75e9ee3844d91fbe79ad876ba3f79d5d7791c977c2576e8a514ca5a1"
+ },
+ {
+  "module": "Schubert.DihedralSplines.OddIdealChoice",
+  "path": "Schubert/DihedralSplines/OddIdealChoice.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c8c146588bba73ac4bf5e96289469e10a9897314612e82e7ed4b6873a2f9e4c4"
+ },
+ {
+  "module": "Schubert.DihedralSplines.OddIdealExtension",
+  "path": "Schubert/DihedralSplines/OddIdealExtension.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9ae9eb3ad4671ce8f7c14bdfa7717902c3c34c4563903ff66aa5a01de6a7efbe"
+ },
+ {
+  "module": "Schubert.DihedralSplines.OddIdealWhole",
+  "path": "Schubert/DihedralSplines/OddIdealWhole.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4068ecfd5663c6879f65ade23216c4678f0d00df3534bbf77c84c4922d20052a"
+ },
+ {
+  "module": "Schubert.DihedralSplines.OddScalarSurvival",
+  "path": "Schubert/DihedralSplines/OddScalarSurvival.lean",
+  "origin_kind": "unchanged",
+  "sha256": "6cc5e6c4d2b087c316dfa76b927117782728dd4d324b0f5cf94e0b8ebd2eba4a"
+ },
+ {
+  "module": "Schubert.DihedralSplines.OddTerminal",
+  "path": "Schubert/DihedralSplines/OddTerminal.lean",
+  "origin_kind": "unchanged",
+  "sha256": "d18f009b8530b4f8bf32c3c3145137ef1e953ff68d2d80b651dc3927cd0ca7dd"
+ },
+ {
+  "module": "Schubert.DihedralSplines.OppositeFlowup",
+  "path": "Schubert/DihedralSplines/OppositeFlowup.lean",
+  "origin_kind": "unchanged",
+  "sha256": "cc6ae144653b93ab45ca612eaf0d5f5a9595cf89733893940fc54f2358798128"
+ },
+ {
+  "module": "Schubert.DihedralSplines.OrbitScalarRepresentation",
+  "path": "Schubert/DihedralSplines/OrbitScalarRepresentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "d87d8a25509be9e34b705de3283c763e164f888ec6c24235eb33599b49ad8c65"
+ },
+ {
+  "module": "Schubert.DihedralSplines.OrbitTensorFree",
+  "path": "Schubert/DihedralSplines/OrbitTensorFree.lean",
+  "origin_kind": "unchanged",
+  "sha256": "3efc29cd09de4b4f8f771e47ee04d7cbd6705ad0aaa8d696e67f66b3a4e551ea"
+ },
+ {
+  "module": "Schubert.DihedralSplines.OrientedCovers",
+  "path": "Schubert/DihedralSplines/OrientedCovers.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7c35e3dfba0487e66ca31d1667af52ab0e1e2145279223ebc199067df8e55454"
+ },
+ {
+  "module": "Schubert.DihedralSplines.OrientedEdgeLengths",
+  "path": "Schubert/DihedralSplines/OrientedEdgeLengths.lean",
+  "origin_kind": "unchanged",
+  "sha256": "69b42475ad5f9b207b923b3a8842918b78e0f716ef191d666047f45703b9e0b2"
+ },
+ {
+  "module": "Schubert.DihedralSplines.OrientedGraph",
+  "path": "Schubert/DihedralSplines/OrientedGraph.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a91bd68e30adb9c91ea22687fb92e1bd8229d2f8bf1a1e90e483b8cc652a804b"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PairedProducts",
+  "path": "Schubert/DihedralSplines/PairedProducts.lean",
+  "origin_kind": "unchanged",
+  "sha256": "aeeadc321e61986a3eb8d433fa173412963f15314a756ceca049985dbbee5909"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PaperAction",
+  "path": "Schubert/DihedralSplines/PaperAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a2a3932ee6dcde05103fdd3e10d118232f599281b36162628fb81edea78b786d"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PaperCoordinates",
+  "path": "Schubert/DihedralSplines/PaperCoordinates.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4a9a53ab4ca3442c8849340e1ce79a96d56ea81e84c79576bd9606bc3c7db1cb"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PaperDividedDifference",
+  "path": "Schubert/DihedralSplines/PaperDividedDifference.lean",
+  "origin_kind": "unchanged",
+  "sha256": "216ad29c95ac03e85bc1046a6ebeeda6ed3c9ece9a27ac22f266d7d6e3396e05"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PaperFull",
+  "path": "Schubert/DihedralSplines/PaperFull.lean",
+  "origin_kind": "unchanged",
+  "sha256": "598e148f314f74463a752fce2223965fdfe20a19d16d401c72c2d5f978a115c6"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PaperGrading",
+  "path": "Schubert/DihedralSplines/PaperGrading.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f24fb1f39e9c0e811477b2c75941ade9001600efb880e8aa2666bdd809b73f44"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PaperGraph",
+  "path": "Schubert/DihedralSplines/PaperGraph.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8324bde1b4a1adcedf18032cf9fcaf9f1de1aae6ee636cc5fef795275e685288"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PaperIdeal",
+  "path": "Schubert/DihedralSplines/PaperIdeal.lean",
+  "origin_kind": "unchanged",
+  "sha256": "e116e085651d04742098259cc3df521f0583699dd5959045fd8146d44b818053"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PaperLocalization",
+  "path": "Schubert/DihedralSplines/PaperLocalization.lean",
+  "origin_kind": "unchanged",
+  "sha256": "3a914f15cbf1656ba5601e18394195e66634736dca02677d6a866709065b9c9b"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PaperModuleFinite",
+  "path": "Schubert/DihedralSplines/PaperModuleFinite.lean",
+  "origin_kind": "unchanged",
+  "sha256": "0994f6a6867970b3b49778ebcd0d0dac041ee9a481f00b451bc88ac7ec19494b"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PaperQuotient",
+  "path": "Schubert/DihedralSplines/PaperQuotient.lean",
+  "origin_kind": "unchanged",
+  "sha256": "37013c9aaf3bf3db929a5d3477fbaee46ce8ef27a1e635cf1f5746b86ea3fa0f"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PaperQuotientAction",
+  "path": "Schubert/DihedralSplines/PaperQuotientAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "15aa9c449f98bf99cdd4f5be385b3bf69f2bb491ef2e740d5deac45e68a10ce5"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PaperQuotientFinite",
+  "path": "Schubert/DihedralSplines/PaperQuotientFinite.lean",
+  "origin_kind": "unchanged",
+  "sha256": "3c2017c1fcc559581736037f8365c5f13cc860ff6657e795ceb4f835e2d0da58"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PaperQuotientGrading",
+  "path": "Schubert/DihedralSplines/PaperQuotientGrading.lean",
+  "origin_kind": "unchanged",
+  "sha256": "86f16a1aa494e7a9fa9c090b4f55c8e6d5e9d4da27579e45560393346ee1399d"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PaperScalarTransport",
+  "path": "Schubert/DihedralSplines/PaperScalarTransport.lean",
+  "origin_kind": "unchanged",
+  "sha256": "e1b7adc595c884dd142a15385ad1ef3ed523279dae9144c42e37966dd1f60a7d"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PaperSpline",
+  "path": "Schubert/DihedralSplines/PaperSpline.lean",
+  "origin_kind": "unchanged",
+  "sha256": "13b27268f44493ca5f2c9925f02ba51e1ca30a79db923f1c0b6ea487d2b3bc90"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PaperTop",
+  "path": "Schubert/DihedralSplines/PaperTop.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7ae38e5a26dc749b0be8095f607cc4852f1bd5382e0c2d445ba6cf2c9cfd2dfd"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PentagonDegree",
+  "path": "Schubert/DihedralSplines/PentagonDegree.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2c458b2e1ca4def792c3df762daea4fdf820ce4c91b68d74b3d9f99899ff2b3f"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PentagonFamily",
+  "path": "Schubert/DihedralSplines/PentagonFamily.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1de2ccd5f5fb4795fd80a6ba8ee66283bb3d309c9a62589a4ccdb4ce598e3b57"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PentagonGraph",
+  "path": "Schubert/DihedralSplines/PentagonGraph.lean",
+  "origin_kind": "unchanged",
+  "sha256": "da5e125f7117f5d8150daf1aa6ba2b0c97c71ca6a6474fb5ba13e6d47b63b357"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PentagonHasse",
+  "path": "Schubert/DihedralSplines/PentagonHasse.lean",
+  "origin_kind": "unchanged",
+  "sha256": "87a90eab5257b09ba203529fc004819fda18e387fb00fe97f3dd5f65973f181c"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PentagonIdeal",
+  "path": "Schubert/DihedralSplines/PentagonIdeal.lean",
+  "origin_kind": "unchanged",
+  "sha256": "012f69ea1ca518f43e0f39e9a0a3a8d4c8c93a734b4ade1946aad620877d1de4"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PentagonOrientation",
+  "path": "Schubert/DihedralSplines/PentagonOrientation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "90a7af3d8e2f094cf3bf8fd94277dadab99ed9d032a2082a8a31057abe7645ac"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PentagonRecursion",
+  "path": "Schubert/DihedralSplines/PentagonRecursion.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4968f696f0456c6358e957a9739723ccf8625beb01ff23bdad59be2d306c5c90"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PentagonRepresentation",
+  "path": "Schubert/DihedralSplines/PentagonRepresentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a98a63d6bff096c85a1d643e88fcf50bf9bd6dac2a850d0bbe31c238693d4c72"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PentagonSteps",
+  "path": "Schubert/DihedralSplines/PentagonSteps.lean",
+  "origin_kind": "unchanged",
+  "sha256": "b766e860b34a7fc4f8079e7d749cc875b87d8840ed1d6031622376717329c38a"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PentagonTop",
+  "path": "Schubert/DihedralSplines/PentagonTop.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2ddc21e5c1c9f27001a8cdc8f8224d1eaabc212729e64a2a65096c0ce5eb3f14"
+ },
+ {
+  "module": "Schubert.DihedralSplines.PieceFinite",
+  "path": "Schubert/DihedralSplines/PieceFinite.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4ac16ca6461d931ea9b47e5d9490ced7ff5812f27cf4caea0bfcef104c684d2f"
+ },
+ {
+  "module": "Schubert.DihedralSplines.Quotient",
+  "path": "Schubert/DihedralSplines/Quotient.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f5c81a346460b58c76cefcc342f4dad728dfecf4e1af3b4a17e41eeeae9def98"
+ },
+ {
+  "module": "Schubert.DihedralSplines.QuotientCharacterZero",
+  "path": "Schubert/DihedralSplines/QuotientCharacterZero.lean",
+  "origin_kind": "unchanged",
+  "sha256": "43593dcc94dbaead11f8afc4772b7e0fa8504cba0186f1999ddd38dee0a246b7"
+ },
+ {
+  "module": "Schubert.DihedralSplines.QuotientClass",
+  "path": "Schubert/DihedralSplines/QuotientClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1553fc042afbdfb4bab74c26e5302c36d8475f79120a22a13c9cc6470ad72961"
+ },
+ {
+  "module": "Schubert.DihedralSplines.QuotientClassSupport",
+  "path": "Schubert/DihedralSplines/QuotientClassSupport.lean",
+  "origin_kind": "unchanged",
+  "sha256": "deacdd1aef089c4f9e3f18e7b1d9ffdcdd5af9353768b5c7ebae8f8e54f8bec0"
+ },
+ {
+  "module": "Schubert.DihedralSplines.QuotientConstituent",
+  "path": "Schubert/DihedralSplines/QuotientConstituent.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4cac0767453cb160af0ea51f385064f8678baa91f955c0caac88f5e6774f3b5d"
+ },
+ {
+  "module": "Schubert.DihedralSplines.QuotientDuality",
+  "path": "Schubert/DihedralSplines/QuotientDuality.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f507e9a5cb327369141a5d3c2d067bd6984906e2a3ca3e5036691eeca503bd51"
+ },
+ {
+  "module": "Schubert.DihedralSplines.QuotientMultiplication",
+  "path": "Schubert/DihedralSplines/QuotientMultiplication.lean",
+  "origin_kind": "unchanged",
+  "sha256": "eb4b8a41979858bcdaafbd8352d8dfff802b315a815a6e840c0e04ec1c8abdfd"
+ },
+ {
+  "module": "Schubert.DihedralSplines.QuotientPairing",
+  "path": "Schubert/DihedralSplines/QuotientPairing.lean",
+  "origin_kind": "unchanged",
+  "sha256": "10e60ee20aba1925b9d4fbf22c5f16bf1773d6b3591e65c00e563ac2ebd4861b"
+ },
+ {
+  "module": "Schubert.DihedralSplines.QuotientRepresentation",
+  "path": "Schubert/DihedralSplines/QuotientRepresentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ff5590884371854c2a255d4a7de25d49a7ce4287cc0b8a1cde379724920e9185"
+ },
+ {
+  "module": "Schubert.DihedralSplines.QuotientRestriction",
+  "path": "Schubert/DihedralSplines/QuotientRestriction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "0fa5cc1df4d8861f147d19afa018f9c1a30180275d69669d3b41c3d1fefbc95c"
+ },
+ {
+  "module": "Schubert.DihedralSplines.QuotientScalarAction",
+  "path": "Schubert/DihedralSplines/QuotientScalarAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "62f211dd4a64ab3886cc3474fb0d1b66ee5c482693f666394d8c7ac5c0928763"
+ },
+ {
+  "module": "Schubert.DihedralSplines.QuotientSurvival",
+  "path": "Schubert/DihedralSplines/QuotientSurvival.lean",
+  "origin_kind": "unchanged",
+  "sha256": "80bbe9cb7593d7dcf368537ced78d1b23e159001852a246037e0876678c96f46"
+ },
+ {
+  "module": "Schubert.DihedralSplines.QuotientSymmetry",
+  "path": "Schubert/DihedralSplines/QuotientSymmetry.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2690bb04bcbb944c215d9e5f3c61aed32747b53a3b22ed7e4d7d389965905d48"
+ },
+ {
+  "module": "Schubert.DihedralSplines.ReflectionLemma",
+  "path": "Schubert/DihedralSplines/ReflectionLemma.lean",
+  "origin_kind": "unchanged",
+  "sha256": "433f139123267c0a5dd97c155b9836eb938f4c7657fe1c71f916dbccfdbb35cb"
+ },
+ {
+  "module": "Schubert.DihedralSplines.RightEvenClass",
+  "path": "Schubert/DihedralSplines/RightEvenClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7b21773971c92009c24e70f0d3ffcc730f3bffe48653aee143d73434c6064c60"
+ },
+ {
+  "module": "Schubert.DihedralSplines.RightEvenDegreeClass",
+  "path": "Schubert/DihedralSplines/RightEvenDegreeClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a949daf1e31c4222199fbb6aa0156eacff025545822d9a12ae5b3de79b99b7f6"
+ },
+ {
+  "module": "Schubert.DihedralSplines.RightEvenMiddleClass",
+  "path": "Schubert/DihedralSplines/RightEvenMiddleClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "647c7a11c2e1eb8cd12c2fdac1e1a30e70a1b4267329cdce939f5b124e37074c"
+ },
+ {
+  "module": "Schubert.DihedralSplines.RightEvenMiddleExhaustion",
+  "path": "Schubert/DihedralSplines/RightEvenMiddleExhaustion.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f7d40978fd06a56075c8a03614d62894807cacdd14ae131bed6c0128afe0df3c"
+ },
+ {
+  "module": "Schubert.DihedralSplines.RightLowFrequency",
+  "path": "Schubert/DihedralSplines/RightLowFrequency.lean",
+  "origin_kind": "unchanged",
+  "sha256": "30014ad3eb2951fa9fe91510be6d80b0717371c970c685fae82dea7d30c86c73"
+ },
+ {
+  "module": "Schubert.DihedralSplines.RightMiddleMultiplicity",
+  "path": "Schubert/DihedralSplines/RightMiddleMultiplicity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f45f73d24c3417770050c47d21c97085d4d4d82b43621ce17b0584217a9a62c9"
+ },
+ {
+  "module": "Schubert.DihedralSplines.RightOddClass",
+  "path": "Schubert/DihedralSplines/RightOddClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8252166b49630658ebdb28eca4f697c74e121e1293506011cecef60d5a8c7a71"
+ },
+ {
+  "module": "Schubert.DihedralSplines.RightOddDegreeClass",
+  "path": "Schubert/DihedralSplines/RightOddDegreeClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4e70385bb1ee3085fdbc73625d1a705c719763cf2304fd3b5f5d9f0e834bd7c8"
+ },
+ {
+  "module": "Schubert.DihedralSplines.RightOddMiddleClass",
+  "path": "Schubert/DihedralSplines/RightOddMiddleClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8c56e07442c40b9aaea2de804908515be9cfa120eaaac36c1324f232ef1a89ee"
+ },
+ {
+  "module": "Schubert.DihedralSplines.RightOddMiddleExhaustion",
+  "path": "Schubert/DihedralSplines/RightOddMiddleExhaustion.lean",
+  "origin_kind": "unchanged",
+  "sha256": "6fdb4af6130b7240d8019c661e22043431b75d0fba788f071d7d99680424fbcb"
+ },
+ {
+  "module": "Schubert.DihedralSplines.RightRemovedMultiplicity",
+  "path": "Schubert/DihedralSplines/RightRemovedMultiplicity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "95e893133bafb89d867105f75df5178ab0769ea34f2971aa526607a3b10de822"
+ },
+ {
+  "module": "Schubert.DihedralSplines.RootConjugateEdge",
+  "path": "Schubert/DihedralSplines/RootConjugateEdge.lean",
+  "origin_kind": "unchanged",
+  "sha256": "37fcfcc05fdb6d2ec7ad86da28ccd813409255412611bddb6d290cfef6b0bbc5"
+ },
+ {
+  "module": "Schubert.DihedralSplines.RootFullDegree",
+  "path": "Schubert/DihedralSplines/RootFullDegree.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7dfaaa45b164267fba77de701a9dd5c0b4c54d22e656f03ca25bc02387032662"
+ },
+ {
+  "module": "Schubert.DihedralSplines.RootLayerOrder",
+  "path": "Schubert/DihedralSplines/RootLayerOrder.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4800e02057d44967de6df46638fe69b955e9e3cbc0b56b29d223f111c14d07bf"
+ },
+ {
+  "module": "Schubert.DihedralSplines.RootNearest",
+  "path": "Schubert/DihedralSplines/RootNearest.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ca6a320ff9e882c2810be732ef70d78c9094b21ce3bf1e48c6cb7144f6e7766b"
+ },
+ {
+  "module": "Schubert.DihedralSplines.RootOrder",
+  "path": "Schubert/DihedralSplines/RootOrder.lean",
+  "origin_kind": "unchanged",
+  "sha256": "e76924ed44f0eda2660050c1ca7af2e767e2854526bfca6e87a3da70279c0515"
+ },
+ {
+  "module": "Schubert.DihedralSplines.RootOrderCovers",
+  "path": "Schubert/DihedralSplines/RootOrderCovers.lean",
+  "origin_kind": "unchanged",
+  "sha256": "51d572769cbc1a08082111f9ee28e4b9fac0ff66630c007b83d8e9fdae888e3e"
+ },
+ {
+  "module": "Schubert.DihedralSplines.RootVectorComparison",
+  "path": "Schubert/DihedralSplines/RootVectorComparison.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c8dac695476f68f92b3a22fbbe70eff783f3dea4b7ba291af648a15d1f5ffc2c"
+ },
+ {
+  "module": "Schubert.DihedralSplines.ScalarKernel",
+  "path": "Schubert/DihedralSplines/ScalarKernel.lean",
+  "origin_kind": "unchanged",
+  "sha256": "98072c862ce5135f41c8749288685adcb0cd455602847b64f5bfdf78f051fcb1"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SchubertBasis",
+  "path": "Schubert/DihedralSplines/SchubertBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "389b036461a0f438dee1a680cbb733172961256264d408090ddf53eded0a38ba"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SchubertConstruction",
+  "path": "Schubert/DihedralSplines/SchubertConstruction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "00e94ea31081a7e3ef3d6d9867b4cd225892f1ec6c08a29474833398cb1bd3d8"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SchubertDiagonal",
+  "path": "Schubert/DihedralSplines/SchubertDiagonal.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4385f05c257c77cc5db312485a1852eb465685fba383f55e5e683d1244df70d3"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SchubertHilbert",
+  "path": "Schubert/DihedralSplines/SchubertHilbert.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5df672c8c3334e14f9e807eca247fc9ebe0eb5ee467249930f90518a2ecbbcc2"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SchubertLocalization",
+  "path": "Schubert/DihedralSplines/SchubertLocalization.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ad3fd3a10431a88c267dea38e6c34730d016d495f78050c499534632fa209627"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SchubertOperators",
+  "path": "Schubert/DihedralSplines/SchubertOperators.lean",
+  "origin_kind": "unchanged",
+  "sha256": "605a8cc058fe211577fba64f0812727beb759d38a6539d717aaedf2a33eb43a7"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SchubertRational",
+  "path": "Schubert/DihedralSplines/SchubertRational.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7f04248b0c94cb7500344c02493f7bf19308dee10b8138f497078e62723fd111"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SchubertRecursion",
+  "path": "Schubert/DihedralSplines/SchubertRecursion.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9debc63da1f7bedc9fad4e10d11040b729922b2c39754e4f943239d5e9a71393"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SelectedLongest",
+  "path": "Schubert/DihedralSplines/SelectedLongest.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c66ccd877716351731a81e57bdf584cd00b1b152453998e51169c3571523e018"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SelectedUpper",
+  "path": "Schubert/DihedralSplines/SelectedUpper.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8ace8f0437b9b82b93398063ef5263f69fbcdd64865888469024e02006076d50"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SimpleOrientedGraph",
+  "path": "Schubert/DihedralSplines/SimpleOrientedGraph.lean",
+  "origin_kind": "unchanged",
+  "sha256": "02f603d3f194868b89f97e615e72498a78a7ff4a9ae72bb9116905afdf113fe5"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SingletonBoundary",
+  "path": "Schubert/DihedralSplines/SingletonBoundary.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f843b2dcd66a68c96ab8bb8cb37f73dedfc96204f47ffb341a37c2cb5f420bae"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SingletonNormalization",
+  "path": "Schubert/DihedralSplines/SingletonNormalization.lean",
+  "origin_kind": "unchanged",
+  "sha256": "88c61f57f14bb3d638e6eaea33537d2b743333ca2eba015a085e28c0d35f0eb8"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SingletonTranslation",
+  "path": "Schubert/DihedralSplines/SingletonTranslation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a95a215edb4843b9d05d65230bdf1f45717868af4959e09b9147c208736e76ed"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SixRootIdeal",
+  "path": "Schubert/DihedralSplines/SixRootIdeal.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f4626d29f59d8b7d57c48812c7a930d46c04e67ab0ae7cfc9f3244dcfe7c70bf"
+ },
+ {
+  "module": "Schubert.DihedralSplines.Spline",
+  "path": "Schubert/DihedralSplines/Spline.lean",
+  "origin_kind": "unchanged",
+  "sha256": "18448e4f08f5ef94d56a5bd0f2d31ee575987e68d9e741748fdb9f1ea4a1732b"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SplineEquivariantBasis",
+  "path": "Schubert/DihedralSplines/SplineEquivariantBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ab1c7adfedc227ca51633e1a00e587f63d22b8760616a053a8e74e6955a16570"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SplineGradedSection",
+  "path": "Schubert/DihedralSplines/SplineGradedSection.lean",
+  "origin_kind": "unchanged",
+  "sha256": "42c5860e5a615bcc32a0806f5bd9e38a80ab0222809af8d78e6f702caa9e593c"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SplineHilbert",
+  "path": "Schubert/DihedralSplines/SplineHilbert.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c037b91a7d9d9cc43c50c67eee32b1cef2a368e3838ab1f16f88146bf39db996"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SplineOrbitAction",
+  "path": "Schubert/DihedralSplines/SplineOrbitAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8d0d677e808a3c24ac38f38c52432270c710f673e18c36527911f3a8f6b48e2a"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SplinePieceSection",
+  "path": "Schubert/DihedralSplines/SplinePieceSection.lean",
+  "origin_kind": "unchanged",
+  "sha256": "620dc87572be3b92f7771dfcd8d7032135a5491efd2decf4c577a379ab9aeb2e"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SplineRestriction",
+  "path": "Schubert/DihedralSplines/SplineRestriction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "221c1e5fd90529425fdb2368a372ef8bd1d57f167f1045f6d8a7e6396ec92a44"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SplineScalarAction",
+  "path": "Schubert/DihedralSplines/SplineScalarAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a0c293f067aa3473acf60afde1bf1d87ebcc0cf41d03e2c67cbe0068e10a525b"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SplineTensorAugmentation",
+  "path": "Schubert/DihedralSplines/SplineTensorAugmentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "cbb381ad42d2026f312e2889030222356dc87b702ccd45f0b5fe73d73e6d5886"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SplineTensorFree",
+  "path": "Schubert/DihedralSplines/SplineTensorFree.lean",
+  "origin_kind": "unchanged",
+  "sha256": "e1c2c7f251b029a5e52805cd8cd310c903a81c7add00cb0c890c5f71087c7723"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SplineTensorIdeal",
+  "path": "Schubert/DihedralSplines/SplineTensorIdeal.lean",
+  "origin_kind": "unchanged",
+  "sha256": "86ddd421bd76a736daddc407d2cdd4d29fb154c03f00eb156deb0418d704f725"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SquareAction",
+  "path": "Schubert/DihedralSplines/SquareAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5f9974cac05a707720bb37b28dc5d84b461a50b463df954eb3b44b9f9117122c"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SquareCayley",
+  "path": "Schubert/DihedralSplines/SquareCayley.lean",
+  "origin_kind": "unchanged",
+  "sha256": "06d1ce44cde81fe06173a1652e6a061bd9f64798d961fe26147e7b16dfe374f5"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SquareLabels",
+  "path": "Schubert/DihedralSplines/SquareLabels.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4d33ff6cf24e4db407e04766cd7403fecb78fb834738c093434972a33a5af295"
+ },
+ {
+  "module": "Schubert.DihedralSplines.SquareSplines",
+  "path": "Schubert/DihedralSplines/SquareSplines.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c2aafa81a71035c1fde3ede50399ab52b089dbe58d4fee6226816ce60d4da784"
+ },
+ {
+  "module": "Schubert.DihedralSplines.TopQuotientAction",
+  "path": "Schubert/DihedralSplines/TopQuotientAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "d85ec3d6a1366415dd8451ea3ccce7878d04da598b44ad44e7f2b7f6e23955b6"
+ },
+ {
+  "module": "Schubert.DihedralSplines.TopRepresentation",
+  "path": "Schubert/DihedralSplines/TopRepresentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9b6ba0184a0d16877f7287d7d5383f00f79f6beb13864aba7e4d609880a9dd87"
+ },
+ {
+  "module": "Schubert.DihedralSplines.TopSpline",
+  "path": "Schubert/DihedralSplines/TopSpline.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8fcd2e6d5f1882628d047c8a40bada01739f54bfedfc5aa77adb24d3bfa09751"
+ },
+ {
+  "module": "Schubert.DihedralSplines.TriangleCayley",
+  "path": "Schubert/DihedralSplines/TriangleCayley.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f2ee16f17150b646d1be128d907ec52e73e36d82c90dc4cc1097b6440236aee3"
+ },
+ {
+  "module": "Schubert.DihedralSplines.TriangleSplines",
+  "path": "Schubert/DihedralSplines/TriangleSplines.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c4da75e4b8b926b9b58205f709dae62af305e55d8f076ef004044fba0764a5d7"
+ },
+ {
+  "module": "Schubert.DihedralSplines.TriangularBasis",
+  "path": "Schubert/DihedralSplines/TriangularBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "be044a0b0e6266351b75aad85994a95cb282bc95fdc46b6244de10d33a771f33"
+ },
+ {
+  "module": "Schubert.DihedralSplines.TriangularDivisibility",
+  "path": "Schubert/DihedralSplines/TriangularDivisibility.lean",
+  "origin_kind": "unchanged",
+  "sha256": "54314cd2b8e00ea78eaeaef730d0d45d10ca100ace23f62332f0f620a9619686"
+ },
+ {
+  "module": "Schubert.DihedralSplines.TriangularFamily",
+  "path": "Schubert/DihedralSplines/TriangularFamily.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8d55e9328abf419c02fe95b0f481ea7e89a42ccc5027ac2f8d33bde41beb42e7"
+ },
+ {
+  "module": "Schubert.DihedralSplines.TriangularGradedQuotient",
+  "path": "Schubert/DihedralSplines/TriangularGradedQuotient.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2741c4075d6e4804a404af48c459a0fe9da20cd7c1941f6de3df50c5f2f4b19d"
+ },
+ {
+  "module": "Schubert.DihedralSplines.TriangularHilbertCoefficients",
+  "path": "Schubert/DihedralSplines/TriangularHilbertCoefficients.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7ef525a5abae5c7e2496f63f60f7fc626c7eec10f6268e84471659abf356cad7"
+ },
+ {
+  "module": "Schubert.DihedralSplines.TriangularHomogeneity",
+  "path": "Schubert/DihedralSplines/TriangularHomogeneity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "819dc982b6ebfd91d779dbdde3fe30658549699e4235629e6265669d0a01ba4e"
+ },
+ {
+  "module": "Schubert.DihedralSplines.TriangularQuotientBasis",
+  "path": "Schubert/DihedralSplines/TriangularQuotientBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "770b2d50c27fce8f90bb4b59e7aaf5beaecef28a35aea9bd2dd305d75d6cf80c"
+ },
+ {
+  "module": "Schubert.DihedralSplines.TriangularQuotientFinite",
+  "path": "Schubert/DihedralSplines/TriangularQuotientFinite.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ec480ec5abf7b45a938d52f0dbeb38ca9a61f01d4a69d5e9fb1735a648bbf156"
+ },
+ {
+  "module": "Schubert.DihedralSplines.TrivialBoundary",
+  "path": "Schubert/DihedralSplines/TrivialBoundary.lean",
+  "origin_kind": "unchanged",
+  "sha256": "41cc4ba09246108501a45dbc1273f725b284b9bc4ad74ffc3b1ce27e77cc051c"
+ },
+ {
+  "module": "Schubert.DihedralSplines.TrivialLeftEmbedding",
+  "path": "Schubert/DihedralSplines/TrivialLeftEmbedding.lean",
+  "origin_kind": "unchanged",
+  "sha256": "577ec416a71eb2cddf9fc50394d94f7c1df19b84135ee63b67b78ff51faf9561"
+ },
+ {
+  "module": "Schubert.DihedralSplines.TrivialLeftSubrepresentation",
+  "path": "Schubert/DihedralSplines/TrivialLeftSubrepresentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "e3fd9f4731b848c61527def679a1036aea6759fd24143a04c971624809e0b14b"
+ },
+ {
+  "module": "Schubert.DihedralSplines.TwoSimpleClass",
+  "path": "Schubert/DihedralSplines/TwoSimpleClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "71a8f7fd13e38ab5666fb55fda9ec21b65acd1d81799ae1371b21ba14afc435d"
+ },
+ {
+  "module": "Schubert.DihedralSplines.UpperAscentEdges",
+  "path": "Schubert/DihedralSplines/UpperAscentEdges.lean",
+  "origin_kind": "unchanged",
+  "sha256": "3f7ecfdaaa368ebd7285e578573f9c6f608f1b662bb42776d4a7ec9aa5610f90"
+ },
+ {
+  "module": "Schubert.DihedralSplines.UpperBlockSelected",
+  "path": "Schubert/DihedralSplines/UpperBlockSelected.lean",
+  "origin_kind": "unchanged",
+  "sha256": "0877e7b86331dfe6de05b05e2a570b92fb521687b94cee583efbb731ad518e7e"
+ },
+ {
+  "module": "Schubert.DihedralSplines.UpperConnectivity",
+  "path": "Schubert/DihedralSplines/UpperConnectivity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "6f9589c3d086fcd5fcd72105c8c9e3b849d4462468ced946dbdbeab1089834f1"
+ },
+ {
+  "module": "Schubert.DihedralSplines.UpperLocalization",
+  "path": "Schubert/DihedralSplines/UpperLocalization.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4508943d5b44599f104c2761a659e1fe3600983c21c181c6d1c6b45f205bb0cd"
+ },
+ {
+  "module": "Schubert.DihedralSplines.WholeQuotientCharacter",
+  "path": "Schubert/DihedralSplines/WholeQuotientCharacter.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a493f4a852e9e934ee07ed0a8edeeeb4185e316d76c49ed7e68b46222c142f9d"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.CharacterBasis",
+  "path": "Schubert/FiniteGroupCharacters/CharacterBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2b1e4bed8d2c84acef797a71e94904dc5a00e58cbe015a1f8a9dc396b9e80a4e"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.CharacterExpansion",
+  "path": "Schubert/FiniteGroupCharacters/CharacterExpansion.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ad0dcfbe4c904956037655e8af775fdd6df2fdce353cb68374fc3906998800f5"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.CharacterLine",
+  "path": "Schubert/FiniteGroupCharacters/CharacterLine.lean",
+  "origin_kind": "unchanged",
+  "sha256": "303d2e1e5d45c7b4027a70c898ce4c2c3fee8a5425d5cb0a4654e4dc9bf5bb9b"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.ClassDimension",
+  "path": "Schubert/FiniteGroupCharacters/ClassDimension.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5f3420a046469c19f5ff169630456e105b4c48176710d6f99b103933e91d8907"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.ClassMultiplicity",
+  "path": "Schubert/FiniteGroupCharacters/ClassMultiplicity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "cc2fbfc8406a1ae8eef1f11d834c737c57b7d09f814524bff436a785454ef52e"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.DegreePairs",
+  "path": "Schubert/FiniteGroupCharacters/DegreePairs.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f248e3541ea31915497d8b73c5e8063c33fc07422a8a7aaf42796c9f4c670249"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.DirectSumCharacter",
+  "path": "Schubert/FiniteGroupCharacters/DirectSumCharacter.lean",
+  "origin_kind": "unchanged",
+  "sha256": "caf2291d7b8f135848693e2b964a61966162e77b4f06e0d21bdb6abeab3016fb"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.DualEquiv",
+  "path": "Schubert/FiniteGroupCharacters/DualEquiv.lean",
+  "origin_kind": "unchanged",
+  "sha256": "31b7908bf4102765df443e7fde8195cdc3fa6225785eade5f0aa914836fdcb4f"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.EmbeddedHomogeneousBasis",
+  "path": "Schubert/FiniteGroupCharacters/EmbeddedHomogeneousBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1e321f46d971f0f57206250b368f2efa15d8d690008acfd101313d5a361cb83b"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.EquivariantSection",
+  "path": "Schubert/FiniteGroupCharacters/EquivariantSection.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ada63307645c9f39346c20ef143e99b535ffb0c92d34243d8715508d33fc2d63"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.EquivariantSplit",
+  "path": "Schubert/FiniteGroupCharacters/EquivariantSplit.lean",
+  "origin_kind": "unchanged",
+  "sha256": "07502e2acafef70dc8cf4f4af7c536ed96dc97ba764d432afc877c1a6c4e2189"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.FiniteSum",
+  "path": "Schubert/FiniteGroupCharacters/FiniteSum.lean",
+  "origin_kind": "unchanged",
+  "sha256": "75e42bb5a3c3e63a48ca46ff752bb424947bf840b9dd85cf0600b8c80d10e5ba"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.FixedRepresentation",
+  "path": "Schubert/FiniteGroupCharacters/FixedRepresentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9e0f0f5625b964faf06b5fff306d532b6c319adb2e5e586b8818554af61c0c72"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.FrequencyDimensions",
+  "path": "Schubert/FiniteGroupCharacters/FrequencyDimensions.lean",
+  "origin_kind": "unchanged",
+  "sha256": "91ea6e5febec81d84815d40481b5b21b30b5699c9add6daf1ef22b92ee34857c"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.FrequencyPairs",
+  "path": "Schubert/FiniteGroupCharacters/FrequencyPairs.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f743c9f32a4b71580d240c873844b911841ce5c1a0a7dee4e0e0d12fcb7b842f"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.GeometricSeries",
+  "path": "Schubert/FiniteGroupCharacters/GeometricSeries.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9a278d30ac3e9d48b605e5240119f9a3e46003d60c31367c5f260e502d4f63cb"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.GradedCharacter",
+  "path": "Schubert/FiniteGroupCharacters/GradedCharacter.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7f5e830872802f83ac2ac6c96cea888318af7f6ede0d2dbc3b1d903ad782e0b1"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.GradedClass",
+  "path": "Schubert/FiniteGroupCharacters/GradedClass.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ab8fb089b817841c37c60eff6cde4491d005403dce1f24eef8466c4719cfa39e"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.GradedClassFinite",
+  "path": "Schubert/FiniteGroupCharacters/GradedClassFinite.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bb1222293acae1a5216d09e6c8e42218ebf9ca9082ce16b728472814f156522f"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.GradedQuotientSection",
+  "path": "Schubert/FiniteGroupCharacters/GradedQuotientSection.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4ca6c818f0cce27707232fdfbc2b5b90d16fd8b06ff915136e31aad126b75bef"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.GradedSection",
+  "path": "Schubert/FiniteGroupCharacters/GradedSection.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c2e967c369c82769e47e10adbf3140d69bfc874679f6ce69ac57fdc3d1b7bae6"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.HomDimension",
+  "path": "Schubert/FiniteGroupCharacters/HomDimension.lean",
+  "origin_kind": "unchanged",
+  "sha256": "942917117292a8980681dcb3b1af32ece35df89de36da02c6ea8a498f4a13b6e"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.HomIntertwiner",
+  "path": "Schubert/FiniteGroupCharacters/HomIntertwiner.lean",
+  "origin_kind": "unchanged",
+  "sha256": "43740a19d98085e1cb4346f08262c99f5dee32780844f424e8b9781483be00b8"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.HomMultiplicity",
+  "path": "Schubert/FiniteGroupCharacters/HomMultiplicity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "01d85d37265d1496616e56546804e910719598f249783b3c965d02e2087c0c53"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.HomogeneousCharacter",
+  "path": "Schubert/FiniteGroupCharacters/HomogeneousCharacter.lean",
+  "origin_kind": "unchanged",
+  "sha256": "3dc940be9d26b69b6a4c25afcfe077fa57897734e710b56d73a32b8c2ba758fd"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.HomSurvival",
+  "path": "Schubert/FiniteGroupCharacters/HomSurvival.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ef66e54abfc279de74b2f38a087b7e6bcc822de60ca5f95ffba76a8e9b79a0e5"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.IntertwinerRange",
+  "path": "Schubert/FiniteGroupCharacters/IntertwinerRange.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2b6795e10a2ec201608275aa957becb238bcf6bb8dab26b3915eb5cdb682d086"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.IrreducibleFinite",
+  "path": "Schubert/FiniteGroupCharacters/IrreducibleFinite.lean",
+  "origin_kind": "unchanged",
+  "sha256": "18c38853c8a1aec2dd8976faadb8c2ae3ff8cbbc1b1906daf6638d1dc9aedc6a"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.KernelRestriction",
+  "path": "Schubert/FiniteGroupCharacters/KernelRestriction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7e3670364361ae194bbbcbd5567997b4b951f3b53982802ecace31a73ad3ca87"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.LastWeight",
+  "path": "Schubert/FiniteGroupCharacters/LastWeight.lean",
+  "origin_kind": "unchanged",
+  "sha256": "018e5da8d0bebdcb2fa9c3e15f84eddae36c5e938386d450acfa5ba6f0fe4f47"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.Main",
+  "path": "Schubert/FiniteGroupCharacters/Main.lean",
+  "origin_kind": "unchanged",
+  "sha256": "fe700e9b2004bddb54db62f0eeae7ced24f524b54adda646e2b0e5e89765f11e"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.MorphismDimension",
+  "path": "Schubert/FiniteGroupCharacters/MorphismDimension.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5b45bb4e071b72ef445c4cdbaa82809a4c968c6e27a90cc799740d8f53d7ed9c"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.MorphismEmbedding",
+  "path": "Schubert/FiniteGroupCharacters/MorphismEmbedding.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c7a9724725ec0a4266e7d1064a5a9585a5854a3bff71d512df7ffc02c448fe09"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.MultiplicityExhaustion",
+  "path": "Schubert/FiniteGroupCharacters/MultiplicityExhaustion.lean",
+  "origin_kind": "unchanged",
+  "sha256": "cceb04fd923d413c928abef5b739ff2a2a0d04a751d098b1063b58afae7b9b3a"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.OrbitSpan",
+  "path": "Schubert/FiniteGroupCharacters/OrbitSpan.lean",
+  "origin_kind": "unchanged",
+  "sha256": "734e89c0696d803b6b9a42e845565d50a257162c7bdb182795fbd539c8249dcd"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.PairingRepresentation",
+  "path": "Schubert/FiniteGroupCharacters/PairingRepresentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "57e879f34ad6915f36214483b8d61717e1b311603fb2f500577467123b634fcc"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.PermutationEquiv",
+  "path": "Schubert/FiniteGroupCharacters/PermutationEquiv.lean",
+  "origin_kind": "unchanged",
+  "sha256": "3ac09fe2bb042a6cb7d2def2ce0b992d64efc7967f30bc01105074c4c51aea20"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.PermutationSpan",
+  "path": "Schubert/FiniteGroupCharacters/PermutationSpan.lean",
+  "origin_kind": "unchanged",
+  "sha256": "34394ca8b08bfd895011b5ccb4b2e6f5c3fc80ce0e43a798f3742c3ecae291ed"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.PermutationSum",
+  "path": "Schubert/FiniteGroupCharacters/PermutationSum.lean",
+  "origin_kind": "unchanged",
+  "sha256": "45245884c145d75e231f78abd98adc14fb48db1a4c9d600f18392c63a48a1bac"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.PositiveDegreePairs",
+  "path": "Schubert/FiniteGroupCharacters/PositiveDegreePairs.lean",
+  "origin_kind": "unchanged",
+  "sha256": "fdff621258d3c06048f9759a272e4f160c24476c0e76a6c5af7de640a30d48a7"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.PositiveTensorAction",
+  "path": "Schubert/FiniteGroupCharacters/PositiveTensorAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "e8533310388bd27725d96e303c7a807997315d09dd712bf91d9fb1770570b8ab"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.PositiveTensorBasis",
+  "path": "Schubert/FiniteGroupCharacters/PositiveTensorBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a73652c44798faa3ccbfb8fe8dcd66299719a1cd7c04ceae553ed216bc9501da"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.PositiveTensorCharacter",
+  "path": "Schubert/FiniteGroupCharacters/PositiveTensorCharacter.lean",
+  "origin_kind": "unchanged",
+  "sha256": "43fd2bcfd3169274d15d85a2d8d24ee700cb21f5b4c69e6f4315d6cfdd115cfc"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.PositiveTensorDegree",
+  "path": "Schubert/FiniteGroupCharacters/PositiveTensorDegree.lean",
+  "origin_kind": "unchanged",
+  "sha256": "3a6c7add17092411e8974e97c635903c6af7887ead8d6f2b5a7f5812204ae6d9"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.PositiveTensorDegreeAction",
+  "path": "Schubert/FiniteGroupCharacters/PositiveTensorDegreeAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5fccdd4264a8fea16b6d6ec4b2ca7bf3e89ae60008546286637162834a8c74e3"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.PositiveTensorPiece",
+  "path": "Schubert/FiniteGroupCharacters/PositiveTensorPiece.lean",
+  "origin_kind": "unchanged",
+  "sha256": "32a692ee1f6be2cf8985dc7760cd254c4161f43cd67c35125c22ef3dfca55ae7"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.ReflectionQuotientNontrivial",
+  "path": "Schubert/FiniteGroupCharacters/ReflectionQuotientNontrivial.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c880369a96d6e84fe9a0b85b3d1ca44d2431c7969a2eadbdc85c552f4e3e5005"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.RepresentationDimension",
+  "path": "Schubert/FiniteGroupCharacters/RepresentationDimension.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5f3381ac8a9eaeb3e4fbf8d31cb684d94d759dfb1a2d9f5a5d425f64827957d7"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.RestrictEquiv",
+  "path": "Schubert/FiniteGroupCharacters/RestrictEquiv.lean",
+  "origin_kind": "unchanged",
+  "sha256": "81f06a9b954c2c00a36419065609f41277bff250ed92a500a332ca15ec9210e4"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.ScalarCharacter",
+  "path": "Schubert/FiniteGroupCharacters/ScalarCharacter.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ab146e06be7918582f0ee31bebc0bf534672d85c0f89d32c326e0462b8ff8c96"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.ScalarEigenline",
+  "path": "Schubert/FiniteGroupCharacters/ScalarEigenline.lean",
+  "origin_kind": "unchanged",
+  "sha256": "0b1c35a8be75e958a7736d086914ceb178452bfaa0ac1d09631eadfbb3aea47a"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.ShiftedSeries",
+  "path": "Schubert/FiniteGroupCharacters/ShiftedSeries.lean",
+  "origin_kind": "unchanged",
+  "sha256": "b5905c092316f7d549bedcbc03ea57f0866c7b1c27808f4d916c60cf77c431d0"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.SimpleEmbedding",
+  "path": "Schubert/FiniteGroupCharacters/SimpleEmbedding.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8a10ea4fe3d2d09d2db015394c84a54bd26c8538df7ada8e24656bd36b13a71f"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.SimpleFamily",
+  "path": "Schubert/FiniteGroupCharacters/SimpleFamily.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5a7642072bd744a64a4b61661abf0f1d0a221c025bc5a9f34461a17de80ba34f"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.TensorAugmentation",
+  "path": "Schubert/FiniteGroupCharacters/TensorAugmentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "b9377382e0728cc4bee3ebb501bf9518b3009c8c72c2174bea10bbd0f05b6258"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.TensorAugmentationTransport",
+  "path": "Schubert/FiniteGroupCharacters/TensorAugmentationTransport.lean",
+  "origin_kind": "unchanged",
+  "sha256": "40b969dff750d009cbfac2096db1219121aaf901d141f602efdee942bcb5cc1c"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.TensorDegreeAction",
+  "path": "Schubert/FiniteGroupCharacters/TensorDegreeAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a7f113fcdb8d9b7dcb44f7a9328bfbb797bd9d82b466ddc2450f6b0dad8fbed4"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.TensorDegreeEquiv",
+  "path": "Schubert/FiniteGroupCharacters/TensorDegreeEquiv.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1bb626025d3c3278aedfec833b12a2490e0484dc2724fe65d8544d10efb896a2"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.TensorGrading",
+  "path": "Schubert/FiniteGroupCharacters/TensorGrading.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2e7509dac3e13ac74dc213b1cec4f1aec326d417ec1ad52571f0f923a0fe6a64"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.TensorKernelDegree",
+  "path": "Schubert/FiniteGroupCharacters/TensorKernelDegree.lean",
+  "origin_kind": "unchanged",
+  "sha256": "812e7c67cc9fa9604e36ef4a8fa43d783935c1cbdfa995e8853455816d3c538c"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.TensorPieceAction",
+  "path": "Schubert/FiniteGroupCharacters/TensorPieceAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7ee4fd6e697d656502921261ad85fb24620c53a7f976e1ffe761607575f4bd97"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.TensorPieceBasis",
+  "path": "Schubert/FiniteGroupCharacters/TensorPieceBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "6b223e48cdaae7162865aabca311ba834fae5a5b180ae576d06b58b7cfc27448"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.TensorPieceCharacter",
+  "path": "Schubert/FiniteGroupCharacters/TensorPieceCharacter.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bc3de5319925434e21da28df8c9b0f70f4d9443b3761441dc6918e34ae5bbe07"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.TensorPieceFinite",
+  "path": "Schubert/FiniteGroupCharacters/TensorPieceFinite.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ac882e7bcfffc6f826d0be0151443cffb1dc4a16f5a4562aaaa29581554d5741"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.TensorSection",
+  "path": "Schubert/FiniteGroupCharacters/TensorSection.lean",
+  "origin_kind": "unchanged",
+  "sha256": "21b7d66d488037349d8d619ddf2e26a1c4cf1b36e5311eac233c610764742db3"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.TensorSectionProperties",
+  "path": "Schubert/FiniteGroupCharacters/TensorSectionProperties.lean",
+  "origin_kind": "unchanged",
+  "sha256": "6b9787550d7432b663dacf183863f6dbce6a0475b8231acd8b52c5bbae18ec1f"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.TwoDimensionalIrreducible",
+  "path": "Schubert/FiniteGroupCharacters/TwoDimensionalIrreducible.lean",
+  "origin_kind": "unchanged",
+  "sha256": "854563688ff8e61fc59146c902358434a5daa4af6919e8bde05377387680d5e0"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.WeightMultiplicity",
+  "path": "Schubert/FiniteGroupCharacters/WeightMultiplicity.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7abc584f8b71ec0c1a5e8b216cc60646f2bdd4f122b18393ffa7a27df9e5636e"
+ },
+ {
+  "module": "Schubert.FiniteGroupCharacters.WeightPairs",
+  "path": "Schubert/FiniteGroupCharacters/WeightPairs.lean",
+  "origin_kind": "unchanged",
+  "sha256": "92aa35effd79f870cdfee4732cbcebc2c858fd64e7e3662e15621ef4f50f9d0b"
+ },
+ {
+  "module": "Schubert.Splines.ArbitraryHomogeneousBasis",
+  "path": "Schubert/Splines/ArbitraryHomogeneousBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "0e5568872d9c05561d6c0c69acc3bf3abd845f17a38623044f18ceed25a72f46"
+ },
+ {
+  "module": "Schubert.Splines.BasisIdealCoordinates",
+  "path": "Schubert/Splines/BasisIdealCoordinates.lean",
+  "origin_kind": "unchanged",
+  "sha256": "50637b7fa44e4a475106c7c0c90e659fab5082753524e6d4e1f5965ba872308a"
+ },
+ {
+  "module": "Schubert.Splines.BasisMinimality",
+  "path": "Schubert/Splines/BasisMinimality.lean",
+  "origin_kind": "unchanged",
+  "sha256": "665b77fb4e8c5a66bf972f821dcfb01d5e104cd1033192230a073e6ca81895f3"
+ },
+ {
+  "module": "Schubert.Splines.DimensionPolynomial",
+  "path": "Schubert/Splines/DimensionPolynomial.lean",
+  "origin_kind": "unchanged",
+  "sha256": "390354c4053290417b53de775aad55b0ae252394b4a424fdb833d4ef224a07e6"
+ },
+ {
+  "module": "Schubert.Splines.DotAction",
+  "path": "Schubert/Splines/DotAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5dc88c909ebbafb74ceec13b3767de227fade116e2424557e70b722468fa7917"
+ },
+ {
+  "module": "Schubert.Splines.EdgeDivisibility",
+  "path": "Schubert/Splines/EdgeDivisibility.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7a5c6d848c8b7a3d18e7e158e26c8b77d7a7808b625e3e8376b620e4206e7e30"
+ },
+ {
+  "module": "Schubert.Splines.FinitePolynomialGrading",
+  "path": "Schubert/Splines/FinitePolynomialGrading.lean",
+  "origin_kind": "unchanged",
+  "sha256": "250be0fb6389df8e61fe3e462caa90ff054ea67a9b6d44d71d33bfa55b3c5519"
+ },
+ {
+  "module": "Schubert.Splines.FinitePolynomialQuotient",
+  "path": "Schubert/Splines/FinitePolynomialQuotient.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9b7f3b5809361f8035dd79ca06104911378b4a1b05031b43923fda04ce9563d7"
+ },
+ {
+  "module": "Schubert.Splines.GaloisTensor",
+  "path": "Schubert/Splines/GaloisTensor.lean",
+  "origin_kind": "unchanged",
+  "sha256": "22584643e445e2a9b53884b037427b797c221ad5add93baf437d292158ed7f66"
+ },
+ {
+  "module": "Schubert.Splines.GeometricTrace",
+  "path": "Schubert/Splines/GeometricTrace.lean",
+  "origin_kind": "unchanged",
+  "sha256": "ae67cd88e69327462931e5bc46a9181fcd59f5af00e1bb87a4300eb1106875b6"
+ },
+ {
+  "module": "Schubert.Splines.GradedEmbeddingSurjective",
+  "path": "Schubert/Splines/GradedEmbeddingSurjective.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c6314ecd30dc24e2619ff57828551c81e355ab43ebf9ef83baa2599ac0631e52"
+ },
+ {
+  "module": "Schubert.Splines.GradedMultiplication",
+  "path": "Schubert/Splines/GradedMultiplication.lean",
+  "origin_kind": "unchanged",
+  "sha256": "6eb6e7ff920b935c7b0dc822e476ce6393879cf637e2113696b9d5a4ae644b5f"
+ },
+ {
+  "module": "Schubert.Splines.GradedQuotientBasis",
+  "path": "Schubert/Splines/GradedQuotientBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2cbadafe43111e1cbac1e03103bf2ab171572b6f40daa32414b6f6c1dc8ca6dc"
+ },
+ {
+  "module": "Schubert.Splines.GradedReflectionGraph",
+  "path": "Schubert/Splines/GradedReflectionGraph.lean",
+  "origin_kind": "unchanged",
+  "sha256": "b7cfba14530dff2998aa18929ef06fd160647cd55602a97c573c7358713d2bb3"
+ },
+ {
+  "module": "Schubert.Splines.Graph",
+  "path": "Schubert/Splines/Graph.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5b22addab225ea6882158326282caf105d428f765d5f0a3ad20788f796b81f1e"
+ },
+ {
+  "module": "Schubert.Splines.GraphFinite",
+  "path": "Schubert/Splines/GraphFinite.lean",
+  "origin_kind": "unchanged",
+  "sha256": "3eaac99331d76990f344604ac5c6967e5862a9a3ef7aca557c2e33a24f90cf39"
+ },
+ {
+  "module": "Schubert.Splines.HilbertSeries",
+  "path": "Schubert/Splines/HilbertSeries.lean",
+  "origin_kind": "unchanged",
+  "sha256": "09fb6071447833becb3e9c8dd991c1e0147f7c691900213150acd33627a26cbb"
+ },
+ {
+  "module": "Schubert.Splines.HomogeneousAlgebraGenerators",
+  "path": "Schubert/Splines/HomogeneousAlgebraGenerators.lean",
+  "origin_kind": "unchanged",
+  "sha256": "0882a79d61f1587f6f31bbb4a39b5cb958a363d23b326ec4d7964bfe6e5eb043"
+ },
+ {
+  "module": "Schubert.Splines.HomogeneousBasis",
+  "path": "Schubert/Splines/HomogeneousBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c814c55c9a91111d6d46ab97c0bdf76e099ebce90886eebc67a34040a8e83c77"
+ },
+ {
+  "module": "Schubert.Splines.HomogeneousBasisLift",
+  "path": "Schubert/Splines/HomogeneousBasisLift.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2fe87732d87de4308c949ba97b1e59cd85c73331d9a945409ffb913e21b1d35a"
+ },
+ {
+  "module": "Schubert.Splines.HomogeneousDivisibility",
+  "path": "Schubert/Splines/HomogeneousDivisibility.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9aa1a7b9816855e3351c43420becc671f32fb9cc0a6bb39f368cae5399d39585"
+ },
+ {
+  "module": "Schubert.Splines.HomogeneousDivision",
+  "path": "Schubert/Splines/HomogeneousDivision.lean",
+  "origin_kind": "unchanged",
+  "sha256": "fd12edec22fc8dd003f8091e0be03eb49248bfed4019752e31eb7fe0d06f29d9"
+ },
+ {
+  "module": "Schubert.Splines.HomogeneousGenerators",
+  "path": "Schubert/Splines/HomogeneousGenerators.lean",
+  "origin_kind": "unchanged",
+  "sha256": "12230f4784544519802dc3f864cec0c4e232224de9ad3b1e607f0b615b006638"
+ },
+ {
+  "module": "Schubert.Splines.HomogeneousMinimalGenerators",
+  "path": "Schubert/Splines/HomogeneousMinimalGenerators.lean",
+  "origin_kind": "unchanged",
+  "sha256": "64d29d56c50743fb8cde0e0a02bf1f86663c41d2b50f5d0d5fa4c7e5c50852c7"
+ },
+ {
+  "module": "Schubert.Splines.HomogeneousMinimalMultiple",
+  "path": "Schubert/Splines/HomogeneousMinimalMultiple.lean",
+  "origin_kind": "unchanged",
+  "sha256": "daad8b17863de9a571dfa2e6fdb495b66ed48d1e1753793b94047e91635cfcef"
+ },
+ {
+  "module": "Schubert.Splines.HomogeneousSpanningLift",
+  "path": "Schubert/Splines/HomogeneousSpanningLift.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c9469e2e528def4ccb4c69012dc7e350457623919b5fdbc0cc5b713cb5515889"
+ },
+ {
+  "module": "Schubert.Splines.IdealBasisLift",
+  "path": "Schubert/Splines/IdealBasisLift.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c9215544efec6951da21ddeae5b60057afaeca6520507712767d5f0f0b8a34f2"
+ },
+ {
+  "module": "Schubert.Splines.IdealScalarExtension",
+  "path": "Schubert/Splines/IdealScalarExtension.lean",
+  "origin_kind": "unchanged",
+  "sha256": "106782822902f226a177c2275d16fbb11ebca4e69ab791a5b0acc20a6c37e950"
+ },
+ {
+  "module": "Schubert.Splines.Main",
+  "path": "Schubert/Splines/Main.lean",
+  "origin_kind": "unchanged",
+  "sha256": "627462199eace2a6de07e78fade8ed5325462573c0465b95b320ae94a0ab0d8c"
+ },
+ {
+  "module": "Schubert.Splines.MatchedBasisSurjective",
+  "path": "Schubert/Splines/MatchedBasisSurjective.lean",
+  "origin_kind": "unchanged",
+  "sha256": "347396d9d3a9526525c4ecb6b8f84c93639ef07c46c123704846bc8182e6274f"
+ },
+ {
+  "module": "Schubert.Splines.OrbitBasisIndependent",
+  "path": "Schubert/Splines/OrbitBasisIndependent.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8b4ec69bcb9bd057934fa9af660592f160010fb1f8f25f5b3a0cc6e8794c3dad"
+ },
+ {
+  "module": "Schubert.Splines.PolynomialAlgebraCoordinates",
+  "path": "Schubert/Splines/PolynomialAlgebraCoordinates.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f044e13fd733da49714d2c6705f6773396540e51e1c9352c55f0a7cecd8ba1ce"
+ },
+ {
+  "module": "Schubert.Splines.PolynomialAlgebraQuotientBasis",
+  "path": "Schubert/Splines/PolynomialAlgebraQuotientBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f06c59864404c5cc4b0f09d590dd7e057d76c12e35ddb2cd46027928e270e8b2"
+ },
+ {
+  "module": "Schubert.Splines.PolynomialAugmentation",
+  "path": "Schubert/Splines/PolynomialAugmentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "b0befd211a31927ad5e8c8e07fa86e133235c4f76ac55c183504df418c1eb3ec"
+ },
+ {
+  "module": "Schubert.Splines.PolynomialBasisAugmentation",
+  "path": "Schubert/Splines/PolynomialBasisAugmentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "61f2cf4cbe2982c5bcf58939554c76bd0f14fb89fd1a8df7e636a210e0a04818"
+ },
+ {
+  "module": "Schubert.Splines.PolynomialBasisCoordinates",
+  "path": "Schubert/Splines/PolynomialBasisCoordinates.lean",
+  "origin_kind": "unchanged",
+  "sha256": "984c40bf60a80ddab961ad725a42b97abdfcec54e3a260dd8d85412ae696306f"
+ },
+ {
+  "module": "Schubert.Splines.PolynomialCongruence",
+  "path": "Schubert/Splines/PolynomialCongruence.lean",
+  "origin_kind": "unchanged",
+  "sha256": "425b29fe3cb1b6b5e138e9d29ba4a2592f95e4e48f65dcb115f02f830a6c8bb6"
+ },
+ {
+  "module": "Schubert.Splines.PolynomialDegree",
+  "path": "Schubert/Splines/PolynomialDegree.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8849d0862096614920e216c4b9e67391f20b09690e341e65bc3728e73181222b"
+ },
+ {
+  "module": "Schubert.Splines.PolynomialDivisionDegree",
+  "path": "Schubert/Splines/PolynomialDivisionDegree.lean",
+  "origin_kind": "unchanged",
+  "sha256": "09b7d34778393fc0bc376db4797108a40a348348457767053009c7941cbd78ab"
+ },
+ {
+  "module": "Schubert.Splines.PolynomialGrading",
+  "path": "Schubert/Splines/PolynomialGrading.lean",
+  "origin_kind": "unchanged",
+  "sha256": "32d058396138345156ad9591f6c8f37e9f6f266e1f297b599eeaecaa65b7cc33"
+ },
+ {
+  "module": "Schubert.Splines.PolynomialGraph",
+  "path": "Schubert/Splines/PolynomialGraph.lean",
+  "origin_kind": "unchanged",
+  "sha256": "116f92bc5e741d654fdb607f2dfee617a805d8f81c8fe698127e07c8ae2aee4a"
+ },
+ {
+  "module": "Schubert.Splines.PolynomialModuleQuotientBasis",
+  "path": "Schubert/Splines/PolynomialModuleQuotientBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "0022e365826c25df36b82c4989023ef0f0c9f44c20a1b468a764c077cb510317"
+ },
+ {
+  "module": "Schubert.Splines.PolynomialQuotientSpan",
+  "path": "Schubert/Splines/PolynomialQuotientSpan.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f8debc3f3f4daa9c3e631cddda056316cf2900f30a74850965d49071305525fe"
+ },
+ {
+  "module": "Schubert.Splines.PolynomialSplineFinite",
+  "path": "Schubert/Splines/PolynomialSplineFinite.lean",
+  "origin_kind": "unchanged",
+  "sha256": "da9a86460919cac3590b7661901be55fca5b8ffa5c198c4004e464b933371d19"
+ },
+ {
+  "module": "Schubert.Splines.PolynomialSplineHilbert",
+  "path": "Schubert/Splines/PolynomialSplineHilbert.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9fc442683f57702625686285c4292bfd73c62330c817b67d5867d660d688ca68"
+ },
+ {
+  "module": "Schubert.Splines.PolynomialSplinePieceBasis",
+  "path": "Schubert/Splines/PolynomialSplinePieceBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5494c58ba72a8ce6b08a40f1435ddd8ab3636262a366666ffd113dca1184fc52"
+ },
+ {
+  "module": "Schubert.Splines.Quotient",
+  "path": "Schubert/Splines/Quotient.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2a60e48ce1e27c1a3774d39b1b85f51cf430ab626cd320000d806df976cff641"
+ },
+ {
+  "module": "Schubert.Splines.QuotientAction",
+  "path": "Schubert/Splines/QuotientAction.lean",
+  "origin_kind": "unchanged",
+  "sha256": "89e7c2ae437c333893131948ee53a6100623486688e867c853ab146a43a2572d"
+ },
+ {
+  "module": "Schubert.Splines.QuotientFinite",
+  "path": "Schubert/Splines/QuotientFinite.lean",
+  "origin_kind": "unchanged",
+  "sha256": "68f6d794ca48f1269aabaff441176de2a1dc05af5b04dc08f731d7369b53b0ea"
+ },
+ {
+  "module": "Schubert.Splines.QuotientGrading",
+  "path": "Schubert/Splines/QuotientGrading.lean",
+  "origin_kind": "unchanged",
+  "sha256": "5b7f1e6fa3689b42f6a7ee3480b7f4763e513b70c38df7f934b541cadf8d8105"
+ },
+ {
+  "module": "Schubert.Splines.QuotientPieceFinite",
+  "path": "Schubert/Splines/QuotientPieceFinite.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f34dcf439d72fdc239a76896f956b5399a959330c88ef196a5ddddda2e71f92d"
+ },
+ {
+  "module": "Schubert.Splines.QuotientRepresentation",
+  "path": "Schubert/Splines/QuotientRepresentation.lean",
+  "origin_kind": "unchanged",
+  "sha256": "9932d7f209da3dbf739ec620898efe5dc20ea08b3ea6865322652bec88c6a7ce"
+ },
+ {
+  "module": "Schubert.Splines.ReflectionDividedDifference",
+  "path": "Schubert/Splines/ReflectionDividedDifference.lean",
+  "origin_kind": "unchanged",
+  "sha256": "f22b3fe95db48b101cbe956cb308d32ebadac16c699bc750f15e5fdf09a8e94c"
+ },
+ {
+  "module": "Schubert.Splines.ReflectionDivisibility",
+  "path": "Schubert/Splines/ReflectionDivisibility.lean",
+  "origin_kind": "unchanged",
+  "sha256": "1561af57ea6fa858fabe6e1c5d6b01f153b0a0af42ed1d142781ba253462f1f0"
+ },
+ {
+  "module": "Schubert.Splines.ReflectionEdges",
+  "path": "Schubert/Splines/ReflectionEdges.lean",
+  "origin_kind": "unchanged",
+  "sha256": "8b8f865a207f2791e869c3dc487336a523a504d9742aa4edd5dba7d964a2e3ef"
+ },
+ {
+  "module": "Schubert.Splines.ReflectionGraph",
+  "path": "Schubert/Splines/ReflectionGraph.lean",
+  "origin_kind": "unchanged",
+  "sha256": "cbb842b55ae4cd394c0ac4c634fa61a8ea9b05a126d8ac67960da679e38ba8fe"
+ },
+ {
+  "module": "Schubert.Splines.ReflectionNoetherian",
+  "path": "Schubert/Splines/ReflectionNoetherian.lean",
+  "origin_kind": "unchanged",
+  "sha256": "7296be829e0c3e93a4be923de04e657a930cc27a7a0a00f93c4c6b184a531af7"
+ },
+ {
+  "module": "Schubert.Splines.ReflectionPolynomial",
+  "path": "Schubert/Splines/ReflectionPolynomial.lean",
+  "origin_kind": "unchanged",
+  "sha256": "97418ebd7cf76be2d1684a6b3c0b371345263d4142783f9f8130b8fe2dd94623"
+ },
+ {
+  "module": "Schubert.Splines.ReflectionQuotientBasis",
+  "path": "Schubert/Splines/ReflectionQuotientBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "02d1dffa930044162b6980b234a8ee1490621fd0afc29767337c67a6471603a4"
+ },
+ {
+  "module": "Schubert.Splines.ReflectionQuotientFinite",
+  "path": "Schubert/Splines/ReflectionQuotientFinite.lean",
+  "origin_kind": "unchanged",
+  "sha256": "2edb14f6a7b928faa1d4cc015a6475739f3d1ff659a202e1f891305a1777f50d"
+ },
+ {
+  "module": "Schubert.Splines.RightTriangularBasis",
+  "path": "Schubert/Splines/RightTriangularBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c6b5760b09c8649244b593163ff4846657ca97e431787e86affdee7a3912d2a5"
+ },
+ {
+  "module": "Schubert.Splines.ScalarEmbeddings",
+  "path": "Schubert/Splines/ScalarEmbeddings.lean",
+  "origin_kind": "unchanged",
+  "sha256": "bdfc4612b2f1ee27ad6343326d9fff04701caac2e71b35cd016b1bedc357a218"
+ },
+ {
+  "module": "Schubert.Splines.ScalarGrading",
+  "path": "Schubert/Splines/ScalarGrading.lean",
+  "origin_kind": "unchanged",
+  "sha256": "98529a6f73caa07b14eac1d29ec1b3b2d41067d83520a171ece6425caf903253"
+ },
+ {
+  "module": "Schubert.Splines.SingleVertexSpline",
+  "path": "Schubert/Splines/SingleVertexSpline.lean",
+  "origin_kind": "unchanged",
+  "sha256": "3063e89e7daa86f489a91d32ca7d4491d10b3e6b21d58026620d6037cb5e80ec"
+ },
+ {
+  "module": "Schubert.Splines.SplineDegree",
+  "path": "Schubert/Splines/SplineDegree.lean",
+  "origin_kind": "unchanged",
+  "sha256": "cee89f1e0c7b51bdd5cde6fce915628197edb8d6e8f97867bf278963661cbd0f"
+ },
+ {
+  "module": "Schubert.Splines.SplineInfinitude",
+  "path": "Schubert/Splines/SplineInfinitude.lean",
+  "origin_kind": "unchanged",
+  "sha256": "a291f2cbb285cb8c14fa71ff73a25ec57a360df2d6fd4b2d88bc415d89cd971a"
+ },
+ {
+  "module": "Schubert.Splines.SupportLocalization",
+  "path": "Schubert/Splines/SupportLocalization.lean",
+  "origin_kind": "unchanged",
+  "sha256": "6424da345098d65bacd47a56dbbc52cca82885c9d705a3380a52f596a549f735"
+ },
+ {
+  "module": "Schubert.Splines.TriangularBasis",
+  "path": "Schubert/Splines/TriangularBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "080a9b00f4aaa82ccc5d0c205f28f05d1f155b3f3837369536879847549d2c29"
+ },
+ {
+  "module": "Schubert.Splines.TriangularIndependence",
+  "path": "Schubert/Splines/TriangularIndependence.lean",
+  "origin_kind": "unchanged",
+  "sha256": "4484fd9c3f68970d435d9caa793c73feaea41eef170f1692ab4f7f1365207adc"
+ },
+ {
+  "module": "Schubert.Splines.TriangularPairing",
+  "path": "Schubert/Splines/TriangularPairing.lean",
+  "origin_kind": "unchanged",
+  "sha256": "746a46a2224c1e70b73cd25d8da7a790424bbc321a7b4d4dc4a3d98def42f8f0"
+ },
+ {
+  "module": "Schubert.Splines.Untwist",
+  "path": "Schubert/Splines/Untwist.lean",
+  "origin_kind": "unchanged",
+  "sha256": "edc322ee136d7fa8fa36b4464fec86b9afb211eb69be096054f39cac087f0333"
+ },
+ {
+  "module": "Schubert.Splines.UpperTriangular",
+  "path": "Schubert/Splines/UpperTriangular.lean",
+  "origin_kind": "unchanged",
+  "sha256": "c41ff57fa8241cae46bbc460b6e6a4b9a4f76e2d3a18f85b249778ac7daeee34"
+ },
+ {
+  "module": "Schubert.Splines.WeightedBasis",
+  "path": "Schubert/Splines/WeightedBasis.lean",
+  "origin_kind": "unchanged",
+  "sha256": "57d415e9f11b74647d7c97fd8834c5ae8e76128039ee367fde5bc74040245acc"
+ },
+ {
+  "module": "Schubert.Splines.WeightedMatrix",
+  "path": "Schubert/Splines/WeightedMatrix.lean",
+  "origin_kind": "unchanged",
+  "sha256": "eac0157fef59f03ccbdf97cd0e04abc01365bb50e4ee9eaeb8ecd267df0549ef"
+ }
+]

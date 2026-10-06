@@ -1,0 +1,11 @@
+dihedral-hessenberg: Lean verification of Dot actions and Hessenberg spaces for dihedral groups
+Copyright 2026 Reuven Hodges
+
+This formalization accompanies J. Boretsky, R. Hodges, N. Lesnevich, T. McAllister,
+J. Pappe, *Dot actions and Hessenberg spaces for dihedral groups* (arXiv: to appear). If you
+use or adapt this code, please cite the paper and this repository.
+
+This repository contains no third-party source files. Mathlib, Tau Ceti and their
+dependencies are downloaded by Lake at pinned revisions and keep their own licenses.
+
+See THIRD_PARTY_NOTICES.md.
