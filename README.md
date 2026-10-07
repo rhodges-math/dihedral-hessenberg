@@ -5,16 +5,16 @@ formalization of *Dot actions and Hessenberg spaces for dihedral groups*
 (Jonathan Boretsky, Reuven Hodges, Nathan Lesnevich, Tyrrell McAllister, and
 Joseph Pappe, 2026).
 
-All results of the paper are formalized. For the dihedral group $I_2(n)$,
+All results of the paper are formalized. For the dihedral group $I\_2(n)$,
 $n \ge 3$, and every Hessenberg space $H$, the formalization proves that the
 module of splines
-$\mathcal{M}_H$ is free over $\mathbb{C}[x,y]$, with palindromic rank
-generating function $P_H(q) = \sum_w q^{\ell_H(w)}$ and Hilbert series
-$P_H(q)/(1-q)^2$ (Theorem 1); it constructs an explicit homogeneous flow-up
+$\mathcal{M}\_H$ is free over $\mathbb{C}\[x,y\]$, with palindromic rank
+generating function $P\_H(q) = \sum\_w q^{\ell\_H(w)}$ and Hilbert series
+$P\_H(q)/(1-q)^2$ (Theorem 1); it constructs an explicit homogeneous flow-up
 basis, each element of which is a Schubert spline or is given by the displayed
 product formula (Theorem 2); and it determines the left and right dot action
-representations $\mathrm{L}_H$ and $\mathrm{R}_H$ in the graded representation
-ring of $I_2(n)$ (Theorem 3). Every other statement of the paper is formalized
+representations $\mathrm{L}\_H$ and $\mathrm{R}\_H$ in the graded representation
+ring of $I\_2(n)$ (Theorem 3). Every other statement of the paper is formalized
 as well: its lemmas, propositions, corollaries, definitions, displayed
 equations, examples and remarks, and the claims made in its prose and figures,
 103 statements in all, listed in [docs/STATEMENTS.md](docs/STATEMENTS.md).
@@ -68,49 +68,49 @@ comes with a proof `hthree : 3 ≤ n`, and a Hessenberg space $H$ is
 
 ### Notation
 
-The group acts on $\mathbb{R}^2$ and on $\mathbb{C}[x,y]$ as in Section 2 of
-the paper. The positive roots are the unit vectors with $\alpha_{2k+1}$ at angle
-$k\pi/n$ and $\alpha_{2k+2}$ at angle $(n-1-k)\pi/n$, the embedding of
-Example 2.3, so that $(s_1s_2)^ks_1=s_{\alpha_{2k+1}}$ and
-$(s_2s_1)^ks_2=s_{\alpha_{2k+2}}$.
+The group acts on $\mathbb{R}^2$ and on $\mathbb{C}\[x,y\]$ as in Section 2 of
+the paper. The positive roots are the unit vectors with $\alpha\_{2k+1}$ at angle
+$k\pi/n$ and $\alpha\_{2k+2}$ at angle $(n-1-k)\pi/n$, the embedding of
+Example 2.3, so that $(s\_1s\_2)^ks\_1=s\_{\alpha\_{2k+1}}$ and
+$(s\_2s\_1)^ks\_2=s\_{\alpha\_{2k+2}}$.
 
 | Paper | Lean |
 | --- | --- |
-| $I_2(n)$, $s_1$, $s_2$ | `DihedralGroup n` (Mathlib), `DihedralGroup.sr 0`, `DihedralGroup.sr 1` |
+| $I\_2(n)$, $s\_1$, $s\_2$ | `DihedralGroup n` (Mathlib), `DihedralGroup.sr 0`, `DihedralGroup.sr 1` |
 | $\ell(w)$, the Bruhat order $u \le v$ | `Dihedral.length n hthree w`, `Dihedral.BruhatLE n hthree u v` |
-| $\Phi^+$, the root $\alpha_i$ | `Dihedral.positiveRoots n`, `Dihedral.positiveRoot n i` (with `i = 0, …, n-1` for $\alpha_1,\dots,\alpha_n$) |
-| $s_\gamma$, $t_\gamma$ for $\gamma \in \Phi^+$ | `γ.reflection`, `γ.form`, for `γ : Dihedral.PositiveRoot n` |
-| $\mathbb{C}[x,y]$, its action $f \mapsto w(f)$ | `Dihedral.CoordinatePolynomial`, `Dihedral.polynomialAction n w` |
+| $\Phi^+$, the root $\alpha\_i$ | `Dihedral.positiveRoots n`, `Dihedral.positiveRoot n i` (with `i = 0, …, n-1` for $\alpha\_1,\dots,\alpha\_n$) |
+| $s\_\gamma$, $t\_\gamma$ for $\gamma \in \Phi^+$ | `γ.reflection`, `γ.form`, for `γ : Dihedral.PositiveRoot n` |
+| $\mathbb{C}\[x,y\]$, its action $f \mapsto w(f)$ | `Dihedral.CoordinatePolynomial`, `Dihedral.polynomialAction n w` |
 | The root poset (Definition 2.6) | `DihedralSplines.RootOrder n hthree` |
 | A Hessenberg space $H$ | `DihedralSplines.HessenbergIdeal n hthree` |
-| $\ell_H(w)$, $P_H(q)$ | `ideal.toRootSubset.length w`, `ideal.lengthPolynomial` |
-| $\mathcal{M}_H$ | `ideal.toRootSubset.Spline` |
+| $\ell\_H(w)$, $P\_H(q)$ | `ideal.toRootSubset.length w`, `ideal.lengthPolynomial` |
+| $\mathcal{M}\_H$ | `ideal.toRootSubset.Spline` |
 | The module structures (4) and (5) | `Dihedral.RootSubset.leftAlgebra`, `Dihedral.RootSubset.rightAlgebra` |
-| $(\mathcal{M}_H)_d$ | `ideal.toRootSubset.piece d` |
+| $(\mathcal{M}\_H)\_d$ | `ideal.toRootSubset.piece d` |
 | $w \cdot \overline{\rho}$ | `ideal.toRootSubset.dot hthree w ρ` |
-| $\mathrm{L}_H$, $\mathrm{R}_H$ | `Dihedral.RootSubset.Left.Quotient`, `Dihedral.RootSubset.Right.Quotient` |
+| $\mathrm{L}\_H$, $\mathrm{R}\_H$ | `Dihedral.RootSubset.Left.Quotient`, `Dihedral.RootSubset.Right.Quotient` |
 
 ### Theorem 1: freeness, rank generating function and Hilbert series
 
-For $n \ge 3$ and every Hessenberg space $H$, the module $\mathcal{M}_H$ is free
-over $\mathbb{C}[x,y]$; its rank generating function is palindromic and equal to
+For $n \ge 3$ and every Hessenberg space $H$, the module $\mathcal{M}\_H$ is free
+over $\mathbb{C}\[x,y\]$; its rank generating function is palindromic and equal to
 
 $$
-P_H(q)=\sum_{w\in I_2(n)}q^{\ell_H(w)},
+P\_H(q)=\sum\_{w\in I\_2(n)}q^{\ell\_H(w)},
 $$
 
-where $\ell_H(w)$ is the number of roots in $H$ sent to $\Phi^-$ by $w$; and
+where $\ell\_H(w)$ is the number of roots in $H$ sent to $\Phi^-$ by $w$; and
 
 $$
-\mathrm{Hilb}(\mathcal{M}_H;q)=\frac{P_H(q)}{(1-q)^2}.
+\mathrm{Hilb}(\mathcal{M}\_H;q)=\frac{P\_H(q)}{(1-q)^2}.
 $$
 
 This is proved for both module structures of the paper: multiplication by
 constant splines (Equation (4)) and by orbit splines (Equation (5)). The rank
 generating function is the generating function of the dimensions of the graded
-pieces of $\mathcal{M}_H/(x,y)\mathcal{M}_H$, which for a free module counts
+pieces of $\mathcal{M}\_H/(x,y)\mathcal{M}\_H$, which for a free module counts
 the basis elements in each degree, and the Hilbert series is the formal power
-series $\sum_d \dim_{\mathbb{C}}(\mathcal{M}_H)_d\,q^d$.
+series $\sum\_d \dim\_{\mathbb{C}}(\mathcal{M}\_H)\_d\\,q^d$.
 
 These declarations are in `Schubert.DihedralSplines`
 ([FlowupBasis.lean](Schubert/DihedralSplines/FlowupBasis.lean),
@@ -119,40 +119,40 @@ These declarations are in `Schubert.DihedralSplines`
 | Declaration | Result |
 | --- | --- |
 | `HessenbergIdeal.poincare_hilbert` | All of Theorem 1, for both module structures |
-| `FlowupSpline.Left.free`, `FlowupSpline.Right.free` | $\mathcal{M}_H$ is free |
-| `FlowupSpline.Left.rank_eq`, `FlowupSpline.Right.rank_eq` | The rank generating function is $P_H(q)$ |
-| `HessenbergIdeal.lengthPolynomial_reverse` | $P_H$ is palindromic |
-| `HessenbergIdeal.hilbertSeries_formula` | $\mathrm{Hilb}(\mathcal{M}_H;q)=P_H(q)/(1-q)^2$ |
-| `HessenbergIdeal.hilbertSeries_coeff` | The coefficients of the Hilbert series are the dimensions of the $(\mathcal{M}_H)_d$ |
-| `HessenbergIdeal.lengthPolynomial_even`, `HessenbergIdeal.lengthPolynomial_odd` | The explicit forms of $P_H$ in Corollary 4.7 |
+| `FlowupSpline.Left.free`, `FlowupSpline.Right.free` | $\mathcal{M}\_H$ is free |
+| `FlowupSpline.Left.rank_eq`, `FlowupSpline.Right.rank_eq` | The rank generating function is $P\_H(q)$ |
+| `HessenbergIdeal.lengthPolynomial_reverse` | $P\_H$ is palindromic |
+| `HessenbergIdeal.hilbertSeries_formula` | $\mathrm{Hilb}(\mathcal{M}\_H;q)=P\_H(q)/(1-q)^2$ |
+| `HessenbergIdeal.hilbertSeries_coeff` | The coefficients of the Hilbert series are the dimensions of the $(\mathcal{M}\_H)\_d$ |
+| `HessenbergIdeal.lengthPolynomial_even`, `HessenbergIdeal.lengthPolynomial_odd` | The explicit forms of $P\_H$ in Corollary 4.7 |
 
 ### Theorem 2: the flow-up basis
 
-There is a homogeneous basis $\lbrace\overline{\rho}_w \mid w \in I_2(n)\rbrace$
-of $\mathcal{M}_H$, with $\deg \overline{\rho}_w = \ell_H(w)$, such that each
-$\overline{\rho}_w$ is either a Schubert spline or has the form
+There is a homogeneous basis $\lbrace\overline{\rho}\_w \mid w \in I\_2(n)\rbrace$
+of $\mathcal{M}\_H$, with $\deg \overline{\rho}\_w = \ell\_H(w)$, such that each
+$\overline{\rho}\_w$ is either a Schubert spline or has the form
 
 $$
-\overline{\rho}_w(v)=
+\overline{\rho}\_w(v)=
 \begin{cases}
-d^w(v)\displaystyle\prod_{\alpha\in H,\ vs_\alpha\notin G_w} t_{v(\alpha)}, & v\in G_w,\\
-0, & v\notin G_w,
+d^w(v)\displaystyle\prod\_{\alpha\in H,\ vs\_\alpha\notin G\_w} t\_{v(\alpha)}, & v\in G\_w,\\
+0, & v\notin G\_w,
 \end{cases}
 $$
 
-where $G_w$ contains $w$ and is contained in its Bruhat upper ideal, and
-$d^w(v)\in\mathbb{C}^\times$ for every $v\in G_w$.
+where $G\_w$ contains $w$ and is contained in its Bruhat upper ideal, and
+$d^w(v)\in\mathbb{C}^\times$ for every $v\in G\_w$.
 
-The basis is the family of flow-up splines $\overline{\rho}_w$ constructed
-recursively in Theorem 4.5: at each $w \ne e, w_0$ the construction follows the
-simple left ascent $s_\alpha$ of $w$ and takes a restricted Schubert spline, a
-divided difference $\partial_\alpha$, or a dot translate $s_\alpha \cdot$,
+The basis is the family of flow-up splines $\overline{\rho}\_w$ constructed
+recursively in Theorem 4.5: at each $w \ne e, w\_0$ the construction follows the
+simple left ascent $s\_\alpha$ of $w$ and takes a restricted Schubert spline, a
+divided difference $\partial\_\alpha$, or a dot translate $s\_\alpha \cdot$,
 according to the cases of the theorem. It is a basis for both module
-structures. The Schubert splines are the splines $\overline{\sigma}_w$ of the
+structures. The Schubert splines are the splines $\overline{\sigma}\_w$ of the
 case $H = \Phi^+$, which are splines for every $H$. The second alternative is
 recorded by the structure `DihedralSplines.BoundaryForm`, which carries the set
-$G_w$, the constants $d^w(v)$ and the displayed formula. For $n = 5$ and
-$H = \lbrace\alpha_1,\alpha_2,\alpha_3\rbrace$, the ten splines displayed in
+$G\_w$, the constants $d^w(v)$ and the displayed formula. For $n = 5$ and
+$H = \lbrace\alpha\_1,\alpha\_2,\alpha\_3\rbrace$, the ten splines displayed in
 Example 4.6 are exactly the splines of this construction
 (`Pentagon.generator_eq_spline`).
 
@@ -164,49 +164,49 @@ These declarations are in `Schubert.DihedralSplines`
 | Declaration | Result |
 | --- | --- |
 | `FlowupSpline.basis_explicit` | All of Theorem 2, for both module structures |
-| `FlowupSpline.spline` | The flow-up spline $\overline{\rho}_w$ |
+| `FlowupSpline.spline` | The flow-up spline $\overline{\rho}\_w$ |
 | `FlowupSpline.spline_one`, `spline_top`, `spline_low`, `spline_high`, `spline_no_edge` | The cases of the recursion of Theorem 4.5 |
 | `FlowupSpline.Left.basis`, `FlowupSpline.Right.basis` | The bases, with `basis_apply` identifying their vectors |
-| `FlowupSpline.homogeneous`, `FlowupSpline.degree` | $\overline{\rho}_w$ is homogeneous of degree $\ell_H(w)$ |
-| `FlowupSpline.support`, `FlowupSpline.diagonal` | $\overline{\rho}_w$ vanishes off the Bruhat upper ideal of $w$ and $\overline{\rho}_w(w)\ne0$ |
-| `FlowupSpline.shape`, `BoundaryForm.formula`, `BoundaryForm.coefficient_ne` | Each $\overline{\rho}_w$ is a Schubert spline or has the displayed form |
-| `FlowupSpline.block_shape` | The supports $G_w$ of Proposition 5.3 |
+| `FlowupSpline.homogeneous`, `FlowupSpline.degree` | $\overline{\rho}\_w$ is homogeneous of degree $\ell\_H(w)$ |
+| `FlowupSpline.support`, `FlowupSpline.diagonal` | $\overline{\rho}\_w$ vanishes off the Bruhat upper ideal of $w$ and $\overline{\rho}\_w(w)\ne0$ |
+| `FlowupSpline.shape`, `BoundaryForm.formula`, `BoundaryForm.coefficient_ne` | Each $\overline{\rho}\_w$ is a Schubert spline or has the displayed form |
+| `FlowupSpline.block_shape` | The supports $G\_w$ of Proposition 5.3 |
 | `Pentagon.generator_eq_spline`, `Pentagon.operator_formulas` | Example 4.6 |
 
 | Paper | Lean |
 | --- | --- |
-| $\overline{\rho}_w$ | `FlowupSpline.spline ideal w` |
-| $\overline{\sigma}_w$, as a spline for $H$ | `ideal.toRootSubset.restrictFull (SchubertSpline.spline n hthree w)` |
-| $\partial_\alpha$ | `HessenbergIdeal.dividedDifference` |
-| $G_w$, $d^w$ | the fields `vertices` and `coefficient` of `BoundaryForm ideal w (FlowupSpline.spline ideal w)` |
+| $\overline{\rho}\_w$ | `FlowupSpline.spline ideal w` |
+| $\overline{\sigma}\_w$, as a spline for $H$ | `ideal.toRootSubset.restrictFull (SchubertSpline.spline n hthree w)` |
+| $\partial\_\alpha$ | `HessenbergIdeal.dividedDifference` |
+| $G\_w$, $d^w$ | the fields `vertices` and `coefficient` of `BoundaryForm ideal w (FlowupSpline.spline ideal w)` |
 
 ### Theorem 3: the dot action representations
 
 Let $H \subsetneq \Phi^+$ be a Hessenberg space containing the simple roots
 $\lbrace\alpha,\beta\rbrace$, let $h = \lfloor |H|/2 \rfloor$, and if $|H|$ is
 odd let $\alpha$ be the $H$-dominant simple root. Then, in the graded
-representation ring of $I_2(n)$,
+representation ring of $I\_2(n)$,
 
 $$
-\mathrm{L}_H \cong
+\mathrm{L}\_H \cong
 \begin{cases}
-(1+q)(1+q+\cdots+q^{2h-1})\,\mathbf{1} \oplus q^h\bigl(C_\alpha \oplus C_\beta - \mathsf{P}_h - \mathsf{P}_{h-1}\bigr), & |H| = 2h,\\
-(1+q)(1+q+\cdots+q^{2h})\,\mathbf{1} \oplus (q^h+q^{h+1})\bigl(C_\alpha - \mathsf{P}_h\bigr), & |H| = 2h+1,
+(1+q)(1+q+\cdots+q^{2h-1})\\,\mathbf{1} \oplus q^h\bigl(C\_\alpha \oplus C\_\beta - \mathsf{P}\_h - \mathsf{P}\_{h-1}\bigr), & |H| = 2h,\\
+(1+q)(1+q+\cdots+q^{2h})\\,\mathbf{1} \oplus (q^h+q^{h+1})\bigl(C\_\alpha - \mathsf{P}\_h\bigr), & |H| = 2h+1,
 \end{cases}
 $$
 
 $$
-\mathrm{R}_H \cong
+\mathrm{R}\_H \cong
 \begin{cases}
-\mathsf{Co}_H \oplus q^h\bigl(C_\alpha \oplus C_\beta - \mathsf{P}_h - \mathsf{P}_{h-1}\bigr), & |H| = 2h,\\
-\mathsf{Co}_H \oplus q^h\bigl(C_\alpha - \mathsf{P}_h\bigr) \oplus q^{h+1}\bigl(C_\beta - \mathsf{P}_h\bigr), & |H| = 2h+1.
+\mathsf{Co}\_H \oplus q^h\bigl(C\_\alpha \oplus C\_\beta - \mathsf{P}\_h - \mathsf{P}\_{h-1}\bigr), & |H| = 2h,\\
+\mathsf{Co}\_H \oplus q^h\bigl(C\_\alpha - \mathsf{P}\_h\bigr) \oplus q^{h+1}\bigl(C\_\beta - \mathsf{P}\_h\bigr), & |H| = 2h+1.
 \end{cases}
 $$
 
-Here $\mathrm{L}_H$ and $\mathrm{R}_H$ are the quotients of $\mathcal{M}_H$ by
+Here $\mathrm{L}\_H$ and $\mathrm{R}\_H$ are the quotients of $\mathcal{M}\_H$ by
 the left and by the right coordinate splines, graded by degree, with the
 action induced by the dot action. The formalization states each formula as an
-equality of power series $\sum_d [(\mathrm{L}_H)_d]\,q^d$ with coefficients
+equality of power series $\sum\_d \[(\mathrm{L}\_H)\_d\]\\,q^d$ with coefficients
 in the representation ring `TauCeti.repRing ℂ (DihedralGroup n)`, the split
 Grothendieck ring of finite-dimensional complex representations; two graded
 representations have equal series exactly when they are isomorphic in every
@@ -220,59 +220,59 @@ These declarations are in `Schubert.DihedralSplines`
 
 | Declaration | Result |
 | --- | --- |
-| `HessenbergIdeal.Left.graded_class` | The formula for $\mathrm{L}_H$ (Theorem 6.4) |
-| `HessenbergIdeal.Right.graded_class` | The formula for $\mathrm{R}_H$ (Theorem 7.3) |
+| `HessenbergIdeal.Left.graded_class` | The formula for $\mathrm{L}\_H$ (Theorem 6.4) |
+| `HessenbergIdeal.Right.graded_class` | The formula for $\mathrm{R}\_H$ (Theorem 7.3) |
 | `HessenbergIdeal.Left.graded_class_even`, `graded_class_odd`, and the same for `Right` | The two cases $\lvert H\rvert = 2h$ and $\lvert H\rvert = 2h+1$ |
-| `HessenbergIdeal.Left.class_palindromic` | The classes of $(\mathrm{L}_H)_d$ and $(\mathrm{L}_H)_{\lvert H\rvert-d}$ agree |
+| `HessenbergIdeal.Left.class_palindromic` | The classes of $(\mathrm{L}\_H)\_d$ and $(\mathrm{L}\_H)\_{\lvert H\rvert-d}$ agree |
 | `HessenbergIdeal.dominant_even`, `HessenbergIdeal.dominant_odd_unique` | Both simple roots are $H$-dominant when $\lvert H\rvert$ is even, and exactly one is when $\lvert H\rvert$ is odd (Remark 6.3) |
 
 | Paper | Lean |
 | --- | --- |
-| $\sum_d [(\mathrm{L}_H)_d]\,q^d$, $\sum_d [(\mathrm{R}_H)_d]\,q^d$ | `Dihedral.RootSubset.Left.gradedClass`, `Dihedral.RootSubset.Right.gradedClass` |
-| $\mathbf{1}$, $V_j$ | the trivial representation, `Dihedral.frequencyFDRep n j` |
-| $C_\gamma$, the permutation representation on the cosets of $\langle s_\gamma\rangle$ | `γ.cosetFDRep` |
-| $\mathsf{P}_h = \mathbf{1} \oplus V_1 \oplus \cdots \oplus V_h$ | `Dihedral.Frequency.partialSum n h` |
-| $\mathsf{Co}_H$ (Lemma 7.2) | `DihedralSplines.HessenbergIdeal.coClass ideal` |
+| $\sum\_d \[(\mathrm{L}\_H)\_d\]\\,q^d$, $\sum\_d \[(\mathrm{R}\_H)\_d\]\\,q^d$ | `Dihedral.RootSubset.Left.gradedClass`, `Dihedral.RootSubset.Right.gradedClass` |
+| $\mathbf{1}$, $V\_j$ | the trivial representation, `Dihedral.frequencyFDRep n j` |
+| $C\_\gamma$, the permutation representation on the cosets of $\langle s\_\gamma\rangle$ | `γ.cosetFDRep` |
+| $\mathsf{P}\_h = \mathbf{1} \oplus V\_1 \oplus \cdots \oplus V\_h$ | `Dihedral.Frequency.partialSum n h` |
+| $\mathsf{Co}\_H$ (Lemma 7.2) | `DihedralSplines.HessenbergIdeal.coClass ideal` |
 | $\alpha$ is $H$-dominant (Definition 6.2) | `DihedralSplines.HessenbergIdeal.IsDominant ideal α` |
 
 ### The Schubert case
 
 For $H = \Phi^+$, Section 3 of the paper treats the Schubert splines
-$\overline{\sigma}_w$ from first principles. They are defined by the recursion
+$\overline{\sigma}\_w$ from first principles. They are defined by the recursion
 of Equation (11) and given explicitly by Theorem 3.4,
 
 $$
-\overline{\sigma}_w(v) = d^w(v) \prod_{s_\gamma v < v,\ s_\gamma v \not\ge w} t_\gamma,
+\overline{\sigma}\_w(v) = d^w(v) \prod\_{s\_\gamma v < v,\ s\_\gamma v \not\ge w} t\_\gamma,
 \qquad d^w(v) \in \mathbb{C}^\times \text{ if } w \le v,\quad d^w(v) = 0 \text{ otherwise}.
 $$
 
-They form a homogeneous basis of $\mathcal{M}_{\Phi^+}$ (Proposition 3.5), and
-$\mathrm{Hilb}(\mathcal{M}_{\Phi^+};q) = (1+q)(1+q+\cdots+q^{n-1})/(1-q)^2$
+They form a homogeneous basis of $\mathcal{M}\_{\Phi^+}$ (Proposition 3.5), and
+$\mathrm{Hilb}(\mathcal{M}\_{\Phi^+};q) = (1+q)(1+q+\cdots+q^{n-1})/(1-q)^2$
 (Corollary 3.6). The map
-$\Psi\colon \mathbb{C}[x,y]\otimes_{\mathbb{C}[x,y]^{I_2(n)}}\mathbb{C}[x,y]\to\mathcal{M}_{\Phi^+}$,
-$\Psi(f\otimes h)(w) = f\,w(h)$, is an isomorphism of graded algebras under
+$\Psi\colon \mathbb{C}\[x,y\]\otimes\_{\mathbb{C}\[x,y\]^{I\_2(n)}}\mathbb{C}\[x,y\]\to\mathcal{M}\_{\Phi^+}$,
+$\Psi(f\otimes h)(w) = f\\,w(h)$, is an isomorphism of graded algebras under
 which the dot action is $u\cdot(f\otimes h) = u(f)\otimes h$ (Lemma 3.7).
-Consequently $\mathrm{L}_{\Phi^+}$ is a sum of trivial representations, one in
-degree $\ell(w)$ for each $w$ (Proposition 3.8), and $\mathrm{R}_{\Phi^+}$ is
+Consequently $\mathrm{L}\_{\Phi^+}$ is a sum of trivial representations, one in
+degree $\ell(w)$ for each $w$ (Proposition 3.8), and $\mathrm{R}\_{\Phi^+}$ is
 the coinvariant algebra (Proposition 3.9).
 
 | Declaration | Result |
 | --- | --- |
-| `DihedralSplines.SchubertSpline.spline`, `SchubertSpline.spline_step` | $\overline{\sigma}_w$ and the recursion (11) |
+| `DihedralSplines.SchubertSpline.spline`, `SchubertSpline.spline_step` | $\overline{\sigma}\_w$ and the recursion (11) |
 | `SchubertSpline.rational_formula`, `SchubertSpline.support_exact` | Theorem 3.4 |
 | `SchubertSpline.left_basis`, `SchubertSpline.right_basis` | Proposition 3.5 |
 | `SchubertSpline.hilbert_formula` | Corollary 3.6 |
 | `DihedralSplines.borelEquiv`, `borelEquiv_tmul`, `borelEquiv_dot` | Lemma 3.7 |
 | `HessenbergIdeal.Left.full_piece_iso`, `SchubertSpline.left_class_geometric` | Proposition 3.8 |
-| `SchubertSpline.right_piece_iso`, `SchubertSpline.rightTrace_formula` | Proposition 3.9, with the graded trace $\frac{(1-q^2)(1-q^n)}{\det(I-qV_1(g))}$ |
+| `SchubertSpline.right_piece_iso`, `SchubertSpline.rightTrace_formula` | Proposition 3.9, with the graded trace $\frac{(1-q^2)(1-q^n)}{\det(I-qV\_1(g))}$ |
 
 ### Corollary 6.11: the left representation need not be a permutation representation
 
-For $n = 5$ and $H = \lbrace\alpha_1,\alpha_2,\alpha_3\rbrace$, forgetting the
-grading, $\mathrm{L}_H \cong \mathbf{1}^{\oplus 6} \oplus V_2^{\oplus 2}$, whose
+For $n = 5$ and $H = \lbrace\alpha\_1,\alpha\_2,\alpha\_3\rbrace$, forgetting the
+grading, $\mathrm{L}\_H \cong \mathbf{1}^{\oplus 6} \oplus V\_2^{\oplus 2}$, whose
 character at the rotation $r$ is $5-\sqrt5$. The formalization proves that
-$\mathrm{L}_H$ is not isomorphic to the permutation representation
-$\mathbb{C}[X]$ of any finite $I_2(5)$-set $X$ (`Pentagon.not_permutation`),
+$\mathrm{L}\_H$ is not isomorphic to the permutation representation
+$\mathbb{C}\[X\]$ of any finite $I\_2(5)$-set $X$ (`Pentagon.not_permutation`),
 together with the decomposition (`Pentagon.whole_iso`) and the character value
 (`Pentagon.rotation_character`)
 ([PentagonRepresentation.lean](Schubert/DihedralSplines/PentagonRepresentation.lean)).
@@ -312,28 +312,28 @@ Hilbert series that the paper uses.
 | `Splines.ReflectionGraphData.dot` | The dot action on reflection splines |
 | `Splines.IdealLabeledGraph.eq_of_base_eq_of_minimal_supported` | A supported spline of minimal degree is determined by its value at one vertex |
 | `Splines.minimal_generators_finite` | Minimal generating sets of a module with a finite basis are finite |
-| `Splines.galoisTensorEquiv` | $L \otimes_K L \cong \prod_{g\in G} L$ for a finite Galois extension $L/K$ with group $G$ |
+| `Splines.galoisTensorEquiv` | $L \otimes\_K L \cong \prod\_{g\in G} L$ for a finite Galois extension $L/K$ with group $G$ |
 
 ### The Dihedral library
 
 [Schubert/Dihedral/](Schubert/Dihedral) (namespace `Dihedral`, 265 files)
-develops the dihedral groups $I_2(n)$, $n \ge 3$, as Mathlib's
+develops the dihedral groups $I\_2(n)$, $n \ge 3$, as Mathlib's
 `DihedralGroup n`: the Coxeter presentation, reduced words, the length function
 and the Bruhat order; the realization on $\mathbb{R}^2$ and $\mathbb{C}^2$,
-roots, reflections and inversion sets; the action on $\mathbb{C}[x,y]$, its
+roots, reflections and inversion sets; the action on $\mathbb{C}\[x,y\]$, its
 invariants, the coinvariant algebra and its graded representation; and the
 irreducible and coset permutation representations.
 
 | Declaration | Result |
 | --- | --- |
-| `Dihedral.coxeterSystem` | $I_2(n)$ is the Coxeter group of rank two generated by $s_1, s_2$ |
+| `Dihedral.coxeterSystem` | $I\_2(n)$ is the Coxeter group of rank two generated by $s\_1, s\_2$ |
 | `Dihedral.bruhatLE_iff_exists_sublist` | The Bruhat order is the subword order |
 | `Dihedral.Invariants.eq_generator_adjoin` | The invariant algebra is generated by invariants of degrees $2$ and $n$ |
 | `Dihedral.basicInvariants_algebraicIndependent`, `Dihedral.nonempty_invariantPolynomialEquiv` | These invariants are algebraically independent, and the invariant algebra is a polynomial ring |
-| `Dihedral.Invariants.polynomial_free`, `Dihedral.Invariants.polynomial_finrank` | $\mathbb{C}[x,y]$ is free of rank $2n$ over the invariants |
+| `Dihedral.Invariants.polynomial_free`, `Dihedral.Invariants.polynomial_finrank` | $\mathbb{C}\[x,y\]$ is free of rank $2n$ over the invariants |
 | `Dihedral.Coinvariant.regular_iso` | The coinvariant algebra is the regular representation |
 | `Dihedral.irreducible_classification`, `Dihedral.irreducible_dimension` | Every irreducible complex representation is isomorphic to exactly one of the listed irreducibles, of dimension one or two |
-| `Dihedral.PositiveRoot.coset_odd_iso`, `Dihedral.PositiveRoot.coset_even_iso` | The decomposition of $C_\gamma$ into irreducibles (Equation (3)) |
+| `Dihedral.PositiveRoot.coset_odd_iso`, `Dihedral.PositiveRoot.coset_even_iso` | The decomposition of $C\_\gamma$ into irreducibles (Equation (3)) |
 | `Dihedral.self_dual` | Every finite-dimensional complex representation is self-dual |
 
 ### The FiniteGroupCharacters library
@@ -346,7 +346,7 @@ independent orbits, and tensor products with polynomial rings.
 
 | Declaration | Result |
 | --- | --- |
-| `FiniteGroupCharacters.gradedClass` | The series $\sum_d [V_d]\,q^d$ of a graded representation |
+| `FiniteGroupCharacters.gradedClass` | The series $\sum\_d \[V\_d\]\\,q^d$ of a graded representation |
 | `FiniteGroupCharacters.gradedClass_eq_iff_iso` | Equal series exactly when the graded pieces are isomorphic |
 | `FiniteGroupCharacters.gradedClass_eq_iff` | In characteristic zero, equal series exactly when the graded characters are equal |
 | `FiniteGroupCharacters.equivariant_section` | A surjective intertwiner of a finite group of invertible order has an equivariant section |
@@ -357,7 +357,7 @@ independent orbits, and tensor products with polynomial rings.
 
 [Schubert/DihedralSplines/](Schubert/DihedralSplines) (namespace
 `DihedralSplines`, 303 files) contains the splines of Hessenberg spaces for
-$I_2(n)$ and every result of the paper, as described above.
+$I\_2(n)$ and every result of the paper, as described above.
 
 ## Build and verify
 
