@@ -1,7 +1,7 @@
 # Lean verification of *Dot actions and Hessenberg spaces for dihedral groups*
 
-This repository, `rhodges-math/dihedral-hessenberg`, contains a Lean 4
-formalization of *Dot actions and Hessenberg spaces for dihedral groups*
+This repository, `rhodges-math/dihedral-hessenberg` (release 1.0.0), contains a
+Lean 4 formalization of *Dot actions and Hessenberg spaces for dihedral groups*
 (Jonathan Boretsky, Reuven Hodges, Nathan Lesnevich, Tyrrell McAllister, and
 Joseph Pappe, 2026).
 

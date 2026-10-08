@@ -2,11 +2,13 @@
 
 Each statement of *Dot actions and Hessenberg spaces for dihedral groups* (Jonathan
 Boretsky, Reuven Hodges, Nathan Lesnevich, Tyrrell McAllister, and Joseph Pappe, 2026),
-with its status and the Lean declarations that formalize it. The index covers every
-theorem, proposition, lemma, corollary, definition, displayed equation, example and
-remark of the paper, and the mathematical statements made in its prose and figures.
-Numbers are those printed in the paper, and labels are its LaTeX labels. Names are shown
-without the prefix `Schubert.`; paths are relative to the repository root.
+with its status and the Lean declarations that formalize it, in the order of the paper.
+The index covers every theorem, proposition, lemma, corollary, definition, displayed
+equation, example and remark of the paper, and the mathematical statements made in its
+prose and figures. Numbers are those printed in the paper, and labels are its LaTeX
+labels; a statement without a number is given with its section. A short note follows a
+statement whose Lean statement or proof differs from the paper. Names are shown without
+the prefix `Schubert.`; paths are relative to the repository root.
 
 | Statement | Label | Status |
 | --- | --- | --- |
@@ -20,7 +22,7 @@ without the prefix `Schubert.`; paths are relative to the repository root.
 | Equation (1) | `eq:left_inversion_set` | formalized |
 | Equation (2) | `eq:right_inversion_set` | formalized |
 | Lemma 2.4 | `lem:rank_two_bruhat_facts` | formalized |
-| The irreducible representations of $I_2(n)$ and the coset representations $C_\gamma$ (Section 2.3) | — | formalized |
+| The irreducible representations of $I\_2(n)$ and the coset representations $C\_\gamma$ (Section 2.3) | — | formalized |
 | Equation (3) | `eq:reflection_coset_decomposition` | formalized |
 | Example 2.5 | — | formalized |
 | Definition 2.6 | `def:root_poset` | formalized |
@@ -32,12 +34,12 @@ without the prefix `Schubert.`; paths are relative to the repository root.
 | Definition 2.10 | `def:inversion_set` | formalized |
 | The labeled Cayley graph (Section 2.4) | — | formalized |
 | Example 2.11 | `ex:cayley` | formalized |
-| The acyclic orientation of the Cayley graph and the order $\prec_H$ (Section 2.4) | — | formalized |
+| The acyclic orientation of the Cayley graph and the order $\prec\_H$ (Section 2.4) | — | formalized |
 | Example 2.12 | — | formalized |
 | Example 2.13 | — | formalized |
 | The module of splines (Section 2.5) | — | formalized |
-| The spline diagrams for $I_2(3)$ (Section 2.5) | — | formalized |
-| The spline diagrams for $I_2(4)$ (Section 2.5) | — | formalized |
+| The spline diagrams for $I\_2(3)$ (Section 2.5) | — | formalized |
+| The spline diagrams for $I\_2(4)$ (Section 2.5) | — | formalized |
 | Edge labels and conjugate reflections (Section 2.5) | — | formalized |
 | Lemma 2.14 | — | formalized |
 | Lemma 2.15 | — | formalized |
@@ -68,7 +70,7 @@ without the prefix `Schubert.`; paths are relative to the repository root.
 | Lemma 3.7 | `lem:borel_presentation_schubert_splines` | formalized |
 | Equation (13) | `eq:borel_presentation_schubert_splines` | formalized |
 | The tensor decomposition over the fixed field (Section 3) | — | formalized |
-| The invariants of $I_2(n)$ and freeness over them (Section 3) | — | formalized |
+| The invariants of $I\_2(n)$ and freeness over them (Section 3) | — | formalized |
 | Proposition 3.8 | `prop:left_schubert_rep` | formalized |
 | Proposition 3.9 | `prop:right_schubert_rep` | formalized |
 | Remark 3.10 | — | formalized |
@@ -101,7 +103,7 @@ without the prefix `Schubert.`; paths are relative to the repository root.
 | Equation (18) | `eq:left_equivariant_freeness` | formalized |
 | Proposition 6.9 | `prop:left_quotient_duality` | formalized |
 | Equation (19) | `eq:left_representation_duality` | formalized |
-| The representations of $I_2(n)$ are self-dual (Section 6) | — | formalized |
+| The representations of $I\_2(n)$ are self-dual (Section 6) | — | formalized |
 | Lemma 6.10 | `lem:trivial_left_subreps` | formalized |
 | Equation (20) | `eq:left_middle_subtraction` | formalized |
 | The decomposition of the polynomials of low degree (Section 6) | — | formalized |
@@ -119,6 +121,8 @@ without the prefix `Schubert.`; paths are relative to the repository root.
 ### Theorem 1 (`intthm:poincare_hilbert`)
 
 Status: **formalized**
+
+Here the rank generating function is defined as $\sum\_d\dim\_{\mathbb{C}}(\mathcal{M}\_H/(x,y)\mathcal{M}\_H)\_d\\,q^d$.
 
 - `DihedralSplines.HessenbergIdeal.poincare_hilbert` ([Schubert/DihedralSplines/FlowupHilbert.lean](../Schubert/DihedralSplines/FlowupHilbert.lean))
 - `DihedralSplines.HessenbergIdeal.hilbertSeries_coeff` ([Schubert/DihedralSplines/FlowupHilbert.lean](../Schubert/DihedralSplines/FlowupHilbert.lean))
@@ -138,6 +142,8 @@ Status: **formalized**
 ### Theorem 3 (`intthm:dotaction`)
 
 Status: **formalized**
+
+Here a graded representation is recorded as the series $\sum\_d\[V\_d\]\\,q^d$ over the representation ring of $I\_2(n)$.
 
 - `DihedralSplines.HessenbergIdeal.Left.graded_class` ([Schubert/DihedralSplines/QuotientClass.lean](../Schubert/DihedralSplines/QuotientClass.lean))
 - `DihedralSplines.HessenbergIdeal.Left.graded_class_even` ([Schubert/DihedralSplines/LeftEvenClass.lean](../Schubert/DihedralSplines/LeftEvenClass.lean))
@@ -161,11 +167,15 @@ Status: **formalized**
 
 Status: **formalized**
 
+The proof uses $f\equiv s\_\alpha(f)$ modulo $t\_\alpha$ instead of the Nullstellensatz.
+
 - `DihedralSplines.reflection_difference` ([Schubert/DihedralSplines/ReflectionLemma.lean](../Schubert/DihedralSplines/ReflectionLemma.lean))
 
 ### The dihedral group, its reduced words and its root system (Section 2.2)
 
 Status: **formalized**
+
+Here $I\_2(n)$ is Mathlib's `DihedralGroup n`, with $s\_1$ and $s\_2$ the reflections `sr 0` and `sr 1`.
 
 - `Dihedral.presentationEquiv_firstSimpleReflection` ([Schubert/Dihedral/CoxeterSystem.lean](../Schubert/Dihedral/CoxeterSystem.lean))
 - `Dihedral.presentationEquiv_secondSimpleReflection` ([Schubert/Dihedral/CoxeterSystem.lean](../Schubert/Dihedral/CoxeterSystem.lean))
@@ -227,6 +237,8 @@ Status: **formalized**
 
 Status: **formalized**
 
+The equality $\lvert N\_L(w)\rvert=\ell(w)$ is proved from the inversion sequence of a reduced word instead of a gallery, and part (2) is stated for every $u$.
+
 - `Dihedral.unique_root_descent` ([Schubert/Dihedral/RankTwoRootVectors.lean](../Schubert/Dihedral/RankTwoRootVectors.lean))
 - `Dihedral.unique_root_ascent` ([Schubert/Dihedral/RankTwoRootVectors.lean](../Schubert/Dihedral/RankTwoRootVectors.lean))
 - `Dihedral.length_eq_longest` ([Schubert/Dihedral/RankTwoRootVectors.lean](../Schubert/Dihedral/RankTwoRootVectors.lean))
@@ -236,9 +248,11 @@ Status: **formalized**
 - `Dihedral.PositiveRoot.left_ascent_disjoint` ([Schubert/Dihedral/RankTwoRootVectors.lean](../Schubert/Dihedral/RankTwoRootVectors.lean))
 - `Dihedral.PositiveRoot.right_ascent` ([Schubert/Dihedral/RankTwoRootVectors.lean](../Schubert/Dihedral/RankTwoRootVectors.lean))
 
-### The irreducible representations of $I_2(n)$ and the coset representations $C_\gamma$ (Section 2.3)
+### The irreducible representations of $I\_2(n)$ and the coset representations $C\_\gamma$ (Section 2.3)
 
 Status: **formalized**
+
+Cited in the paper and proved here: the listed representations are irreducible, pairwise nonisomorphic, and as many as the conjugacy classes.
 
 - `Dihedral.irreducible_dimension` ([Schubert/Dihedral/RepresentationClassification.lean](../Schubert/Dihedral/RepresentationClassification.lean))
 - `Dihedral.irrep_counts_odd` ([Schubert/Dihedral/IrrepDimensionCounts.lean](../Schubert/Dihedral/IrrepDimensionCounts.lean))
@@ -265,6 +279,8 @@ Status: **formalized**
 ### Equation (3) (`eq:reflection_coset_decomposition`)
 
 Status: **formalized**
+
+Cited in the paper and proved here, by comparing characters.
 
 - `Dihedral.PositiveRoot.cosetFDRep` ([Schubert/Dihedral/CosetFDRep.lean](../Schubert/Dihedral/CosetFDRep.lean))
 - `Dihedral.PositiveRoot.coset_odd_iso` ([Schubert/Dihedral/CosetDecomposition.lean](../Schubert/Dihedral/CosetDecomposition.lean))
@@ -344,6 +360,8 @@ Status: **formalized**
 
 Status: **formalized**
 
+Here $B\_2$, $C\_2$ and $G\_2$ are obtained from the unit roots of $I\_2(4)$ and $I\_2(6)$ by rescaling one orbit of roots.
+
 - `DihedralSplines.four_orders_differ` ([Schubert/DihedralSplines/CrystallographicComparison.lean](../Schubert/DihedralSplines/CrystallographicComparison.lean))
 - `DihedralSplines.four_lower_ideals` ([Schubert/DihedralSplines/CrystallographicComparison.lean](../Schubert/DihedralSplines/CrystallographicComparison.lean))
 - `DihedralSplines.six_unit_not_g2` ([Schubert/DihedralSplines/CrystallographicComparison.lean](../Schubert/DihedralSplines/CrystallographicComparison.lean))
@@ -396,7 +414,7 @@ Status: **formalized**
 - `DihedralSplines.Square.edges` ([Schubert/DihedralSplines/SquareCayley.lean](../Schubert/DihedralSplines/SquareCayley.lean))
 - `DihedralSplines.Square.edge_labels` ([Schubert/DihedralSplines/SquareCayley.lean](../Schubert/DihedralSplines/SquareCayley.lean))
 
-### The acyclic orientation of the Cayley graph and the order $\prec_H$ (Section 2.4)
+### The acyclic orientation of the Cayley graph and the order $\prec\_H$ (Section 2.4)
 
 Status: **formalized**
 
@@ -435,7 +453,7 @@ Status: **formalized**
 - `Dihedral.RootSubset.mem_splineAlgebra` ([Schubert/DihedralSplines/PaperSpline.lean](../Schubert/DihedralSplines/PaperSpline.lean))
 - `DihedralSplines.HessenbergIdeal.splineEquiv_apply` ([Schubert/DihedralSplines/PaperIdeal.lean](../Schubert/DihedralSplines/PaperIdeal.lean))
 
-### The spline diagrams for $I_2(3)$ (Section 2.5)
+### The spline diagrams for $I\_2(3)$ (Section 2.5)
 
 Status: **formalized**
 
@@ -444,7 +462,7 @@ Status: **formalized**
 - `DihedralSplines.TriangleIllustrations.rows` ([Schubert/DihedralSplines/TriangleSplines.lean](../Schubert/DihedralSplines/TriangleSplines.lean))
 - `DihedralSplines.TriangleIllustrations.isSpline` ([Schubert/DihedralSplines/TriangleSplines.lean](../Schubert/DihedralSplines/TriangleSplines.lean))
 
-### The spline diagrams for $I_2(4)$ (Section 2.5)
+### The spline diagrams for $I\_2(4)$ (Section 2.5)
 
 Status: **formalized**
 
@@ -517,6 +535,8 @@ Status: **formalized**
 
 Status: **formalized**
 
+The proof counts the generators of each degree with the flow-up basis of Theorem 4.5.
+
 - `DihedralSplines.HessenbergIdeal.Left.minimal_degree_count` ([Schubert/DihedralSplines/MinimalHomogeneousDegrees.lean](../Schubert/DihedralSplines/MinimalHomogeneousDegrees.lean))
 - `DihedralSplines.HessenbergIdeal.Left.minimal_degrees_eq` ([Schubert/DihedralSplines/MinimalHomogeneousDegrees.lean](../Schubert/DihedralSplines/MinimalHomogeneousDegrees.lean))
 - `DihedralSplines.HessenbergIdeal.Right.minimal_degree_count` ([Schubert/DihedralSplines/MinimalHomogeneousDegrees.lean](../Schubert/DihedralSplines/MinimalHomogeneousDegrees.lean))
@@ -542,6 +562,8 @@ Status: **formalized**
 ### Lemma 2.19 (`lem:upper_triangular`)
 
 Status: **formalized**
+
+Here the splines need not be homogeneous, and $\deg\overline{\rho}\_w$ is the largest degree of the values of $\overline{\rho}\_w$.
 
 - `DihedralSplines.TriangularFamily.Left.basis` ([Schubert/DihedralSplines/FamilyBasis.lean](../Schubert/DihedralSplines/FamilyBasis.lean))
 - `DihedralSplines.TriangularFamily.Left.basis_apply` ([Schubert/DihedralSplines/FamilyBasis.lean](../Schubert/DihedralSplines/FamilyBasis.lean))
@@ -723,6 +745,8 @@ Status: **formalized**
 
 Status: **formalized**
 
+Injectivity of $\Psi$ is proved by Dedekind's independence of characters instead of by localization.
+
 - `DihedralSplines.borelEquiv` ([Schubert/DihedralSplines/BorelEquivalence.lean](../Schubert/DihedralSplines/BorelEquivalence.lean))
 - `DihedralSplines.borelEquiv_tmul` ([Schubert/DihedralSplines/BorelEquivalence.lean](../Schubert/DihedralSplines/BorelEquivalence.lean))
 - `DihedralSplines.borelTensorPiece` ([Schubert/DihedralSplines/BorelTensorGrading.lean](../Schubert/DihedralSplines/BorelTensorGrading.lean))
@@ -759,9 +783,11 @@ Status: **formalized**
 - `Dihedral.tensorEvaluation_localized` ([Schubert/Dihedral/BorelLocalization.lean](../Schubert/Dihedral/BorelLocalization.lean))
 - `DihedralSplines.borelHom_injective` ([Schubert/DihedralSplines/BorelSplineMap.lean](../Schubert/DihedralSplines/BorelSplineMap.lean))
 
-### The invariants of $I_2(n)$ and freeness over them (Section 3)
+### The invariants of $I\_2(n)$ and freeness over them (Section 3)
 
 Status: **formalized**
+
+Cited in the paper and proved here: with $u=x+iy$ and $v=x-iy$, the invariants $uv$ and $u^n+(-1)^nv^n$ generate $\mathbb{C}\[x,y\]^{I\_2(n)}$ freely, and $\mathbb{C}\[x,y\]$ is free of rank $2n$ over it.
 
 - `Dihedral.Invariants.eq_generator_adjoin` ([Schubert/Dihedral/InvariantGeneration.lean](../Schubert/Dihedral/InvariantGeneration.lean))
 - `Dihedral.basicInvariants_algebraicIndependent` ([Schubert/Dihedral/BasicInvariantIndependence.lean](../Schubert/Dihedral/BasicInvariantIndependence.lean))
@@ -786,6 +812,8 @@ Status: **formalized**
 ### Proposition 3.9 (`prop:right_schubert_rep`)
 
 Status: **formalized**
+
+The trace formula is checked element by element from the graded characters of the coinvariant algebra, instead of from a regular sequence of invariants.
 
 - `DihedralSplines.SchubertSpline.right_piece_iso` ([Schubert/DihedralSplines/FullRightClass.lean](../Schubert/DihedralSplines/FullRightClass.lean))
 - `DihedralSplines.SchubertSpline.right_class_coinvariant` ([Schubert/DihedralSplines/FullRightClass.lean](../Schubert/DihedralSplines/FullRightClass.lean))
@@ -819,6 +847,8 @@ Status: **formalized**
 ### Remark 3.11
 
 Status: **formalized**
+
+Cited in the paper and proved here for $I\_2(n)$.
 
 - `Dihedral.DoubleCoinvariant.relations_invariants` ([Schubert/Dihedral/DoubleCoinvariant.lean](../Schubert/Dihedral/DoubleCoinvariant.lean))
 - `Dihedral.DoubleCoinvariant.tensorEquiv` ([Schubert/Dihedral/DoubleCoinvariant.lean](../Schubert/Dihedral/DoubleCoinvariant.lean))
@@ -867,6 +897,8 @@ Status: **formalized**
 ### Corollary 4.4 (`cor:existence_upper_elts`)
 
 Status: **formalized**
+
+Stated for every $w\in I\_2(n)$.
 
 - `DihedralSplines.FlowupSpline.spline` ([Schubert/DihedralSplines/FlowupRecursion.lean](../Schubert/DihedralSplines/FlowupRecursion.lean))
 - `DihedralSplines.FlowupSpline.degree` ([Schubert/DihedralSplines/FlowupBasis.lean](../Schubert/DihedralSplines/FlowupBasis.lean))
@@ -945,6 +977,8 @@ Status: **formalized**
 ### Corollary 5.2 (`cor:rationally_smooth`)
 
 Status: **formalized**
+
+The uniqueness is deduced from the first part instead of by comparing values modulo $t\_\beta$.
 
 - `DihedralSplines.HessenbergIdeal.Block.first` ([Schubert/DihedralSplines/HessenbergBlock.lean](../Schubert/DihedralSplines/HessenbergBlock.lean))
 - `DihedralSplines.HessenbergIdeal.Block.second` ([Schubert/DihedralSplines/HessenbergBlock.lean](../Schubert/DihedralSplines/HessenbergBlock.lean))
@@ -1110,7 +1144,7 @@ Status: **formalized**
 - `DihedralSplines.HessenbergIdeal.Left.complementary_iso` ([Schubert/DihedralSplines/QuotientSymmetry.lean](../Schubert/DihedralSplines/QuotientSymmetry.lean))
 - `Dihedral.self_dual` ([Schubert/Dihedral/SelfDual.lean](../Schubert/Dihedral/SelfDual.lean))
 
-### The representations of $I_2(n)$ are self-dual (Section 6)
+### The representations of $I\_2(n)$ are self-dual (Section 6)
 
 Status: **formalized**
 
@@ -1211,6 +1245,8 @@ Status: **formalized**
 ### Theorem 7.3 (`thm:right_representation`)
 
 Status: **formalized**
+
+The piece of degree $h$ is computed directly, as in Theorem 6.4, instead of by comparison with $\mathrm{L}\_H$.
 
 - `DihedralSplines.HessenbergIdeal.Right.graded_class` ([Schubert/DihedralSplines/QuotientClass.lean](../Schubert/DihedralSplines/QuotientClass.lean))
 - `DihedralSplines.HessenbergIdeal.Right.graded_class_even` ([Schubert/DihedralSplines/RightEvenClass.lean](../Schubert/DihedralSplines/RightEvenClass.lean))
