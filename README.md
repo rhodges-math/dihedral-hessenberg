@@ -45,12 +45,12 @@ statements and the paper, which Lean's proof checking alone does not establish.
 ## Main results
 
 The entry point is
-[Schubert/DihedralSplines/Main.lean](Schubert/DihedralSplines/Main.lean), which
+[DihedralHessenberg/Paper/Main.lean](DihedralHessenberg/Paper/Main.lean), which
 imports every result of the paper; [docs/STATEMENTS.md](docs/STATEMENTS.md)
 lists each statement of the paper with its Lean counterparts.
 
 ```lean
-import Schubert.DihedralSplines.Main
+import DihedralHessenberg.Paper.Main
 
 open Schubert.DihedralSplines
 
@@ -113,8 +113,8 @@ the basis elements in each degree, and the Hilbert series is the formal power
 series $\sum\_d \dim\_{\mathbb{C}}(\mathcal{M}\_H)\_d\\,q^d$.
 
 These declarations are in `Schubert.DihedralSplines`
-([FlowupBasis.lean](Schubert/DihedralSplines/FlowupBasis.lean),
-[FlowupHilbert.lean](Schubert/DihedralSplines/FlowupHilbert.lean)).
+([FlowupBasis.lean](DihedralHessenberg/Paper/FlowupBasis.lean),
+[FlowupHilbert.lean](DihedralHessenberg/Paper/FlowupHilbert.lean)).
 
 | Declaration | Result |
 | --- | --- |
@@ -157,9 +157,9 @@ Example 4.6 are exactly the splines of this construction
 (`Pentagon.generator_eq_spline`).
 
 These declarations are in `Schubert.DihedralSplines`
-([FlowupExplicitBasis.lean](Schubert/DihedralSplines/FlowupExplicitBasis.lean),
-[FlowupRecursion.lean](Schubert/DihedralSplines/FlowupRecursion.lean),
-[FlowupEquations.lean](Schubert/DihedralSplines/FlowupEquations.lean)).
+([FlowupExplicitBasis.lean](DihedralHessenberg/Paper/FlowupExplicitBasis.lean),
+[FlowupRecursion.lean](DihedralHessenberg/Paper/FlowupRecursion.lean),
+[FlowupEquations.lean](DihedralHessenberg/Paper/FlowupEquations.lean)).
 
 | Declaration | Result |
 | --- | --- |
@@ -216,7 +216,7 @@ either order, and $\alpha$ is $H$-dominant when $|H|$ is odd. The case
 $H = \Phi^+$ is Propositions 3.8 and 3.9, below.
 
 These declarations are in `Schubert.DihedralSplines`
-([QuotientClass.lean](Schubert/DihedralSplines/QuotientClass.lean)).
+([QuotientClass.lean](DihedralHessenberg/Paper/QuotientClass.lean)).
 
 | Declaration | Result |
 | --- | --- |
@@ -275,7 +275,7 @@ $\mathrm{L}\_H$ is not isomorphic to the permutation representation
 $\mathbb{C}\[X\]$ of any finite $I\_2(5)$-set $X$ (`Pentagon.not_permutation`),
 together with the decomposition (`Pentagon.whole_iso`) and the character value
 (`Pentagon.rotation_character`)
-([PentagonRepresentation.lean](Schubert/DihedralSplines/PentagonRepresentation.lean)).
+([PentagonRepresentation.lean](DihedralHessenberg/Paper/PentagonRepresentation.lean)).
 
 ### Every other statement
 
@@ -286,12 +286,12 @@ figures of the paper, are listed with their Lean declarations in
 
 ## Libraries
 
-The Lean library `Schubert` is divided into four parts. The first three are
+The Lean library `DihedralHessenberg` is divided into four parts. The first three are
 general and do not import the fourth, which contains the paper.
 
 ### The Splines library
 
-[Schubert/Splines/](Schubert/Splines) (namespace `Splines`, 74 files) develops
+[DihedralHessenberg/Splines/](DihedralHessenberg/Splines) (namespace `Splines`, 74 files) develops
 generalized splines. On a graph whose edges are labelled by ideals of a
 commutative ring, a spline is a function on the vertices whose values at the
 two ends of each edge differ by an element of its label. For a group acting on
@@ -316,7 +316,7 @@ Hilbert series that the paper uses.
 
 ### The Dihedral library
 
-[Schubert/Dihedral/](Schubert/Dihedral) (namespace `Dihedral`, 265 files)
+[DihedralHessenberg/Dihedral/](DihedralHessenberg/Dihedral) (namespace `Dihedral`, 265 files)
 develops the dihedral groups $I\_2(n)$, $n \ge 3$, as Mathlib's
 `DihedralGroup n`: the Coxeter presentation, reduced words, the length function
 and the Bruhat order; the realization on $\mathbb{R}^2$ and $\mathbb{C}^2$,
@@ -338,7 +338,7 @@ irreducible and coset permutation representations.
 
 ### The FiniteGroupCharacters library
 
-[Schubert/FiniteGroupCharacters/](Schubert/FiniteGroupCharacters) (namespace
+[DihedralHessenberg/FiniteGroupCharacters/](DihedralHessenberg/FiniteGroupCharacters) (namespace
 `FiniteGroupCharacters`, 69 files) develops graded representations of finite
 groups: their graded characters and their classes in the representation ring
 of Tau Ceti, equivariant sections, permutation representations spanned by
@@ -355,7 +355,7 @@ independent orbits, and tensor products with polynomial rings.
 
 ### The paper
 
-[Schubert/DihedralSplines/](Schubert/DihedralSplines) (namespace
+[DihedralHessenberg/Paper/](DihedralHessenberg/Paper) (namespace
 `DihedralSplines`, 303 files) contains the splines of Hessenberg spaces for
 $I\_2(n)$ and every result of the paper, as described above.
 
@@ -371,7 +371,7 @@ From the repository directory, run:
 ```text
 lake exe cache get
 python build.py --jobs 3
-lake env lean Schubert/DihedralSplines/Audit.lean
+lake env lean DihedralHessenberg/Paper/Audit.lean
 ```
 
 On Windows, `py -3` can replace `python`; a short project path is recommended.
@@ -379,7 +379,7 @@ The first setup requires internet access and space for Lean and Mathlib.
 The first command downloads public dependency caches. The Python helper first
 has Lake build the Tau Ceti modules used here, then recompiles all **711 local
 Lean modules** in dependency order, and exits with a nonzero status if a
-module fails. With three jobs the full build takes about an hour and a half on
+module fails. With three jobs the full build takes about 75 minutes on
 a laptop.
 
 To resume an interrupted build, or to check that every module was compiled
@@ -413,16 +413,16 @@ updating the hash inventory before that integrity check can pass again.
 
 ## Source layout
 
-- `Schubert/Splines/`, `Schubert/Dihedral/`, `Schubert/FiniteGroupCharacters/`:
+- `DihedralHessenberg/Splines/`, `DihedralHessenberg/Dihedral/`, `DihedralHessenberg/FiniteGroupCharacters/`:
   the general libraries described above, each with an entry point `Main.lean`.
-- `Schubert/DihedralSplines/`: the paper. The files beginning with `Paper`
+- `DihedralHessenberg/Paper/`: the paper. The files beginning with `Paper`
   define the objects of Section 2 (splines, module structures, grading, dot
   action, quotients); `Flowup*` construct the flow-up basis of Section 4;
   `Schubert*` treat the Schubert case of Section 3; `*Class`, `Quotient*` and
   `Coinvariant*` compute the representations of Sections 6 and 7; `Triangle*`,
   `Square*`, `Pentagon*` and `Hexagon*` are the examples.
-- `Schubert/DihedralSplines/Main.lean`: imports every result of the paper.
-- `Schubert/DihedralSplines/Audit.lean`: the audit described above.
+- `DihedralHessenberg/Paper/Main.lean`: imports every result of the paper.
+- `DihedralHessenberg/Paper/Audit.lean`: the audit described above.
 - `docs/STATEMENTS.md`: the statements of the paper and their Lean
   counterparts.
 - `provenance/`: source inventory and verification records.
