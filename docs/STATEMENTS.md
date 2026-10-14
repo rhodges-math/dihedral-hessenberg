@@ -2,11 +2,12 @@
 
 Each statement of *Dot actions and Hessenberg spaces for dihedral groups* (Jonathan
 Boretsky, Reuven Hodges, Nathan Lesnevich, Tyrrell McAllister, and Joseph Pappe, 2026),
+[arXiv:2610.16001](https://arxiv.org/abs/2610.16001),
 with its status and the Lean declarations that formalize it, in the order of the paper.
 The index covers every theorem, proposition, lemma, corollary, definition, displayed
 equation, example and remark of the paper, and the mathematical statements made in its
-prose and figures. Numbers are those printed in the paper, and labels are its LaTeX
-labels; a statement without a number is given with its section. A short note follows a
+prose and figures. Numbers are those printed in the paper (arXiv:2610.16001v1), and labels
+are its LaTeX labels; a statement without a number is given with its section. A short note follows a
 statement whose Lean statement or proof differs from the paper. Names are shown without
 the prefix `Schubert.`; paths are relative to the repository root.
 

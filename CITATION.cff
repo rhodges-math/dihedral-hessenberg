@@ -43,9 +43,9 @@ references:
       - family-names: Pappe
         given-names: Joseph
     year: 2026
-    # PLACEHOLDER: replace "arXiv:XXXX.XXXXX" with the arXiv identifier once the paper is posted
-    # (and add the matching https://arxiv.org/abs/... URL as a second identifier).
     identifiers:
       - type: other
-        value: "arXiv:XXXX.XXXXX"
-        description: "arXiv identifier (placeholder; to appear)"
+        value: "arXiv:2610.16001"
+        description: "arXiv identifier"
+      - type: url
+        value: "https://arxiv.org/abs/2610.16001"

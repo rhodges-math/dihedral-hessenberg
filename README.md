@@ -3,7 +3,7 @@
 This repository, `rhodges-math/dihedral-hessenberg` (release 1.0.0), contains a
 Lean 4 formalization of *Dot actions and Hessenberg spaces for dihedral groups*
 (Jonathan Boretsky, Reuven Hodges, Nathan Lesnevich, Tyrrell McAllister, and
-Joseph Pappe, 2026).
+Joseph Pappe, 2026), [arXiv:2610.16001](https://arxiv.org/abs/2610.16001).
 
 All results of the paper are formalized. For the dihedral group $I\_2(n)$,
 $n \ge 3$, and every Hessenberg space $H$, the formalization proves that the
